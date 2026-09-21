@@ -26,9 +26,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_source.py
 
-      - name: Commit and Push apps.json
+      - name: Commit and Push Files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add apps.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update apps.json source" && git push)
+          git add apps.json errors.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update source and error logs" && git push)
