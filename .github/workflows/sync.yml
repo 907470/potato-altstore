@@ -2,8 +2,8 @@ name: Generate Apps JSON Source
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Automatically runs daily at midnight UTC
-  workflow_dispatch: # Allows manual trigger via the GitHub Actions tab
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,6 +22,8 @@ jobs:
           python-version: '3.x'
 
       - name: Run Source Generator
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_source.py
 
       - name: Commit and Push apps.json
