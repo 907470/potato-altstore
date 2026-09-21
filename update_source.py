@@ -91,8 +91,6 @@ def build_source():
                 version = str(rel.get("tag_name") or "1.0.0").lstrip("v")
                 raw_date = rel.get("published_at") or rel.get("created_at") or "2026-01-01"
                 date = str(raw_date).split("T")[0]
-                
-                # Safely handle empty/None release notes
                 notes = str(rel.get("body") or "Updated release.")
 
                 channel_buckets[channel].append({
@@ -117,7 +115,9 @@ def build_source():
 
                 suffix = "" if channel == "Stable" else f" ({channel})"
                 bundle_suffix = "" if channel == "Stable" else f".{channel.lower().replace('-', '')}"
+                latest_ver = versions[0]
 
+                # Full AltStore/SideStore Schema Specs
                 app_entry = {
                     "name": f"{base_name}{suffix}",
                     "bundleIdentifier": f"{base_bundle}{bundle_suffix}",
@@ -126,6 +126,11 @@ def build_source():
                     "localizedDescription": f"{channel} releases for {base_name}.",
                     "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
                     "tintColor": "4A90E2" if channel == "Stable" else ("F5A623" if channel == "Pre-release" else "D0021B"),
+                    "version": latest_ver["version"],
+                    "versionDate": latest_ver["date"],
+                    "versionDescription": latest_ver["localizedDescription"],
+                    "downloadURL": latest_ver["downloadURL"],
+                    "size": latest_ver["size"],
                     "versions": versions
                 }
                 parsed_apps.append(app_entry)
@@ -137,14 +142,24 @@ def build_source():
                 "reason": f"Request failed: {str(err)}"
             })
 
-    # Output JSON files
+    # Strict AltStore / SideStore Root Schema
+    full_source = {
+        "name": "Potato AltStore Source",
+        "identifier": "com.potato.altstore.source",
+        "subtitle": "Community Apps & Emulators",
+        "description": "Auto-updated iOS source for emulators, ports, and tools.",
+        "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+        "website": "https://github.com",
+        "apps": parsed_apps
+    }
+
     with open("apps.json", "w", encoding="utf-8") as f:
-        json.dump({"name": "Potato AltStore Source", "identifier": "com.potato.altstore.source", "apps": parsed_apps}, f, indent=2)
+        json.dump(full_source, f, indent=2)
 
     with open("errors.json", "w", encoding="utf-8") as f:
         json.dump({"failed_count": len(failed_apps), "failed_apps": failed_apps}, f, indent=2)
 
-    print(f"Done! {len(parsed_apps)} channel entries built. {len(failed_apps)} issues logged to errors.json.")
+    print(f"Done! Built {len(parsed_apps)} apps successfully.")
 
 if __name__ == "__main__":
     build_source()
