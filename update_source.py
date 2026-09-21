@@ -41,9 +41,9 @@ def fetch_releases(url):
         return json.loads(response.read().decode('utf-8'))
 
 def classify_channel(release):
-    tag = release.get("tag_name", "").lower() if isinstance(release, dict) else ""
-    name = release.get("name", "").lower() if isinstance(release, dict) else ""
-    is_prerelease = release.get("prerelease", False) if isinstance(release, dict) else False
+    tag = str(release.get("tag_name") or "").lower()
+    name = str(release.get("name") or "").lower()
+    is_prerelease = bool(release.get("prerelease", False))
 
     if "nightly" in tag or "nightly" in name:
         return "Nightly"
@@ -55,9 +55,9 @@ def classify_channel(release):
 def find_ipa_asset(release):
     if not isinstance(release, dict):
         return None, 0
-    assets = release.get("assets", [])
+    assets = release.get("assets", []) or []
     for asset in assets:
-        if isinstance(asset, dict) and asset.get("name", "").endswith(".ipa"):
+        if isinstance(asset, dict) and str(asset.get("name") or "").endswith(".ipa"):
             url = asset.get("browser_download_url") or asset.get("download_url")
             return url, asset.get("size", 0)
     return None, 0
@@ -88,9 +88,12 @@ def build_source():
 
                 found_any_ipa = True
                 channel = classify_channel(rel)
-                version = rel.get("tag_name", "1.0.0").lstrip("v")
-                date = rel.get("published_at", rel.get("created_at", "2026-01-01")).split("T")[0]
-                notes = rel.get("body", "Updated release.") or "Updated release."
+                version = str(rel.get("tag_name") or "1.0.0").lstrip("v")
+                raw_date = rel.get("published_at") or rel.get("created_at") or "2026-01-01"
+                date = str(raw_date).split("T")[0]
+                
+                # Safely handle empty/None release notes
+                notes = str(rel.get("body") or "Updated release.")
 
                 channel_buckets[channel].append({
                     "version": version,
@@ -134,24 +137,14 @@ def build_source():
                 "reason": f"Request failed: {str(err)}"
             })
 
-    # Save apps.json
-    full_source = {
-        "name": "Potato AltStore Source",
-        "identifier": "com.potato.altstore.source",
-        "apps": parsed_apps
-    }
+    # Output JSON files
     with open("apps.json", "w", encoding="utf-8") as f:
-        json.dump(full_source, f, indent=2)
+        json.dump({"name": "Potato AltStore Source", "identifier": "com.potato.altstore.source", "apps": parsed_apps}, f, indent=2)
 
-    # Save errors.json
-    error_report = {
-        "failed_count": len(failed_apps),
-        "failed_apps": failed_apps
-    }
     with open("errors.json", "w", encoding="utf-8") as f:
-        json.dump(error_report, f, indent=2)
+        json.dump({"failed_count": len(failed_apps), "failed_apps": failed_apps}, f, indent=2)
 
-    print(f"Done! {len(parsed_apps)} channel entries built. {len(failed_apps)} errors logged to errors.json.")
+    print(f"Done! {len(parsed_apps)} channel entries built. {len(failed_apps)} issues logged to errors.json.")
 
 if __name__ == "__main__":
     build_source()
