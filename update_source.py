@@ -32,24 +32,18 @@ TARGET_REPOS = [
 
 def fetch_releases(url):
     headers = {'User-Agent': 'Mozilla/5.0'}
-    
-    # Authenticate GitHub API calls to avoid rate-limiting
     token = os.environ.get("GITHUB_TOKEN")
     if token and "api.github.com" in url:
         headers['Authorization'] = f'Bearer {token}'
 
     req = urllib.request.Request(url, headers=headers)
-    try:
-        with urllib.request.urlopen(req) as response:
-            return json.loads(response.read().decode('utf-8'))
-    except Exception as e:
-        print(f"Skipping {url} due to error: {e}")
-        return []
+    with urllib.request.urlopen(req) as response:
+        return json.loads(response.read().decode('utf-8'))
 
 def classify_channel(release):
-    tag = release.get("tag_name", "").lower()
-    name = release.get("name", "").lower()
-    is_prerelease = release.get("prerelease", False)
+    tag = release.get("tag_name", "").lower() if isinstance(release, dict) else ""
+    name = release.get("name", "").lower() if isinstance(release, dict) else ""
+    is_prerelease = release.get("prerelease", False) if isinstance(release, dict) else False
 
     if "nightly" in tag or "nightly" in name:
         return "Nightly"
@@ -59,71 +53,105 @@ def classify_channel(release):
         return "Stable"
 
 def find_ipa_asset(release):
+    if not isinstance(release, dict):
+        return None, 0
     assets = release.get("assets", [])
     for asset in assets:
-        if asset.get("name", "").endswith(".ipa"):
+        if isinstance(asset, dict) and asset.get("name", "").endswith(".ipa"):
             url = asset.get("browser_download_url") or asset.get("download_url")
             return url, asset.get("size", 0)
     return None, 0
 
 def build_source():
     parsed_apps = []
+    failed_apps = []
 
     for api_url, base_name, base_bundle, repo_type in TARGET_REPOS:
         print(f"Fetching {base_name}...")
-        releases = fetch_releases(api_url)
-        if not releases:
-            continue
-
-        channel_buckets = {"Stable": [], "Pre-release": [], "Nightly": []}
-
-        for rel in releases:
-            ipa_url, size = find_ipa_asset(rel)
-            if not ipa_url:
+        try:
+            releases = fetch_releases(api_url)
+            if not releases or not isinstance(releases, list):
+                failed_apps.append({
+                    "name": base_name,
+                    "url": api_url,
+                    "reason": "No releases or empty payload returned from API."
+                })
                 continue
 
-            channel = classify_channel(rel)
-            version = rel.get("tag_name", "1.0.0").lstrip("v")
-            date = rel.get("published_at", rel.get("created_at", "2026-01-01")).split("T")[0]
-            notes = rel.get("body", "Updated release.")
+            channel_buckets = {"Stable": [], "Pre-release": [], "Nightly": []}
+            found_any_ipa = False
 
-            channel_buckets[channel].append({
-                "version": version,
-                "date": date,
-                "downloadURL": ipa_url,
-                "size": size,
-                "localizedDescription": f"[{channel}] {notes[:300]}"
+            for rel in releases:
+                ipa_url, size = find_ipa_asset(rel)
+                if not ipa_url:
+                    continue
+
+                found_any_ipa = True
+                channel = classify_channel(rel)
+                version = rel.get("tag_name", "1.0.0").lstrip("v")
+                date = rel.get("published_at", rel.get("created_at", "2026-01-01")).split("T")[0]
+                notes = rel.get("body", "Updated release.") or "Updated release."
+
+                channel_buckets[channel].append({
+                    "version": version,
+                    "date": date,
+                    "downloadURL": ipa_url,
+                    "size": size,
+                    "localizedDescription": f"[{channel}] {notes[:300]}"
+                })
+
+            if not found_any_ipa:
+                failed_apps.append({
+                    "name": base_name,
+                    "url": api_url,
+                    "reason": "Releases found, but none contained a valid .ipa file asset."
+                })
+                continue
+
+            for channel, versions in channel_buckets.items():
+                if not versions:
+                    continue
+
+                suffix = "" if channel == "Stable" else f" ({channel})"
+                bundle_suffix = "" if channel == "Stable" else f".{channel.lower().replace('-', '')}"
+
+                app_entry = {
+                    "name": f"{base_name}{suffix}",
+                    "bundleIdentifier": f"{base_bundle}{bundle_suffix}",
+                    "developerName": "Community / GitHub",
+                    "subtitle": f"{base_name} - {channel} Build",
+                    "localizedDescription": f"{channel} releases for {base_name}.",
+                    "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+                    "tintColor": "4A90E2" if channel == "Stable" else ("F5A623" if channel == "Pre-release" else "D0021B"),
+                    "versions": versions
+                }
+                parsed_apps.append(app_entry)
+
+        except Exception as err:
+            failed_apps.append({
+                "name": base_name,
+                "url": api_url,
+                "reason": f"Request failed: {str(err)}"
             })
 
-        for channel, versions in channel_buckets.items():
-            if not versions:
-                continue
-
-            suffix = "" if channel == "Stable" else f" ({channel})"
-            bundle_suffix = "" if channel == "Stable" else f".{channel.lower().replace('-', '')}"
-
-            app_entry = {
-                "name": f"{base_name}{suffix}",
-                "bundleIdentifier": f"{base_bundle}{bundle_suffix}",
-                "developerName": "Community / GitHub",
-                "subtitle": f"{base_name} - {channel} Build",
-                "localizedDescription": f"{channel} releases for {base_name}.",
-                "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
-                "tintColor": "4A90E2" if channel == "Stable" else ("F5A623" if channel == "Pre-release" else "D0021B"),
-                "versions": versions
-            }
-            parsed_apps.append(app_entry)
-
+    # Save apps.json
     full_source = {
-        "name": "Custom Game & Emulator Collection",
-        "identifier": "com.custom.ios.source",
+        "name": "Potato AltStore Source",
+        "identifier": "com.potato.altstore.source",
         "apps": parsed_apps
     }
-
     with open("apps.json", "w", encoding="utf-8") as f:
         json.dump(full_source, f, indent=2)
 
-    print(f"Successfully generated apps.json with {len(parsed_apps)} total channel entries.")
+    # Save errors.json
+    error_report = {
+        "failed_count": len(failed_apps),
+        "failed_apps": failed_apps
+    }
+    with open("errors.json", "w", encoding="utf-8") as f:
+        json.dump(error_report, f, indent=2)
+
+    print(f"Done! {len(parsed_apps)} channel entries built. {len(failed_apps)} errors logged to errors.json.")
 
 if __name__ == "__main__":
     build_source()
