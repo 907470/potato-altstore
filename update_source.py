@@ -1,9 +1,7 @@
 import json
 import urllib.request
-import re
+import os
 
-# Format: (GitHub/Forgejo API endpoint, App Name Base, Bundle Identifier Base, Type)
-# Type options: "github" or "forgejo"
 TARGET_REPOS = [
     # Fallout Community Editions
     ("https://api.github.com/repos/alexbatalov/fallout1-ce/releases", "Fallout 1 CE", "com.alexbatalov.fallout1ce", "github"),
@@ -33,16 +31,22 @@ TARGET_REPOS = [
 ]
 
 def fetch_releases(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    # Authenticate GitHub API calls to avoid rate-limiting
+    token = os.environ.get("GITHUB_TOKEN")
+    if token and "api.github.com" in url:
+        headers['Authorization'] = f'Bearer {token}'
+
+    req = urllib.request.Request(url, headers=headers)
     try:
         with urllib.request.urlopen(req) as response:
             return json.loads(response.read().decode('utf-8'))
     except Exception as e:
-        print(f"Error reading {url}: {e}")
+        print(f"Skipping {url} due to error: {e}")
         return []
 
 def classify_channel(release):
-    """Categorizes release into 'stable', 'prerelease', or 'nightly'."""
     tag = release.get("tag_name", "").lower()
     name = release.get("name", "").lower()
     is_prerelease = release.get("prerelease", False)
@@ -55,11 +59,9 @@ def classify_channel(release):
         return "Stable"
 
 def find_ipa_asset(release):
-    """Finds the first .ipa download link inside release assets."""
     assets = release.get("assets", [])
     for asset in assets:
         if asset.get("name", "").endswith(".ipa"):
-            # Normalize download URL across GitHub and Forgejo
             url = asset.get("browser_download_url") or asset.get("download_url")
             return url, asset.get("size", 0)
     return None, 0
@@ -68,12 +70,11 @@ def build_source():
     parsed_apps = []
 
     for api_url, base_name, base_bundle, repo_type in TARGET_REPOS:
-        print(f"Processing {base_name}...")
+        print(f"Fetching {base_name}...")
         releases = fetch_releases(api_url)
         if not releases:
             continue
 
-        # Group releases into channels: Stable, Pre-release, Nightly
         channel_buckets = {"Stable": [], "Pre-release": [], "Nightly": []}
 
         for rel in releases:
@@ -91,15 +92,13 @@ def build_source():
                 "date": date,
                 "downloadURL": ipa_url,
                 "size": size,
-                "localizedDescription": f"[{channel}] {notes[:300]}" # Limit length
+                "localizedDescription": f"[{channel}] {notes[:300]}"
             })
 
-        # Generate separate app entries for each channel found
         for channel, versions in channel_buckets.items():
             if not versions:
                 continue
 
-            # Append channel tag to name and bundle ID if not standard stable
             suffix = "" if channel == "Stable" else f" ({channel})"
             bundle_suffix = "" if channel == "Stable" else f".{channel.lower().replace('-', '')}"
 
@@ -124,7 +123,7 @@ def build_source():
     with open("apps.json", "w", encoding="utf-8") as f:
         json.dump(full_source, f, indent=2)
 
-    print(f"Done! Generated apps.json with {len(parsed_apps)} total channel entries.")
+    print(f"Successfully generated apps.json with {len(parsed_apps)} total channel entries.")
 
 if __name__ == "__main__":
     build_source()
