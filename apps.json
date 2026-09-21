@@ -1,0 +1,1091 @@
+{
+  "name": "Potato AltStore Source",
+  "identifier": "com.potato.altstore.source",
+  "apps": [
+    {
+      "name": "Fallout 1 CE",
+      "bundleIdentifier": "com.alexbatalov.fallout1ce",
+      "developerName": "Community / GitHub",
+      "subtitle": "Fallout 1 CE - Stable Build",
+      "localizedDescription": "Stable releases for Fallout 1 CE.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "1.1.0",
+          "date": "2024-03-03",
+          "downloadURL": "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.1.0/fallout-ce-ios.ipa",
+          "size": 7352921,
+          "localizedDescription": "[Stable] Welcome to the March 2024 release of Fallout Community Edition. It contains some important fixes which should have been released about a year ago, but better late than never, I suppose.\r\n\r\nThere is no extended release notes for this version, but you can check full changelog [here](https://github.com"
+        },
+        {
+          "version": "1.0.0",
+          "date": "2023-02-09",
+          "downloadURL": "https://github.com/alexbatalov/fallout1-ce/releases/download/v1.0.0/fallout-ce-ios.ipa",
+          "size": 3380745,
+          "localizedDescription": "[Stable] Initial release"
+        }
+      ]
+    },
+    {
+      "name": "Fallout 2 CE",
+      "bundleIdentifier": "com.alexbatalov.fallout2ce",
+      "developerName": "Community / GitHub",
+      "subtitle": "Fallout 2 CE - Stable Build",
+      "localizedDescription": "Stable releases for Fallout 2 CE.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "1.3.0",
+          "date": "2024-04-21",
+          "downloadURL": "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.3.0/fallout2-ce-ios.ipa",
+          "size": 6668563,
+          "localizedDescription": "[Stable] Welcome to the April 2024 release of Fallout 2 Community Edition. There are important fixes to some long standing issues, which are hopefully resolved (without introducing new problems).\r\n\r\nThere are no extended release notes for this version, but you can check full changelog [here](https://github.c"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2023-01-20",
+          "downloadURL": "https://github.com/alexbatalov/fallout2-ce/releases/download/v1.2.0/fallout2-ce-ios.ipa",
+          "size": 2983185,
+          "localizedDescription": "[Stable] Welcome to the January 2023 release of Fallout 2 Community Edition. There are many updates in this version, here are some key highlights:\r\n\r\n- **Improved rendering** - Significant boost to performance on large resolutions (and battery life on mobile devices). See #165 for tech notes.\r\n- **iOS suppor"
+        }
+      ]
+    },
+    {
+      "name": "SunPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.sunpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "SunPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for SunPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.13",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-tvos-unsigned.ipa",
+          "size": 25461570,
+          "localizedDescription": "[Pre-release] ## Preview 13: maintained-fork rebuild\n\nFresh unsigned **iPhone/iPad and experimental Apple TV** IPAs, version 0.1.0 build 13. Both are rebuilt from the maintained ModernGekko, RecompCore and DolRecomp forks with exact pinned source revisions. The Apple and tvOS audio paths remain separate.\n\nThis re"
+        },
+        {
+          "version": "0.1.0-preview.12",
+          "date": "2026-09-04",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.12/SunPad-0.1.0-preview.12-tvos-unsigned.ipa",
+          "size": 24994750,
+          "localizedDescription": "[Pre-release] Preview 12 incorporates the meaningful parts of @joeblack2k\u2019s tvOS work while keeping Apple TV support explicitly experimental. Thank you to Jeroen for the substantial implementation and device investigation.\n\nIncluded:\n- native GMSE01 16:9 on tvOS (#35)\n- six-channel DPL2 output with stereo fallbac"
+        },
+        {
+          "version": "0.1.0-preview.11",
+          "date": "2026-09-04",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.11/SunPad-0.1.0-preview.11-tvos-unsigned.ipa",
+          "size": 24983402,
+          "localizedDescription": "[Pre-release] SunPad Preview 11 adds an experimental, maintainer-owned native Apple TV build for tvOS 17 and later.\\n\\nWhat is included:\\n- Native tvOS app target and CAMetalLayer runtime shell\\n- One required Extended Gamepad with SunPad controller mapping\\n- Mac-side staging and backup flow for your own extract"
+        },
+        {
+          "version": "0.1.0-preview.9",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.9/SunPad-0.1.0-preview.9-unsigned.ipa",
+          "size": 26460385,
+          "localizedDescription": "[Pre-release] Preview 9 addresses the shadow seams and duplicated geometry still visible in Issue #23 after the Preview 8 heatwave fix.\n\n- Replaces Dolphin's generic forced-wide projection with its bundled GMSE01-specific widescreen correction.\n- Keeps the generic widescreen hack disabled so it no longer alters S"
+        },
+        {
+          "version": "0.1.0-preview.10",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.10/SunPad-0.1.0-preview.10-unsigned.ipa",
+          "size": 26460496,
+          "localizedDescription": "[Pre-release] Preview 10 addresses the concrete StaticRecomp fallback leak exposed by the latest Issue #12 Noki Bay log.\n\nThe Preview 8 reporter session selected 16:9 and later returned to Original 4:3. Dolphin's one-shot patch-removal API removed bookkeeping but did not restore GMSE01's original heatwave instruc"
+        },
+        {
+          "version": "0.1.0-preview.8",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.8/SunPad-0.1.0-preview.8-unsigned.ipa",
+          "size": 26461143,
+          "localizedDescription": "[Pre-release] Preview 8 addresses the ghosted/duplicated scene rendering reported in Issue #23 when switching Super Mario Sunshine to experimental wide output.\n\n- Suppresses Sunshine\u2019s incompatible heat-distortion pass in 16:9 and Fill Screen.\n- Restores the original heat-distortion instruction in Original 4:3.\n-"
+        },
+        {
+          "version": "0.1.0-preview.7",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.7/SunPad-0.1.0-preview.7-unsigned.ipa",
+          "size": 26462028,
+          "localizedDescription": "[Pre-release] Preview 7 fixes and reorganizes the iPad three-dot settings menu.\n\nChanges:\n- Keeps the circular ellipsis white and stable when the menu is dismissed or the app returns to the foreground.\n- Adds **Display** with Render Resolution and Aspect Ratio.\n- Adds **Controls** with Controller Button Mapping a"
+        },
+        {
+          "version": "0.1.0-preview.6",
+          "date": "2026-08-31",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.6/SunPad-0.1.0-preview.6-unsigned.ipa",
+          "size": 26461394,
+          "localizedDescription": "[Pre-release] Preview 6 targets the reported warped-model problem and makes the supported configuration much clearer.\n\nChanges:\n- Regenerates the GMSE01 executable module with corrected Gekko floating-point and paired-register handling. This is the leading repair candidate for warped models, pending confirmation "
+        },
+        {
+          "version": "0.1.0-preview.5",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.5/SunPad-0.1.0-preview.5-unsigned.ipa",
+          "size": 25642266,
+          "localizedDescription": "[Pre-release] SunPad 0.1.0 Preview 5 rolls the accepted controller and diagnostic improvements into the public iPhone/iPad preview.\n\n### What changed\n\n- Left shoulder now maps to GameCube Z by default.\n- Right shoulder provides a medium-pressure FLUDD stream so Mario can run while spraying.\n- Right trigger retain"
+        },
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.4/SunPad-0.1.0-preview.4-unsigned.ipa",
+          "size": 25630540,
+          "localizedDescription": "[Pre-release] Preview 4 improves the first-launch experience and controller lifecycle handling.\n\nChanges:\n- replaces the low-level missing game-root error with a clear **Game data required** explanation and direct **Choose ISO or GCM** action\n- reconciles current Apple GameController instances while active and af"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-08-13",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.3/SunPad-0.1.0-preview.3-unsigned.ipa",
+          "size": 26191140,
+          "localizedDescription": "[Pre-release] Updated release."
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-11",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.2/SunPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 26178108,
+          "localizedDescription": "[Pre-release] SunPad 0.1.0 Preview 2 is the current unsigned arm64 iPhone/iPad developer preview.\n\nHighlights:\n\n- fixes ISO/GCM selection by requesting a local Files copy;\n- adds a Files-visible **On My iPhone/iPad \u2192 SunPad** folder and **Import from SunPad Folder** fallback;\n- includes the accepted compact-iPhon"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-08-10",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.1/SunPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 26156925,
+          "localizedDescription": "[Pre-release] SunPad\u2019s first public iPhone and iPad developer-preview IPA.\n\n### What is included\n- unsigned arm64 iPhone/iPad app for user-side signing\n- required GMSE01 ahead-of-time recompiled executable module\n- persistent Modern C-stick L/R option for touch and physical controllers\n- license, third-party noti"
+        }
+      ]
+    },
+    {
+      "name": "SpaghettiPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.spaghettipad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "SpaghettiPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for SpaghettiPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.6",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.6/SpaghettiPad-0.1.0-preview.6-unsigned.ipa",
+          "size": 9395403,
+          "localizedDescription": "[Pre-release] SpaghettiPad 0.1.0 Preview 6 adds optional character mods, persistent mod selection and the new red fork-and-flag icon. The owner accepted build 6 on an iPhone 14.\n\n### What's new\n\n- **\u2022\u2022\u2022 \u2192 Enhancements \u2192 Mods**: enable or disable each imported pack, see what's active, and apply changes after a con"
+        },
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.4/SpaghettiPad-0.1.0-preview.4-unsigned.ipa",
+          "size": 11136437,
+          "localizedDescription": "[Pre-release] SpaghettiPad 0.1.0 Preview 4 is a ROM-free unsigned developer preview for iPhone and iPad. It must be re-signed by the person installing it; it is not an App Store or TestFlight build.\n\n## Controller reconnect repair\n\nSpaghettiPad's actual backend is libultraship's engine-managed SDL2 controller lay"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-07-29",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.3/SpaghettiPad-0.1.0-preview.3-unsigned.ipa",
+          "size": 11228922,
+          "localizedDescription": "[Pre-release] # SpaghettiPad 0.1.0 Preview 3\n\nPreview 3 supersedes Preview 2 and is the first downloadable IPA to include\nthe promoted customizable touch-control system.\n\n## What is new\n\n- Customizable touch controls are now the default.\n- Move, resize, hide, show, and reset individual controls.\n- Separate saved "
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-07-29",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.2/SpaghettiPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 11220542,
+          "localizedDescription": "[Pre-release] Preview 2 is the corrective developer preview for new downloads. It keeps the current SpaghettiPad app and controls while hardening the public package, third-party notices, privacy checks, and release claims.\n\n### What changed\n\n- Unsigned IPA packaging is now the safe default. The packager refuses s"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-07-29",
+          "downloadURL": "https://github.com/chrissotraidis/spaghettipad/releases/download/v0.1.0-preview.1/SpaghettiPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 11219634,
+          "localizedDescription": "[Pre-release] > **Superseded for new downloads:** use [SpaghettiPad 0.1.0 Preview 2](https://github.com/chrissotraidis/spaghettipad/releases/tag/v0.1.0-preview.2). Preview 1 and its original checksum remain available unchanged as a historical prerelease.\n\nSpaghettiPad brings Mario Kart 64 natively to iPhone and i"
+        }
+      ]
+    },
+    {
+      "name": "CTRPad",
+      "bundleIdentifier": "com.chrissotraidis.ctrpad",
+      "developerName": "Community / GitHub",
+      "subtitle": "CTRPad - Stable Build",
+      "localizedDescription": "Stable releases for CTRPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "date": "2026-09-17",
+          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.2/CTRPad-0.1.2-4-173fe2f3f9e2-unsigned.ipa",
+          "size": 4716115,
+          "localizedDescription": "[Stable] ## What's changed\n\n- iPhone/iPad Options now puts touch controls first, followed by diagnostic export and display settings. Done stays visible as you scroll.\n- Game stepping and audio pause while Options or the touch-layout editor is open, making the menu more responsive. Closing it resumes the game"
+        },
+        {
+          "version": "0.1.1",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.1/CTRPad-0.1.1-2-d095cadfb62d-unsigned.ipa",
+          "size": 3372401,
+          "localizedDescription": "[Stable] ## What's Changed\n* Make release checksums portable by @chrissotraidis in https://github.com/chrissotraidis/ctrpad/pull/32\n* Document CTRPad final release history by @chrissotraidis in https://github.com/chrissotraidis/ctrpad/pull/33\n* Improve touch steering, drift boost, and gas lock by @chrissotra"
+        },
+        {
+          "version": "0.1.0",
+          "date": "2026-08-04",
+          "downloadURL": "https://github.com/chrissotraidis/ctrpad/releases/download/v0.1.0/CTRPad-0.1.0-1-ca18efbbc55c-unsigned.ipa",
+          "size": 3366892,
+          "localizedDescription": "[Stable] ## What's Changed\n* Port CTR Native to ARM64 macOS and touch-first iOS/iPadOS by @chrissotraidis in https://github.com/chrissotraidis/ctrpad/pull/1\n* Rebaseline release acceptance on physical iPad by @chrissotraidis in https://github.com/chrissotraidis/ctrpad/pull/2\n* Document UIKit self-test teardo"
+        }
+      ]
+    },
+    {
+      "name": "BallPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.ballpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "BallPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for BallPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "1.0-preview.1",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/ballpad/releases/download/v1.0-preview.1/BallPad-unsigned.ipa",
+          "size": 7074063,
+          "localizedDescription": "[Pre-release] BallPad's first public experimental IPA: version 1.0, build 2, for iPhone and iPad. BallPad adapts [new-coke/strikers](https://github.com/new-coke/strikers), based on Yannick Suter and contributors' [Super Mario Strikers decompilation](https://github.com/yannicksuter/smstrikers-decomp), with Aurora/"
+        }
+      ]
+    },
+    {
+      "name": "AnnePad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.annepad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "AnnePad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for AnnePad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.4/AnnePad-0.1.0-build4-unsigned.ipa",
+          "size": 85407796,
+          "localizedDescription": "[Pre-release] A diagnostic preview for the Brock-gym battle crash reported in [issue #2](https://github.com/chrissotraidis/annepad/issues/2). **This is not yet a confirmed gameplay fix.**\n\nVersion 0.1.0, build 4 \u00b7 iPhone/iPad arm64 \u00b7 iOS 16 or later \u00b7 unsigned IPA.\n\n- Adds **Share Diagnostics** to the in-game uti"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.3/AnnePad-0.1.0-preview.3-unsigned.ipa",
+          "size": 85343107,
+          "localizedDescription": "[Pre-release] AnnePad 0.1.0 Preview 3 repairs SDL2 controller ownership across sleep, disconnect, reconnect, remap, and foreground resume.\n\nWhat changed:\n\n- validates stored `SDL_GameController` handles against attached state and joystick instance identity;\n- reconciles four stable player slots against current SD"
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-06",
+          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.2/AnnePad-0.1.0-preview.2-unsigned.ipa",
+          "size": 85316453,
+          "localizedDescription": "[Pre-release] UUID-compatible unsigned developer preview.\\n\\nFixes the missing Mach-O LC_UUID load command that prevented the Preview 1 IPA from launching through LiveContainer. This ROM-free IPA remains unsigned and must be signed for your device."
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-08-05",
+          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.1/AnnePad-0.1.0-preview.1-unsigned.ipa",
+          "size": 85315074,
+          "localizedDescription": "[Pre-release] AnnePad brings Pok\u00e9mon Stadium to iPhone and iPad through static recompilation, with native Metal rendering and a touch-first interface.\r\n\r\n### Highlights\r\n\r\n- Native arm64 iOS build with RT64's Metal renderer\r\n- Files-based setup for a user-provided Pok\u00e9mon Stadium US 1.0 ROM\r\n- Customizable touch "
+        }
+      ]
+    },
+    {
+      "name": "GalaxyPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.galaxypad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "GalaxyPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for GalaxyPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.4/GalaxyPad-iOS-iPadOS-0.1.0-preview.4.ipa",
+          "size": 47832369,
+          "localizedDescription": "[Pre-release] GalaxyPad Preview 4 (**build 7168**) adds mobile motion aiming and ride controls for iPhone and iPad.\n\n- **Gyro cursor:** Controls \u2192 Gyro Cursor \u2192 This Device or Controller. Includes sensitivity, vertical inversion, and recentering; right-stick click also recenters. Defaults to Off. Controller motio"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-09-16",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.3/GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa",
+          "size": 47743911,
+          "localizedDescription": "[Pre-release] An experimental **iPhone/iPad refinement update, build 7166**, based on the app the owner tested and reports is working great on iPad Pro. The macOS Preview 1 remains unchanged.\n\n## Download and update\n\nDownload **GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa** below. Sign the app and nested module with "
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.2/GalaxyPad-iOS-iPadOS-0.1.0-preview.2.ipa",
+          "size": 47763388,
+          "localizedDescription": "[Pre-release] An experimental **iPhone/iPad update, build 15**, with clearer attribution, maintained runtime forks, and reviewed correctness fixes. GalaxyPad began as a personal experiment to bring Super Mario Galaxy to Apple devices with touch and controllers. Stability and compatibility remain the priority; che"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-09-13",
+          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.1/GalaxyPad-iOS-iPadOS-0.1.0-preview.1.ipa",
+          "size": 47703466,
+          "localizedDescription": "[Pre-release] **Newer iPhone/iPad build available:** [Preview 2 \u2014 build 15](https://github.com/chrissotraidis/galaxypad/releases/tag/v0.1.0-preview.2). The macOS archive on this page remains the current Mac preview. The notes below describe the original Preview 1 artifacts.\n\nAn experimental GalaxyPad preview for "
+        }
+      ]
+    },
+    {
+      "name": "PaperPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.paperpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "PaperPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for PaperPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.2.0-preview.1",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.2.0-preview.1/PaperPad.ipa",
+          "size": 9221367,
+          "localizedDescription": "[Pre-release] # PaperPad 0.2.0 Preview 1\n\nPaperPad now runs on Harbour Masters\u2019 PaperBoat foundation, with the native Apple controls and conveniences you already know.\n\n## What changed\n\n- New PaperBoat-powered engine, with native full-screen iPad support.\n- Floating analog stick: touch the left side to place the "
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-16",
+          "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.2/PaperPad-v0.1.0-preview.2-unsigned.ipa",
+          "size": 11605609,
+          "localizedDescription": "[Pre-release] # PaperPad v0.1.0-preview.2\n\nPreview 2 is a targeted controller sleep, disconnect, and reconnect reliability update.\n\n## Download\n\n- `PaperPad-v0.1.0-preview.2-unsigned.ipa`\n- `PaperPad-v0.1.0-preview.2-unsigned.ipa.sha256`\n\nSHA-256: `ea908c33fce6ba883acadff3ccc3025a1a7ef0284947c09cf98f3602af84d029`"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-08-14",
+          "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.1/PaperPad-v0.1.0-preview.1-unsigned.ipa",
+          "size": 11598140,
+          "localizedDescription": "[Pre-release] PaperPad's first public iPhone and iPad preview.\r\n\r\n## Download\r\n\r\n- **PaperPad-v0.1.0-preview.1-unsigned.ipa**\r\n- **PaperPad-v0.1.0-preview.1-unsigned.ipa.sha256**\r\n- SHA-256: `80721e9a726e3131b86f7186ee150fdbec8a6e53ce327a11baa2a5d85fc7e8ee`\r\n\r\nThe IPA is **ROM-free and unsigned**. Sign it with yo"
+        }
+      ]
+    },
+    {
+      "name": "MeleePad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.meleepad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "MeleePad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for MeleePad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.5",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.5/MeleePad-v0.1.0-preview.5-module-free-unsigned.ipa",
+          "size": 15717592,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 5 \u2014 Slippi support\n\nBuild 26 adds MeleePad-supported Slippi integration on iOS/iPadOS: account login,\nmatchmaking, rollback, replay recording and persistent connection diagnostics.\nThe maintainer completed two real Unranked games on a physical iPad. This is\nhardware evidenc"
+        },
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-09-08",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.4/MeleePad-v0.1.0-preview.4-module-free-unsigned.ipa",
+          "size": 12123213,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 4\n\nPreview 4 is build 18. It adds recommended USA v1.02 support alongside v1.00,\nfloating touch controls, clearer version selection and Online Play, reduced\nnormal CPU-loop overhead, and lightweight gameplay frame-time summaries.\nmacOS branding and explicit keyboard mapping"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-09-05",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.3/MeleePad-v0.1.0-preview.3-module-free-unsigned.ipa",
+          "size": 12107666,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 3\n\nPreview 3 is build 7. It makes the current experimental multiplayer work\navailable in a release, carries the accepted C-stick repair, and retains the\nfirst measured iPhone performance improvement.\n\n## Highlights\n\n- Experimental Private Room and Direct IP play are availab"
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.2/MeleePad-v0.1.0-preview.2-module-free-unsigned.ipa",
+          "size": 12059742,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 2\n\nPreview 2 makes MeleePad's first working Internet-room path available as an\nexperimental developer preview.\n\n## Highlights\n\n- Private Room can create and join eight-character codes through Dolphin's\n  public traversal rendezvous.\n- Direct IP remains available for local-n"
+        }
+      ]
+    },
+    {
+      "name": "HarkinianPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.harkinianpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "HarkinianPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for HarkinianPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.6",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.6/HarkinianPad-0.1.0-preview.6-unsigned.ipa",
+          "size": 30903127,
+          "localizedDescription": "[Pre-release] Developer Preview 6 adds native mod-pack import and persistent pack controls while retaining Ship of Harkinian 9.2.3.\n\n- Import Ship of Harkinian `.o2r`, `.otr` and ZIP bundles through Files. Extract `.7z` downloads first.\n- Enable or disable individual packs without deleting them. New imports start"
+        },
+        {
+          "version": "0.1.0-preview.5",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.5/HarkinianPad-0.1.0-preview.5-unsigned.ipa",
+          "size": 30823149,
+          "localizedDescription": "[Pre-release] Developer Preview 5 fixes controller sleep, disconnect, and reconnect ownership in libultraship SDL2.\n\nChanges:\n- Reconciles current attached controllers at startup, add/remove/remap events, foreground resume, and a bounded active check.\n- Closes stale handles, releases held input, preserves valid p"
+        },
+        {
+          "version": "0.1.0-preview.4",
+          "date": "2026-08-12",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.4/HarkinianPad-0.1.0-preview.4-unsigned.ipa",
+          "size": 30847409,
+          "localizedDescription": "[Pre-release] Developer Preview 4 refreshes the downloadable unsigned IPA with clearer first-run setup for LiveContainer users.\n\nChanges:\n- Identifies HarkinianPad\u2019s Files-visible location as its Documents folder.\n- Tells LiveContainer users to use Documents, not SystemData.\n- Keeps the standard On My iPhone/iPad"
+        },
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-07-29",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.3/HarkinianPad-0.1.0-preview.3-unsigned.ipa",
+          "size": 30839704,
+          "localizedDescription": "[Pre-release] HarkinianPad 0.1.0 Developer Preview 3 promotes the accepted customizable touch controls on iPhone and iPad.\n\n## What changed\n\n- Makes customizable touch controls the default on both iPhone and iPad.\n- Uses separate, hardware-accepted default layouts for phone and tablet screens.\n- Adds a native edi"
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-07-28",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.2/HarkinianPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 30790410,
+          "localizedDescription": "[Pre-release] HarkinianPad 0.1.0 Developer Preview 2 is a focused iPhone compatibility and touch-control update.\n\n## What changed\n\n- Uses the native iPhone widescreen/fullscreen canvas and prevents the fullscreen toggle from leaving the game black.\n- Adds a compact iPhone-specific touch layout while preserving th"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-07-27",
+          "downloadURL": "https://github.com/chrissotraidis/harkinianpad/releases/download/v0.1.0-preview.1/HarkinianPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 30838672,
+          "localizedDescription": "[Pre-release] ## HarkinianPad 0.1.0 developer preview\r\n\r\nThis is an early, unsigned iOS/iPadOS preview for personal re-signing. It is **not** an App Store or TestFlight build. Follow the [AltStore Classic installation guide](https://github.com/chrissotraidis/harkinianpad/blob/main/docs/INSTALL_IPA.md).\r\n\r\n### Inc"
+        }
+      ]
+    },
+    {
+      "name": "KartPad",
+      "bundleIdentifier": "com.chrissotraidis.kartpad",
+      "developerName": "Community / GitHub",
+      "subtitle": "KartPad - Stable Build",
+      "localizedDescription": "Stable releases for KartPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "0.5.0",
+          "date": "2026-09-20",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.0/KartPad-v0.5.0-ios-unsigned.ipa",
+          "size": 41995797,
+          "localizedDescription": "[Stable] > **iPhone/iPad update:** The 0.5.0 IPA accidentally enables extra diagnostic checks. [0.5.1 experimental 1 / build60](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.1-experimental.1) disables them as a temporary mitigation. This is not yet a confirmed fix for reported slowdowns or ten-"
+        },
+        {
+          "version": "0.4.24-ios.1",
+          "date": "2026-09-16",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
+          "size": 40889948,
+          "localizedDescription": "[Stable] # KartPad 0.4.24 for iPhone and iPad \u2014 build 49\n\nThe accepted mobile update brings consistent settings, Original Time Trial ghost transfers and clearer problem reporting.\n\n- Matching Android/iOS menu order and labels, with Player Identity and Time Trial Ghosts directly under Game Data & Saves.\n- Ori"
+        },
+        {
+          "version": "0.4.23-ios.1",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.23-ios.1/KartPad-v0.4.23-ios.1-unsigned.ipa",
+          "size": 40868593,
+          "localizedDescription": "[Stable] # KartPad 0.4.23 for iPhone and iPad\n\n- New racing K icon and refreshed game chooser, with dark mode by default and a saved light/dark toggle.\n- Original and Retro Rewind stay easy to switch between; existing setup, help and game options remain available.\n- Player Identity detects a missing linked M"
+        },
+        {
+          "version": "0.4.22-ios.1",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.22-ios.1/KartPad-v0.4.22-ios.1-unsigned.ipa",
+          "size": 45810937,
+          "localizedDescription": "[Stable] # KartPad 0.4.22 \u2014 ios\n\nThis release replaces the replayed WiiCompiled patch stack with maintained source and pinned platform branches. The upstream version and translated game behavior are unchanged. The existing KartPad repository, history and attribution are preserved.\n\nNative source parity, gene"
+        },
+        {
+          "version": "0.4.17-ios.1",
+          "date": "2026-09-13",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.17-ios.1/KartPad-v0.4.17-ios.1-unsigned.ipa",
+          "size": 45050589,
+          "localizedDescription": "[Stable] # KartPad 0.4.17 for iPhone and iPad \u2014 build 39\n\nThis is the current recommended iPhone/iPad download, with Retro Rewind 6.12.8 support.\n\n## Fixed in this update\n\n- **Compiled REL-report crash path (#196):** the bounds guard now covers the aggregate code actually used by the executable and preserves"
+        },
+        {
+          "version": "0.4.16-ios.2",
+          "date": "2026-09-11",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.16-ios.2/KartPad-v0.4.16-ios.2-unsigned.ipa",
+          "size": 45039643,
+          "localizedDescription": "[Stable] > **Superseded:** [0.4.17/build 39](https://github.com/chrissotraidis/kartpad/releases/tag/v0.4.17-ios.1) now delivers the corrected compiled guard.\n\n> **September 13 correction:** The later compiled-source audit found that build 36 still retained the faulting aggregate-shard read. The guard describ"
+        },
+        {
+          "version": "0.4.16-ios.1",
+          "date": "2026-09-10",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.16-ios.1/KartPad-v0.4.16-ios.1-unsigned.ipa",
+          "size": 45039383,
+          "localizedDescription": "[Stable] # KartPad 0.4.16 for iPhone and iPad\n\nBuild 35 rebuilds the complete ARM64 game app against the official Retro Rewind\n6.12.8 archive and its updated `Code.pul`. The version gate, native translated\nprofiles, and installer contract now agree on 6.12.8.\n\nRequires iOS/iPadOS 16 or newer on ARM64. The pu"
+        },
+        {
+          "version": "0.4.15-ios.1",
+          "date": "2026-09-10",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.15-ios.1/KartPad-v0.4.15-ios.1-unsigned.ipa",
+          "size": 45077843,
+          "localizedDescription": "[Stable] # KartPad 0.4.15 for iPhone and iPad\n\nBuild 34 adds diagnostic-log review before opening a GitHub report. Review the saved log, check the acknowledgment, then attach the file manually on GitHub. If you cannot attach a log, explain why; that explanation is included in the draft. No log is uploaded au"
+        },
+        {
+          "version": "0.4.14-ios.1",
+          "date": "2026-09-09",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.14-ios.1/KartPad-v0.4.14-ios.1-unsigned.ipa",
+          "size": 45068854,
+          "localizedDescription": "[Stable] The current official **iPhone and iPad release: 0.4.14, build 33**. Replaces the 0.4.13/build-29 preview. Android, Mac and experimental Apple TV packages remain separate.\n\n- Clearer game cards with setup status and built-in Help.\n- iPhone chooser fits on one screen; setup guidance and GitHub links s"
+        }
+      ]
+    },
+    {
+      "name": "KartPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.kartpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "KartPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for KartPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.5.1-experimental.1",
+          "date": "2026-09-20",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1-experimental.1/KartPad-v0.5.1-experimental.1-ios-unsigned.ipa",
+          "size": 41985168,
+          "localizedDescription": "[Pre-release] # KartPad 0.5.1 experimental 1 \u2014 Apple build60\n\nThis is a temporary experimental mitigation while we collect more evidence about\nslowdowns reported after 0.5.0. It is **not a confirmed fix for all slowdowns or\ncrashes**, including the iPad report of exits after approximately ten minutes.\n\nThe public"
+        },
+        {
+          "version": "0.4.25-diagnostics.2-ios",
+          "date": "2026-09-17",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.25-diagnostics.2-ios/KartPad-v0.4.25-diagnostics.2-ios-unsigned.ipa",
+          "size": 40898550,
+          "localizedDescription": "[Pre-release] Download **KartPad-v0.4.25-diagnostics.2-ios-unsigned.ipa** (build51), then re-sign with your existing setup. This is an optional diagnostic preview for existing reports.\n\n# KartPad 0.4.25 diagnostics preview 2\n\nAndroid code 119 and iPhone/iPad build 51 are available for people with an existing cras"
+        },
+        {
+          "version": "0.4.20-ios-reporting.1",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.20-ios-reporting.1/KartPad-v0.4.20-reporting.1-ios-unsigned.ipa",
+          "size": 45057558,
+          "localizedDescription": "[Pre-release] Reporting test build for iPhone and iPad: **0.4.20 / build 42**. Re-sign this unsigned community IPA using the same application identity as your existing installation and supply your own supported game image.\n\nBoth KartPad and WiiCompiled are directly accessible from reporting, with search across bo"
+        },
+        {
+          "version": "0.4.13-ios.1",
+          "date": "2026-09-08",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.13-ios.1/KartPad-v0.4.13-ios.1-unsigned.ipa",
+          "size": 45058388,
+          "localizedDescription": "[Pre-release] # KartPad 0.4.13 \u2014 iPhone/iPad compatibility, chooser and diagnostics preview\n\nUnsigned ARM64 IPA, version0.4.13/build29, for iPhone and iPad on iOS/iPadOS16\nor newer. This platform-specific preview does not replace the Mac, Apple TV or\nAndroid packages. It is not an App Store or TestFlight build.\n\n"
+        }
+      ]
+    },
+    {
+      "name": "BellPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.bellpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "BellPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for BellPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.3/BellPad-0.1.0-preview.3-unsigned.ipa",
+          "size": 14213538,
+          "localizedDescription": "[Pre-release] BellPad 0.1.0 Preview 3 \u2014 version 0.1.0, build 6, for ARM64 iOS/iPadOS 17.0+.\n\n- Floating movement stick: touch empty lower-left space to place the stick under your thumb; lift to hide it. Buttons retain priority and the camera stick stays fixed.\n- Improved three-dot menu and touch-layout editing, o"
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.2/Bellpad-0.1.0-preview.2-unsigned.ipa",
+          "size": 14136986,
+          "localizedDescription": "[Pre-release] Bellpad's second public iPhone and iPad preview.\n\n- Repairs Aurora/SDL3 controller sleep, disconnect, and reconnect ownership\n- Preserves connected player slots; stale handles can no longer occupy a port\n- A sole returning controller reclaims player 1; additional controllers use the next free slot\n-"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-08-12",
+          "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.1/Bellpad-0.1.0-preview.1-unsigned.ipa",
+          "size": 14137497,
+          "localizedDescription": "[Pre-release] Bellpad\u2019s first public iPhone and iPad preview.\n\n- Native ARM64 iOS/iPadOS 17.0+ app\n- Unsigned: sign with your own Apple identity before installation\n- ROM-free: provide your own legally obtained supported Animal Crossing game data after launch\n- Not an App Store or TestFlight release\n\nSHA-256: `d9"
+        }
+      ]
+    },
+    {
+      "name": "BananaPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.bananapad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "BananaPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for BananaPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.3",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.3/BananaPad-v0.1.0-preview.3-unsigned.ipa",
+          "size": 7479560,
+          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.3\n\nDeveloper Preview 3 is a focused response to the physical-iPhone feedback on\nIssue #2. It remains a ROM-free unsigned arm64 IPA for iOS and iPadOS 15 or\nnewer and includes the Preview 2 audio correction.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.3-unsigned.ipa`\n- `BananaP"
+        },
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.2/BananaPad-v0.1.0-preview.2-unsigned.ipa",
+          "size": 7479552,
+          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.2\n\nDeveloper Preview 2 is a focused iPhone and iPad update for the two issues\nreported against Preview 1. It remains a ROM-free unsigned arm64 IPA for iOS\nand iPadOS 15 or newer.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.2-unsigned.ipa`\n- `BananaPad-v0.1.0-preview.2-unsigned"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.1/BananaPad-v0.1.0-preview.1-unsigned.ipa",
+          "size": 7479430,
+          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.1\n\nDeveloper Preview 1 is the first public ROM-free unsigned BananaPad IPA for\narm64 iPhone and iPad devices running iOS or iPadOS 15 or newer.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.1-unsigned.ipa`\n- `BananaPad-v0.1.0-preview.1-unsigned.ipa.sha256`\n- SHA-256: `a7f3a7a280"
+        }
+      ]
+    },
+    {
+      "name": "BearBirdPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.bearbirdpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "BearBirdPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for BearBirdPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.1.0-preview.2/BearBirdPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 10112862,
+          "localizedDescription": "[Pre-release] BearBirdPad 0.1.0 Preview 2 is an unsigned, self-signable iPhone/iPad developer preview. It contains no ROM or original game assets; users must provide their own legally acquired Banjo-Kazooie NTSC-U 1.0 ROM.\n\nThis preview repairs the SDL2 controller lifecycle path on iOS. BearBirdPad now reconciles"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-07-31",
+          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.1.0-preview.1/BearBirdPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 10107630,
+          "localizedDescription": "[Pre-release] ## BearBirdPad 0.1.0 Preview 1\n\nThis is a free, unsigned developer-preview IPA for iPhone and iPad. It is not\nan App Store or TestFlight build. Sign it with your own Apple ID before\ninstallation, then import your own legally acquired Banjo-Kazooie NTSC-U 1.0\nROM through Files.\n\nInstallation instruct"
+        }
+      ]
+    },
+    {
+      "name": "BrawlerPad (Pre-release)",
+      "bundleIdentifier": "com.chrissotraidis.brawlerpad.prerelease",
+      "developerName": "Community / GitHub",
+      "subtitle": "BrawlerPad - Pre-release Build",
+      "localizedDescription": "Pre-release releases for BrawlerPad.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "F5A623",
+      "versions": [
+        {
+          "version": "0.1.0-preview.2",
+          "date": "2026-08-18",
+          "downloadURL": "https://github.com/chrissotraidis/brawlerpad/releases/download/v0.1.0-preview.2/BrawlerPad-0.1.0-preview.2-unsigned.ipa",
+          "size": 7087025,
+          "localizedDescription": "[Pre-release] Preview 2 repairs BrawlerPad's engine-managed SDL2 controller lifecycle after sleep, disconnect, and foreground resume.\n\nValid attached controllers retain their player slots. Stale handles are closed and removed, held input is neutralized, a sole returning controller reclaims player 1, and additiona"
+        },
+        {
+          "version": "0.1.0-preview.1",
+          "date": "2026-08-07",
+          "downloadURL": "https://github.com/chrissotraidis/brawlerpad/releases/download/v0.1.0-preview.1/BrawlerPad-0.1.0-preview.1-unsigned.ipa",
+          "size": 7085261,
+          "localizedDescription": "[Pre-release] BrawlerPad 0.1.0 Preview 1 is a native arm64 iPhone/iPad developer preview.\r\n\r\n- Requires iOS or iPadOS 17 or later.\r\n- This IPA contains no ROM, extracted game data, save, or signing material.\r\n- Provide your own supported US Super Smash Bros. 64 ROM at first launch.\r\n- The IPA is unsigned but has "
+        }
+      ]
+    },
+    {
+      "name": "Manic EMU",
+      "bundleIdentifier": "com.manicemu.app",
+      "developerName": "Community / GitHub",
+      "subtitle": "Manic EMU - Stable Build",
+      "localizedDescription": "Stable releases for Manic EMU.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "2.0.1",
+          "date": "2026-09-18",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
+          "size": 288525117,
+          "localizedDescription": "[Stable] - Added WonderSwan support\r\n- Added NAOMI, Atomiswave, and System SP arcade support\r\n- Added Flash support\r\n  \u00b7 Skin button binding\r\n  \u00b7 Hardware keyboard input\r\n  \u00b7 Software keyboard input\r\n  \u00b7 Touch input\r\n- Built-in, self-contained JIT \u2014 no external debugger required\r\n- Added Slow Motion\r\n- Impro"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.0/ManicEMU.v2.0.0.SideloadJIT.ipa",
+          "size": 273393210,
+          "localizedDescription": "[Stable] > [!NOTE]\r\n> Starting from version 2.0.0, we no longer provide builds of TrollStore JIT. You can package it yourself by following the [guide](https://github.com/Rednick16/TrollStoreJITEnabler).\r\n\r\nThis is a major release focused on a redesigned interface, expanded platform support, and advanced feat"
+        },
+        {
+          "version": "1.9.2",
+          "date": "2026-04-16",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.2/ManicEMU.v1.9.2.SideloadJIT.ipa",
+          "size": 227390683,
+          "localizedDescription": "[Stable] Urgent fix for J2ME (J2meJS) save file loading error\r\nFixed the issue where Artic Base couldn't select the Australia region\r\n3DS (Azahar) adds HLE and LLE emulation accuracy options.\r\nFixed NDS crash when using Flex Skin"
+        },
+        {
+          "version": "1.9.1",
+          "date": "2026-04-15",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.1/ManicEMU.v1.9.1.SideloadJIT.ipa",
+          "size": 227362235,
+          "localizedDescription": "[Stable] Heads up: v1.9.1 will corrupt save files in J2ME (J2meJS core), and we\u2019re really sorry about that. As a temporary workaround, we suggest backing up the save file \"XXX.j2mejs.srm\" in the \"Manic EMU - Datas\" folder. We'll look into whether we can recover the save data.\r\n\r\n### JIT (iOS 26 & Earlier)\r\n\r"
+        },
+        {
+          "version": "1.9.0",
+          "date": "2026-03-25",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.9.0/ManicEMU.v1.9.0.SideloadJIT.ipa",
+          "size": 219481479,
+          "localizedDescription": "[Stable] \u2022 Added JAVA (J2ME) support\r\n> Includes two cores: J2meJS (based on Mozilla\u2019s PluotSorbet) and freej2me (based on CheerpJ)\r\n> J2meJS supports fast-forward\r\n> J2meJS runs natively, offering improved performance and compatibility\r\n> J2meJS provides limited network access\r\n> J2meJS includes partial M3G"
+        },
+        {
+          "version": "1.8.3",
+          "date": "2026-02-14",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.3/ManicEMU.v1.8.3.SideloadJIT.ipa",
+          "size": 199035201,
+          "localizedDescription": "[Stable] \u2022 Added PSP online functionality (configure in Settings \u2192 Online Game Settings \u2192 PSP Networking).\r\n\u2022 In full-screen mode, all buttons will be hidden. Tap the screen to display the menu button.\r\n\u2022 Fixed crashes on macOS.\r\n\u2022 Fixed crashes in some games when camera or microphone permissions were not gr"
+        },
+        {
+          "version": "1.8.2",
+          "date": "2026-01-30",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.2/ManicEMU.v1.8.2.SideloadJIT.ipa",
+          "size": 198849250,
+          "localizedDescription": "[Stable] \u2022 Added support for Atari 2600, 5200, 7800, Jaguar, and Lynx platforms.\r\n\u2022 Re-added CD and 32X platform support in the App Store version using the JGenesis core. The SideStore version supports core switching.\r\n\u2022 Added the DeSmuME core for NDS games, with support for custom resolution settings.\r\n\u2022 Ad"
+        },
+        {
+          "version": "1.8.1",
+          "date": "2025-12-18",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.1/ManicEMU.v1.8.1.SideloadJIT.ipa",
+          "size": 227809413,
+          "localizedDescription": "[Stable] Changes:\r\n\u2022 3DS (azahar core only) now supports enabling JIT on iOS 26 via [StikDebug](https://github.com/StephenDev0/StikDebug).\r\n\u2022 3DS (azahar) now supports camera functionality.\r\n\u2022 3DS (azahar) now supports amiibo loading.\r\n\u2022 3DS (azahar) now supports keyboard pop-up.\r\n\u2022 3DS (azahar) now supports"
+        },
+        {
+          "version": "1.8.0",
+          "date": "2025-11-25",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.8.0/ManicEMU.v1.8.0.SideloadJIT.ipa",
+          "size": 264477714,
+          "localizedDescription": "[Stable] \u2022 Added Arcade platform support. The App Store version includes the MAME core, while the Sideload version additionally supports FBNeo with full RetroAchievements integration.\r\n\u2022 Introduced the new Azahar core for the 3DS platform. Long-press a game cover to switch cores. This core restores missing f"
+        },
+        {
+          "version": "1.7.3",
+          "date": "2025-10-28",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.3/ManicEMU.v1.7.3.SideloadJIT.ipa",
+          "size": 137310172,
+          "localizedDescription": "[Stable] \u2022 Added TriggerPro \u2014 a full-featured customizable button system\r\n\u2022 Redesigned default skins for MS and SG-1000 platforms\r\n\u2022 Added support for multi-disc .cdi format on Dreamcast\r\n\u2022 Added support for generating .m3u files from .cdi ROMs in the MultiDisc Helper\r\n\u2022 Separated FDS and NES platforms for c"
+        },
+        {
+          "version": "1.7.2",
+          "date": "2025-10-16",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.2/ManicEMU.v1.7.2.SideloadJIT.ipa",
+          "size": 129685514,
+          "localizedDescription": "[Stable] Changelog:\r\n\u2022 Adapted for iOS 26 Liquid Glass\r\n\u2022 Added Light Mode appearance\r\n\u2022 Improved overall UI visual experience\r\n\u2022 Redesigned default skin for GB\r\n\u2022 Redesigned default skin for GG\r\n\u2022 Added microphone simulation for NES \u2014 use \u201cSimulate Blowing\u201d or press L3 on your controller\r\n\u2022 Added NES palett"
+        },
+        {
+          "version": "1.7.1",
+          "date": "2025-09-28",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.1/ManicEMU.v1.7.1.SideloadJIT.ipa",
+          "size": 123105740,
+          "localizedDescription": "[Stable] Changelog:\r\n\u2022 Upgraded NDS core with RetroAchievements support (Important: this update breaks compatibility with old save states. Please convert them to in-game saves before updating to v1.7.1 to avoid losing progress)\r\n\u2022 Added top/bottom screen layout configuration for NDS when using AirPlay\r\n\u2022 Add"
+        },
+        {
+          "version": "1.7.0",
+          "date": "2025-09-18",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v1.7.0/ManicEMU.v1.7.0.SideloadJIT.ipa",
+          "size": 126668215,
+          "localizedDescription": "[Stable] Adventurers, thanks for waiting! This update took longer than usual, but it\u2019s absolutely worth it\u2014Manic EMU now supports RetroAchievements. Huge thanks to the RA team for their thorough review work, making hardcore achievements possible!\r\nWe\u2019ve also added Dreamcast support, with special thanks to @J"
+        }
+      ]
+    },
+    {
+      "name": "Gen1Recomp",
+      "bundleIdentifier": "com.theboisclub.gen1recomp",
+      "developerName": "Community / GitHub",
+      "subtitle": "Gen1Recomp - Stable Build",
+      "localizedDescription": "Stable releases for Gen1Recomp.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "0.2.68",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.68/gen1recomp%2B%2B-0.2.68-ios.ipa",
+          "size": 24370430,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2303 Pokemon Fire Red - Gym Leader battles\n- #2306 (Fire Red) Multiple Incorrect or Premature Sound Effects\n- #2307 FireRed: NPCs can walk through the player in the overworld\n- #2309 FireRed: \"Void Fill: Trees\" option renders br"
+        },
+        {
+          "version": "0.2.67",
+          "date": "2026-09-20",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.67/gen1recomp%2B%2B-0.2.67-ios.ipa",
+          "size": 24250287,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2339 Wrong jingle for receiving the Boulderbadge\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n- @thibautbus"
+        },
+        {
+          "version": "0.2.66",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.66/gen1recomp%2B%2B-0.2.66-ios.ipa",
+          "size": 24206470,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2313 FireRed: no \"caught Pok\u00e9mon\" Pok\u00e9 Ball marker on the opponent's battle HUD\n- #2314 FireRed: hidden items are unreachable \u2014 no hidden-item runtime or ITEMFINDER (e.g. Viridian Forest hidden Antidote)\n- #2315 FireRed: default"
+        },
+        {
+          "version": "0.2.65",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.65/gen1recomp%2B%2B-0.2.65-ios.ipa",
+          "size": 24174611,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2316 FireRed: in-battle item use shows stale (pre-battle) party HP, so a Potion is refused with \"It won't have any effect.\"\n- #2319 FireRed: Pok\u00e9mon sprite in the nickname window renders at half size (16\u00d716 instead of 32\u00d732)\n- #"
+        },
+        {
+          "version": "0.2.64",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.64/gen1recomp%2B%2B-0.2.64-ios.ipa",
+          "size": 24153580,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1039 Encounter rate grace period not working\n- #1229 Encounter rate grace period not working\n- #2297 FireRed: Leaving the house through a wall\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28"
+        },
+        {
+          "version": "0.2.63",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.63/gen1recomp%2B%2B-0.2.63-ios.ipa",
+          "size": 24142328,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.62",
+          "date": "2026-09-18",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.62/gen1recomp%2B%2B-0.2.62-ios.ipa",
+          "size": 24138802,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28"
+        },
+        {
+          "version": "0.2.61",
+          "date": "2026-09-16",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.61/gen1recomp%2B%2B-0.2.61-ios.ipa",
+          "size": 22599085,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2089 Update all mods doesn\u2019t actually update anything when you have a custom cart selected\n- #2198 Trading inaccurate\n- #2227 shaders fail to convert when portable.txt is active\n- #2246 The game may freeze when an other audio so"
+        },
+        {
+          "version": "0.2.60",
+          "date": "2026-09-13",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.60/gen1recomp%2B%2B-0.2.60-ios.ipa",
+          "size": 22589573,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2235 some shaders have artifacts\n- #2245 GSC save import doesn't correctly set world event flags\n- #2252 Menu visible during Trash\n- #2253 Dojo Master dialogue wrong before choosing Pokemon\n- #2257 status effect damege timing\n- "
+        },
+        {
+          "version": "0.2.59",
+          "date": "2026-09-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.59/gen1recomp%2B%2B-0.2.59-ios.ipa",
+          "size": 22584503,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #274 Monster Party Sprites coloration\n- #2120 Tilt screen in 2 gen pok\u00e8mon\n\n## Contributors\n\n- @bryanthaboi\n- @Code-Grub"
+        },
+        {
+          "version": "0.2.58",
+          "date": "2026-09-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.58/gen1recomp%2B%2B-0.2.58-ios.ipa",
+          "size": 22583485,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1709 (GSC) Missing some battle options\n- #2202 (Crystal) Various issues in the Battle Tower\n- #2217 (Modding API) function SummaryMenu.new inaccessible for pokemon.sprite hook\n- #2234 (GSC) Missing SFX and instant text when givi"
+        },
+        {
+          "version": "0.2.57",
+          "date": "2026-09-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.57/gen1recomp%2B%2B-0.2.57-ios.ipa",
+          "size": 21626440,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2166 camera zooms all the way in after leaving options menu\n- #2185 locked myself in the tower with the dogs\n- #2188 Fading issues during intro\n- #2189 Captain on S.S. Anne turning around\n- #2190 Pikachu cutscene & interaction i"
+        },
+        {
+          "version": "0.2.56",
+          "date": "2026-09-04",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.56/gen1recomp%2B%2B-0.2.56-ios.ipa",
+          "size": 21614868,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2114 Always the same speed on Cycling Road\n- #2115 Not automatically getting off the slope at the end of Cycling Road\n- #2116 Visual Indicator for Text\n- #2117 Bill dont do Face Rotation\n- #2118 Name & HP bar of opposing trainer"
+        },
+        {
+          "version": "0.2.55",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.55/gen1recomp%2B%2B-0.2.55-ios.ipa",
+          "size": 21602159,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2079 issues with touch controls.\n- #2103 saving out images doesnt work on android\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @thibautbus"
+        },
+        {
+          "version": "0.2.54",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.54/gen1recomp%2B%2B-0.2.54-ios.ipa",
+          "size": 21600332,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2119 Prof. Oak's sprite disappears in battle transition before Pikachu\n- #2121 Rival missing dialogue after winning first fight\n- #2122 Old Man's position wrong after catching tutorial\n- #2123 Nurse broken in Yellow again\n- #212"
+        },
+        {
+          "version": "0.2.53",
+          "date": "2026-09-03",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.53/gen1recomp%2B%2B-0.2.53-ios.ipa",
+          "size": 21595269,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2038 Skins screen is extremely slow on handheld devices (options file re-read and decoded every frame)\n- #2080 (GSC) Issues with grass transparency\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- flowers"
+        },
+        {
+          "version": "0.2.52",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.52/gen1recomp%2B%2B-0.2.52-ios.ipa",
+          "size": 21587460,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2087 SFX being cut off when battle speed is increased\n- #2107 Daycare bugs when taking Pokemon back\n- #2108 Cry not played when leaving Pokemon in the daycare\n- #2109 Pok\u00e9 Flute tune not played completely when waking Snorlax\n\n##"
+        },
+        {
+          "version": "0.2.51",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.51/gen1recomp%2B%2B-0.2.51-ios.ipa",
+          "size": 21587247,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.50",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.50/gen1recomp%2B%2B-0.2.50-ios.ipa",
+          "size": 21587041,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2080 (GSC) Issues with grass transparency\n- #2082 (GSC) Sleep status only disappearing after woken pokemon attack\n- #2084 (GSC) Misplaced or static arrow in some dialogues\n- #2085 (GSC) YES or NO prompts should only appear at th"
+        },
+        {
+          "version": "0.2.49",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.49/gen1recomp%2B%2B-0.2.49-ios.ipa",
+          "size": 21583467,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2092 Games freeze and do not progress past the initial splash screen when launching\n- #2098 bug: Gen2 no longer loading on Android\n\n## Contributors\n\n- @bryanthaboi\n- @thibautbus"
+        },
+        {
+          "version": "0.2.48",
+          "date": "2026-09-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.48/gen1recomp%2B%2B-0.2.48-ios.ipa",
+          "size": 21568319,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2057 Trainer moves field crashes mod loading under api: 2\n- #2058 Gym Badge NPC Guy Layout\n- #2059 Switch Pokemon is missing Animation\n- #2060 Pokemon Watching Stats missing Whitescreen Transition\n- #2061 Arrow in item menu isn'"
+        },
+        {
+          "version": "0.2.47",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.47/gen1recomp%2B%2B-0.2.47-ios.ipa",
+          "size": 21567009,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.46",
+          "date": "2026-09-01",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.46/gen1recomp%2B%2B-0.2.46-ios.ipa",
+          "size": 21566558,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1971 Checkpoint restore fails 3 steps out of 4: the map-enter path zeroes save.poisonSteps, then verification rejects the mismatch\n- #2025 findPendingRom is unreachable on Linux: the file browser returns before it\n- #2029 [Cryst"
+        },
+        {
+          "version": "0.2.45",
+          "date": "2026-08-31",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.45/gen1recomp%2B%2B-0.2.45-ios.ipa",
+          "size": 21546273,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1947 Naming screen inaccuracies\n- #1987 Player not looking at rival when he leaves lab\n- #1989 Rival's paths in the lab are different\n- #1994 [Crystal] Location banners when changing area disappear faster with faster game speed\n"
+        },
+        {
+          "version": "0.2.44",
+          "date": "2026-08-31",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.44/gen1recomp%2B%2B-0.2.44-ios.ipa",
+          "size": 21536649,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.43",
+          "date": "2026-08-31",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.43/gen1recomp%2B%2B-0.2.43-ios.ipa",
+          "size": 21536027,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2004 POKEPORT_AUDIO_RATE is never read by the engine \u2014 chip synth always renders at 44100 Hz\n- #2005 Constant walking stutter on weak ARM handhelds (RK3326) from per-frame allocation churn and forced per-frame GC step \u2014 jitter, "
+        },
+        {
+          "version": "0.2.42",
+          "date": "2026-08-31",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.42/gen1recomp%2B%2B-0.2.42-ios.ipa",
+          "size": 21534750,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1990 Fx Sound Speeds Up\n- #1991 Sound fx speed x2\n- #1997 Sound effects buggy after update when speed up\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.41",
+          "date": "2026-08-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.41/gen1recomp%2B%2B-0.2.41-ios.ipa",
+          "size": 21533788,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #889 Pokemon yellow can't export save file right\n- #1691 Exported .sav not valid in emulator\n- #1910 Screen tearing and presentation sync failure at 90Hz (Steam Deck OLED)\n- #1958 (RBYGSC) Irregular frame pacing\n\n## Contributors\n"
+        },
+        {
+          "version": "0.2.40",
+          "date": "2026-08-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.40/gen1recomp%2B%2B-0.2.40-ios.ipa",
+          "size": 21511375,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1938 Pok\u00e9 Flute tune can be skipped when waking up Pokemon\n- #1940 Minimize sprite at wrong position\n- #1941 Pokemon sprite visible during Minimize faint animation\n- #1943 [Crystal] Location banners are missing when changing are"
+        },
+        {
+          "version": "0.2.39",
+          "date": "2026-08-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.39/gen1recomp%2B%2B-0.2.39-ios.ipa",
+          "size": 21499456,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        }
+      ]
+    },
+    {
+      "name": "ARMSX2",
+      "bundleIdentifier": "com.armsx2.emu",
+      "developerName": "Community / GitHub",
+      "subtitle": "ARMSX2 - Stable Build",
+      "localizedDescription": "Stable releases for ARMSX2.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "4A90E2",
+      "versions": [
+        {
+          "version": "iOSv2.5.2",
+          "date": "2026-08-06",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.2/ARMSX2-iOS-2.5.2.ipa",
+          "size": 26425138,
+          "localizedDescription": "[Stable] **Frame rate cap**\r\n\r\n@Henyckma added an FPS cap that limits presentation only. The game and the audio keep running at full speed, so it costs nothing in emulation and gives back battery and heat instead. Targets are 15, 23.976, 29.94, 30, 45, 59.97, 60, 90 and 120, set globally or per game. The gai"
+        },
+        {
+          "version": "iOSv2.5.1",
+          "date": "2026-07-31",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.1/ARMSX2-iOS-2.5.1.ipa",
+          "size": 26327755,
+          "localizedDescription": "[Stable] 2.5.1 is mostly a fixes release.\r\n\r\nThe two biggest issues were A12 devices crashing on launch and rumble being completely broken since 2.4.1. Both are fixed, along with a proper no-JIT fallback, several performance improvements, and a collection of Virtual Pad and interface fixes.\r\n\r\n## Highlights\r"
+        },
+        {
+          "version": "iOSv2.5.0",
+          "date": "2026-07-30",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.0/ARMSX2-iOS-2.5.0.ipa",
+          "size": 25630097,
+          "localizedDescription": "[Stable] ARMSX2 2.5.0 is a major update to the emulator core and the iOS frontend.\r\n\r\nThe biggest core change is a new shared ARM64 recompiler, replacing the older iOS-specific EE, IOP and VU recompilers. It brings iOS in line with the ARM handheld builds, reduces CPU overhead in several parts of emulation, "
+        }
+      ]
+    },
+    {
+      "name": "ARMSX2 (Nightly)",
+      "bundleIdentifier": "com.armsx2.emu.nightly",
+      "developerName": "Community / GitHub",
+      "subtitle": "ARMSX2 - Nightly Build",
+      "localizedDescription": "Nightly releases for ARMSX2.",
+      "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
+      "tintColor": "D0021B",
+      "versions": [
+        {
+          "version": "nightly-20260920",
+          "date": "2026-09-20",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260920/ARMSX2-nightly-20260920-4497c92942-iOS-arm64.ipa",
+          "size": 30514510,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20260919",
+          "date": "2026-09-19",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260919/ARMSX2-nightly-20260919-8b5fad23dc-iOS-arm64.ipa",
+          "size": 30493138,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20260916",
+          "date": "2026-09-16",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260916/ARMSX2-nightly-20260916-4cbd36becc-iOS-arm64.ipa",
+          "size": 30367381,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20260915",
+          "date": "2026-09-15",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260915/ARMSX2-nightly-20260915-418eee65a4-iOS-arm64.ipa",
+          "size": 26850704,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20260914",
+          "date": "2026-09-14",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260914/ARMSX2-nightly-20260914-d7e8d01678-iOS-arm64.ipa",
+          "size": 26822432,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20260913",
+          "date": "2026-09-13",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260913/ARMSX2-nightly-20260913-bb60aaf88f-iOS-arm64.ipa",
+          "size": 26820816,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        }
+      ]
+    }
+  ]
+}

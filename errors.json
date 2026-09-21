@@ -1,0 +1,10 @@
+{
+  "failed_count": 1,
+  "failed_apps": [
+    {
+      "name": "MeloNX",
+      "url": "https://git.ryujinx.app/api/v1/repos/projects/MeloNX/releases",
+      "reason": "Request failed: Expecting value: line 1 column 1 (char 0)"
+    }
+  ]
+}
