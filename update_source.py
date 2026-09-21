@@ -2,6 +2,9 @@ import json
 import urllib.request
 import os
 
+USERNAME = "907470"
+REPO_NAME = "potato-altstore"
+
 TARGET_REPOS = [
     # Fallout Community Editions
     ("https://api.github.com/repos/alexbatalov/fallout1-ce/releases", "Fallout 1 CE", "com.alexbatalov.fallout1ce", "github"),
@@ -117,7 +120,7 @@ def build_source():
                 bundle_suffix = "" if channel == "Stable" else f".{channel.lower().replace('-', '')}"
                 latest_ver = versions[0]
 
-                # Full AltStore/SideStore Schema Specs
+                # Full AltStore / SideStore / LiveContainer Schema
                 app_entry = {
                     "name": f"{base_name}{suffix}",
                     "bundleIdentifier": f"{base_bundle}{bundle_suffix}",
@@ -142,14 +145,14 @@ def build_source():
                 "reason": f"Request failed: {str(err)}"
             })
 
-    # Strict AltStore / SideStore Root Schema
+    # Top-Level Root Object
     full_source = {
         "name": "Potato AltStore Source",
         "identifier": "com.potato.altstore.source",
         "subtitle": "Community Apps & Emulators",
         "description": "Auto-updated iOS source for emulators, ports, and tools.",
         "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f3ae.png",
-        "website": "https://github.com",
+        "website": f"https://{USERNAME}.github.io/{REPO_NAME}/",
         "apps": parsed_apps
     }
 
@@ -159,7 +162,7 @@ def build_source():
     with open("errors.json", "w", encoding="utf-8") as f:
         json.dump({"failed_count": len(failed_apps), "failed_apps": failed_apps}, f, indent=2)
 
-    print(f"Done! Built {len(parsed_apps)} apps successfully.")
+    print(f"Done! Generated apps.json with {len(parsed_apps)} total channel entries.")
 
 if __name__ == "__main__":
     build_source()
