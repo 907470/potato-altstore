@@ -883,12 +883,47 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.2.68",
-      "versionDate": "2026-09-21",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2303 Pokemon Fire Red - Gym Leader battles\n- #2306 (Fire Red) Multiple Incorrect or Premature Sound Effects\n- #2307 FireRed: NPCs can walk through the player in the overworld\n- #2309 FireRed: \"Void Fill: Trees\" option renders br",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.68/gen1recomp%2B%2B-0.2.68-ios.ipa",
-      "size": 24370430,
+      "version": "0.2.73",
+      "versionDate": "2026-09-22",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.73/gen1recomp%2B%2B-0.2.73-ios.ipa",
+      "size": 24663523,
       "versions": [
+        {
+          "version": "0.2.73",
+          "date": "2026-09-22",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.73/gen1recomp%2B%2B-0.2.73-ios.ipa",
+          "size": 24663523,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.72",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.72/gen1recomp%2B%2B-0.2.72-ios.ipa",
+          "size": 24663778,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
+        },
+        {
+          "version": "0.2.71",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.71/gen1recomp%2B%2B-0.2.71-ios.ipa",
+          "size": 24663670,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28"
+        },
+        {
+          "version": "0.2.70",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.70/gen1recomp%2B%2B-0.2.70-ios.ipa",
+          "size": 24632268,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2362 Badge Guide in Cerulean City Locks the Game\n- #2364 hidden items respawn\n- #2366 Celadon Mansion interior can be entered but not left\n- #2380 Ghost in Lavender Tower respawns endlessly\n\n## Contributors\n\n- @bryanthaboi\n- @th"
+        },
+        {
+          "version": "0.2.69",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.69/gen1recomp%2B%2B-0.2.69-ios.ipa",
+          "size": 24625148,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
         {
           "version": "0.2.68",
           "date": "2026-09-21",
@@ -1063,41 +1098,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.44/gen1recomp%2B%2B-0.2.44-ios.ipa",
           "size": 21536649,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.2.43",
-          "date": "2026-08-31",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.43/gen1recomp%2B%2B-0.2.43-ios.ipa",
-          "size": 21536027,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2004 POKEPORT_AUDIO_RATE is never read by the engine \u2014 chip synth always renders at 44100 Hz\n- #2005 Constant walking stutter on weak ARM handhelds (RK3326) from per-frame allocation churn and forced per-frame GC step \u2014 jitter, "
-        },
-        {
-          "version": "0.2.42",
-          "date": "2026-08-31",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.42/gen1recomp%2B%2B-0.2.42-ios.ipa",
-          "size": 21534750,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1990 Fx Sound Speeds Up\n- #1991 Sound fx speed x2\n- #1997 Sound effects buggy after update when speed up\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
-        },
-        {
-          "version": "0.2.41",
-          "date": "2026-08-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.41/gen1recomp%2B%2B-0.2.41-ios.ipa",
-          "size": 21533788,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #889 Pokemon yellow can't export save file right\n- #1691 Exported .sav not valid in emulator\n- #1910 Screen tearing and presentation sync failure at 90Hz (Steam Deck OLED)\n- #1958 (RBYGSC) Irregular frame pacing\n\n## Contributors\n"
-        },
-        {
-          "version": "0.2.40",
-          "date": "2026-08-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.40/gen1recomp%2B%2B-0.2.40-ios.ipa",
-          "size": 21511375,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1938 Pok\u00e9 Flute tune can be skipped when waking up Pokemon\n- #1940 Minimize sprite at wrong position\n- #1941 Pokemon sprite visible during Minimize faint animation\n- #1943 [Crystal] Location banners are missing when changing are"
-        },
-        {
-          "version": "0.2.39",
-          "date": "2026-08-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.39/gen1recomp%2B%2B-0.2.39-ios.ipa",
-          "size": 21499456,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
         }
       ]
     },
@@ -1146,12 +1146,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260920",
-      "versionDate": "2026-09-20",
+      "version": "nightly-20260921",
+      "versionDate": "2026-09-21",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260920/ARMSX2-nightly-20260920-4497c92942-iOS-arm64.ipa",
-      "size": 30514510,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260921/ARMSX2-nightly-20260921-e46fd5a893-iOS-arm64.ipa",
+      "size": 30514495,
       "versions": [
+        {
+          "version": "nightly-20260921",
+          "date": "2026-09-21",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260921/ARMSX2-nightly-20260921-e46fd5a893-iOS-arm64.ipa",
+          "size": 30514495,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260920",
           "date": "2026-09-20",
@@ -1185,13 +1192,6 @@
           "date": "2026-09-14",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260914/ARMSX2-nightly-20260914-d7e8d01678-iOS-arm64.ipa",
           "size": 26822432,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260913",
-          "date": "2026-09-13",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260913/ARMSX2-nightly-20260913-bb60aaf88f-iOS-arm64.ipa",
-          "size": 26820816,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
