@@ -890,12 +890,40 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.1",
-      "versionDate": "2026-09-22",
-      "versionDescription": "[Stable] we combined our powers and DOMINATED bugs plz wish list boya coya on steam\n\n## Issues closed\n\n- #1951 [Save editor] Move itens btw bag and PC directly by Save Editor\n- #2037 (Feature Request) Command Argument to update mods\n- #2177 Mod load order configuring in app\n- #2186 Add an option to implement",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.1/gen1recomp%2B%2B-0.3.1-ios.ipa",
-      "size": 37528942,
+      "version": "0.3.5",
+      "versionDate": "2026-09-23",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.5/gen1recomp%2B%2B-0.3.5-ios.ipa",
+      "size": 37730523,
       "versions": [
+        {
+          "version": "0.3.5",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.5/gen1recomp%2B%2B-0.3.5-ios.ipa",
+          "size": 37730523,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.4",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.4/gen1recomp%2B%2B-0.3.4-ios.ipa",
+          "size": 37730446,
+          "localizedDescription": "[Stable] the world is a better place when we all just get along\n\n## Issues closed\n\n- #2425 Infinite Oran Berry Issue\n- #2428 Petal Dance animation not playing.\n- #2431 Using Outrage Move\n- #2432 Hm can't deleted by move deleter\n- #2433 Move max PP decreasing\n- #2435 Names of Pok\u00e9mon in trading menu not showi"
+        },
+        {
+          "version": "0.3.3",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.3/gen1recomp%2B%2B-0.3.3-ios.ipa",
+          "size": 37674471,
+          "localizedDescription": "[Stable] after this, it should be able to remember ur roms and import them automatically if needed\n\n## Issues closed\n\n- #2430 Town map for Sevii island showing kanto map\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.2",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.2/gen1recomp%2B%2B-0.3.2-ios.ipa",
+          "size": 37578962,
+          "localizedDescription": "[Stable] Anything is possible\n\n## Issues closed\n\n- #2408 aide requirement for everstone listed as 0 pokemon in dialog\n- #2411 Bill's transformation is too fast\n- #2413 Indigo Plateau guards refer to badges as numbers\n- #2414 Whatever this is\n- #2415 PC missing log on sound\n- #2416 Berry powder man is a liar\n"
+        },
         {
           "version": "0.3.1",
           "date": "2026-09-22",
@@ -1077,34 +1105,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.52/gen1recomp%2B%2B-0.2.52-ios.ipa",
           "size": 21587460,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2087 SFX being cut off when battle speed is increased\n- #2107 Daycare bugs when taking Pokemon back\n- #2108 Cry not played when leaving Pokemon in the daycare\n- #2109 Pok\u00e9 Flute tune not played completely when waking Snorlax\n\n##"
-        },
-        {
-          "version": "0.2.51",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.51/gen1recomp%2B%2B-0.2.51-ios.ipa",
-          "size": 21587247,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.2.50",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.50/gen1recomp%2B%2B-0.2.50-ios.ipa",
-          "size": 21587041,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2080 (GSC) Issues with grass transparency\n- #2082 (GSC) Sleep status only disappearing after woken pokemon attack\n- #2084 (GSC) Misplaced or static arrow in some dialogues\n- #2085 (GSC) YES or NO prompts should only appear at th"
-        },
-        {
-          "version": "0.2.49",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.49/gen1recomp%2B%2B-0.2.49-ios.ipa",
-          "size": 21583467,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2092 Games freeze and do not progress past the initial splash screen when launching\n- #2098 bug: Gen2 no longer loading on Android\n\n## Contributors\n\n- @bryanthaboi\n- @thibautbus"
-        },
-        {
-          "version": "0.2.48",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.48/gen1recomp%2B%2B-0.2.48-ios.ipa",
-          "size": 21568319,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2057 Trainer moves field crashes mod loading under api: 2\n- #2058 Gym Badge NPC Guy Layout\n- #2059 Switch Pokemon is missing Animation\n- #2060 Pokemon Watching Stats missing Whitescreen Transition\n- #2061 Arrow in item menu isn'"
         }
       ]
     },
@@ -1153,12 +1153,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260922",
-      "versionDate": "2026-09-22",
+      "version": "nightly-20260923",
+      "versionDate": "2026-09-23",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260922/ARMSX2-nightly-20260922-2ecae98a2c-iOS-arm64.ipa",
-      "size": 30518422,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260923/ARMSX2-nightly-20260923-92aa2174da-iOS-arm64.ipa",
+      "size": 30551630,
       "versions": [
+        {
+          "version": "nightly-20260923",
+          "date": "2026-09-23",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260923/ARMSX2-nightly-20260923-92aa2174da-iOS-arm64.ipa",
+          "size": 30551630,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260922",
           "date": "2026-09-22",
@@ -1192,13 +1199,6 @@
           "date": "2026-09-16",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260916/ARMSX2-nightly-20260916-4cbd36becc-iOS-arm64.ipa",
           "size": 30367381,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260915",
-          "date": "2026-09-15",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260915/ARMSX2-nightly-20260915-418eee65a4-iOS-arm64.ipa",
-          "size": 26850704,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
