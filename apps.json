@@ -424,12 +424,19 @@
       "localizedDescription": "Pre-release releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "F5A623",
-      "version": "0.1.0-preview.5",
-      "versionDate": "2026-09-19",
-      "versionDescription": "[Pre-release] # MeleePad v0.1.0 Preview 5 \u2014 Slippi support\n\nBuild 26 adds MeleePad-supported Slippi integration on iOS/iPadOS: account login,\nmatchmaking, rollback, replay recording and persistent connection diagnostics.\nThe maintainer completed two real Unranked games on a physical iPad. This is\nhardware evidenc",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.5/MeleePad-v0.1.0-preview.5-module-free-unsigned.ipa",
-      "size": 15717592,
+      "version": "0.1.0-preview.6",
+      "versionDate": "2026-09-24",
+      "versionDescription": "[Pre-release] # MeleePad v0.1.0 Preview 6 \u2014 connection visibility\n\nBuild 28 adds **Slippi Connection Check** in Home Settings and the in-game three-dot menu. Three short requests measure Slippi website response and show the current network route. This does not test matchmaking UDP or predict an opponent's ping.\n\n",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.6/MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa",
+      "size": 15739072,
       "versions": [
+        {
+          "version": "0.1.0-preview.6",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.6/MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa",
+          "size": 15739072,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 6 \u2014 connection visibility\n\nBuild 28 adds **Slippi Connection Check** in Home Settings and the in-game three-dot menu. Three short requests measure Slippi website response and show the current network route. This does not test matchmaking UDP or predict an opponent's ping.\n\n"
+        },
         {
           "version": "0.1.0-preview.5",
           "date": "2026-09-19",
@@ -890,12 +897,75 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.5",
-      "versionDate": "2026-09-23",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.5/gen1recomp%2B%2B-0.3.5-ios.ipa",
-      "size": 37730523,
+      "version": "0.3.14",
+      "versionDate": "2026-09-24",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.14/gen1recomp%2B%2B-0.3.14-ios.ipa",
+      "size": 37794320,
       "versions": [
+        {
+          "version": "0.3.14",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.14/gen1recomp%2B%2B-0.3.14-ios.ipa",
+          "size": 37794320,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.13",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.13/gen1recomp%2B%2B-0.3.13-ios.ipa",
+          "size": 37781583,
+          "localizedDescription": "[Stable] another online fix maybe for gen 3\\\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.12",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.12/gen1recomp%2B%2B-0.3.12-ios.ipa",
+          "size": 37781319,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.11",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.11/gen1recomp%2B%2B-0.3.11-ios.ipa",
+          "size": 37968880,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.10",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.10/gen1recomp%2B%2B-0.3.10-ios.ipa",
+          "size": 37969396,
+          "localizedDescription": "[Stable] another little baby mystery gift clean up for modern day lifestyles and cool people type hobbyists\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.9",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.9/gen1recomp%2B%2B-0.3.9-ios.ipa",
+          "size": 37968553,
+          "localizedDescription": "[Stable] little clean up for mystery gifts\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.8",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.8/gen1recomp%2B%2B-0.3.8-ios.ipa",
+          "size": 37969773,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
+        },
+        {
+          "version": "0.3.7",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.7/gen1recomp%2B%2B-0.3.7-ios.ipa",
+          "size": 37970343,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2441 some safari zone tiles not solid\n- #2444 Importing saves not working\n- #2445 Fire Red: premier ball is a pokeball\n- #2448 Sevii Island quest - seagallop transition softlock\n- #2450 Pokemons trying to learn a new move in the"
+        },
+        {
+          "version": "0.3.6",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.6/gen1recomp%2B%2B-0.3.6-ios.ipa",
+          "size": 37936082,
+          "localizedDescription": "[Stable] Try playing online in gen 3\n\n## Contributors\n\n- @bryanthaboi\n- @colsonrice"
+        },
         {
           "version": "0.3.5",
           "date": "2026-09-23",
@@ -1042,69 +1112,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.61/gen1recomp%2B%2B-0.2.61-ios.ipa",
           "size": 22599085,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2089 Update all mods doesn\u2019t actually update anything when you have a custom cart selected\n- #2198 Trading inaccurate\n- #2227 shaders fail to convert when portable.txt is active\n- #2246 The game may freeze when an other audio so"
-        },
-        {
-          "version": "0.2.60",
-          "date": "2026-09-13",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.60/gen1recomp%2B%2B-0.2.60-ios.ipa",
-          "size": 22589573,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2235 some shaders have artifacts\n- #2245 GSC save import doesn't correctly set world event flags\n- #2252 Menu visible during Trash\n- #2253 Dojo Master dialogue wrong before choosing Pokemon\n- #2257 status effect damege timing\n- "
-        },
-        {
-          "version": "0.2.59",
-          "date": "2026-09-12",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.59/gen1recomp%2B%2B-0.2.59-ios.ipa",
-          "size": 22584503,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #274 Monster Party Sprites coloration\n- #2120 Tilt screen in 2 gen pok\u00e8mon\n\n## Contributors\n\n- @bryanthaboi\n- @Code-Grub"
-        },
-        {
-          "version": "0.2.58",
-          "date": "2026-09-11",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.58/gen1recomp%2B%2B-0.2.58-ios.ipa",
-          "size": 22583485,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1709 (GSC) Missing some battle options\n- #2202 (Crystal) Various issues in the Battle Tower\n- #2217 (Modding API) function SummaryMenu.new inaccessible for pokemon.sprite hook\n- #2234 (GSC) Missing SFX and instant text when givi"
-        },
-        {
-          "version": "0.2.57",
-          "date": "2026-09-09",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.57/gen1recomp%2B%2B-0.2.57-ios.ipa",
-          "size": 21626440,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2166 camera zooms all the way in after leaving options menu\n- #2185 locked myself in the tower with the dogs\n- #2188 Fading issues during intro\n- #2189 Captain on S.S. Anne turning around\n- #2190 Pikachu cutscene & interaction i"
-        },
-        {
-          "version": "0.2.56",
-          "date": "2026-09-04",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.56/gen1recomp%2B%2B-0.2.56-ios.ipa",
-          "size": 21614868,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2114 Always the same speed on Cycling Road\n- #2115 Not automatically getting off the slope at the end of Cycling Road\n- #2116 Visual Indicator for Text\n- #2117 Bill dont do Face Rotation\n- #2118 Name & HP bar of opposing trainer"
-        },
-        {
-          "version": "0.2.55",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.55/gen1recomp%2B%2B-0.2.55-ios.ipa",
-          "size": 21602159,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2079 issues with touch controls.\n- #2103 saving out images doesnt work on android\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @thibautbus"
-        },
-        {
-          "version": "0.2.54",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.54/gen1recomp%2B%2B-0.2.54-ios.ipa",
-          "size": 21600332,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2119 Prof. Oak's sprite disappears in battle transition before Pikachu\n- #2121 Rival missing dialogue after winning first fight\n- #2122 Old Man's position wrong after catching tutorial\n- #2123 Nurse broken in Yellow again\n- #212"
-        },
-        {
-          "version": "0.2.53",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.53/gen1recomp%2B%2B-0.2.53-ios.ipa",
-          "size": 21595269,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2038 Skins screen is extremely slow on handheld devices (options file re-read and decoded every frame)\n- #2080 (GSC) Issues with grass transparency\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- flowers"
-        },
-        {
-          "version": "0.2.52",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.52/gen1recomp%2B%2B-0.2.52-ios.ipa",
-          "size": 21587460,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2087 SFX being cut off when battle speed is increased\n- #2107 Daycare bugs when taking Pokemon back\n- #2108 Cry not played when leaving Pokemon in the daycare\n- #2109 Pok\u00e9 Flute tune not played completely when waking Snorlax\n\n##"
         }
       ]
     },
@@ -1153,12 +1160,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260923",
-      "versionDate": "2026-09-23",
+      "version": "nightly-20260924",
+      "versionDate": "2026-09-24",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260923/ARMSX2-nightly-20260923-92aa2174da-iOS-arm64.ipa",
-      "size": 30551630,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260924/ARMSX2-nightly-20260924-19c83bf065-iOS-arm64.ipa",
+      "size": 30558226,
       "versions": [
+        {
+          "version": "nightly-20260924",
+          "date": "2026-09-24",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260924/ARMSX2-nightly-20260924-19c83bf065-iOS-arm64.ipa",
+          "size": 30558226,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260923",
           "date": "2026-09-23",
@@ -1192,13 +1206,6 @@
           "date": "2026-09-19",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260919/ARMSX2-nightly-20260919-8b5fad23dc-iOS-arm64.ipa",
           "size": 30493138,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260916",
-          "date": "2026-09-16",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260916/ARMSX2-nightly-20260916-4cbd36becc-iOS-arm64.ipa",
-          "size": 30367381,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
