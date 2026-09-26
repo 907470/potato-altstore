@@ -424,12 +424,19 @@
       "localizedDescription": "Pre-release releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "F5A623",
-      "version": "0.1.0-preview.6",
-      "versionDate": "2026-09-24",
-      "versionDescription": "[Pre-release] # MeleePad v0.1.0 Preview 6 \u2014 connection visibility\n\nBuild 28 adds **Slippi Connection Check** in Home Settings and the in-game three-dot menu. Three short requests measure Slippi website response and show the current network route. This does not test matchmaking UDP or predict an opponent's ping.\n\n",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.6/MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa",
-      "size": 15739072,
+      "version": "0.1.0-preview.7",
+      "versionDate": "2026-09-25",
+      "versionDescription": "[Pre-release] # MeleePad v0.1.0 Preview 7 \u2014 clearer in-game controls\n\nPreview 7 packages build 29. The in-game three-dot menu now has a short main\nlist with Slippi, display, controls, game data, help, and Exit to Home. The\nexisting actions remain available under those groups. Peer warnings are\nshorter and sit bel",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.7/MeleePad-v0.1.0-preview.7-module-free-unsigned.ipa",
+      "size": 15739495,
       "versions": [
+        {
+          "version": "0.1.0-preview.7",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.7/MeleePad-v0.1.0-preview.7-module-free-unsigned.ipa",
+          "size": 15739495,
+          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 7 \u2014 clearer in-game controls\n\nPreview 7 packages build 29. The in-game three-dot menu now has a short main\nlist with Slippi, display, controls, game data, help, and Exit to Home. The\nexisting actions remain available under those groups. Peer warnings are\nshorter and sit bel"
+        },
         {
           "version": "0.1.0-preview.6",
           "date": "2026-09-24",
@@ -897,12 +904,47 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.14",
-      "versionDate": "2026-09-24",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.14/gen1recomp%2B%2B-0.3.14-ios.ipa",
-      "size": 37794320,
+      "version": "0.3.19",
+      "versionDate": "2026-09-26",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.19/gen1recomp%2B%2B-0.3.19-ios.ipa",
+      "size": 38583540,
       "versions": [
+        {
+          "version": "0.3.19",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.19/gen1recomp%2B%2B-0.3.19-ios.ipa",
+          "size": 38583540,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.18",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.18/gen1recomp%2B%2B-0.3.18-ios.ipa",
+          "size": 38580776,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.17",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.17/gen1recomp%2B%2B-0.3.17-ios.ipa",
+          "size": 38569796,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2477 Freezing game after picking up items on one island\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.16",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.16/gen1recomp%2B%2B-0.3.16-ios.ipa",
+          "size": 38565957,
+          "localizedDescription": "[Stable] subtle fix and option to disable or mute splash\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.15",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.15/gen1recomp%2B%2B-0.3.15-ios.ipa",
+          "size": 38575791,
+          "localizedDescription": "[Stable] This one's for the bois\n\n## Issues closed\n\n- #2347 Pikachu's Flash interaction in Rock Tunnel is missing\n- #2384 Two small issues with the mart menu\n- #2456 Six island disappear\n- #2460 Youngster Dave hiding behind pokemart\n- #2461 Firered save import shows 0 caught, fine in game\n- #2468 Save files "
+        },
         {
           "version": "0.3.14",
           "date": "2026-09-24",
@@ -1077,41 +1119,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.66/gen1recomp%2B%2B-0.2.66-ios.ipa",
           "size": 24206470,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2313 FireRed: no \"caught Pok\u00e9mon\" Pok\u00e9 Ball marker on the opponent's battle HUD\n- #2314 FireRed: hidden items are unreachable \u2014 no hidden-item runtime or ITEMFINDER (e.g. Viridian Forest hidden Antidote)\n- #2315 FireRed: default"
-        },
-        {
-          "version": "0.2.65",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.65/gen1recomp%2B%2B-0.2.65-ios.ipa",
-          "size": 24174611,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2316 FireRed: in-battle item use shows stale (pre-battle) party HP, so a Potion is refused with \"It won't have any effect.\"\n- #2319 FireRed: Pok\u00e9mon sprite in the nickname window renders at half size (16\u00d716 instead of 32\u00d732)\n- #"
-        },
-        {
-          "version": "0.2.64",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.64/gen1recomp%2B%2B-0.2.64-ios.ipa",
-          "size": 24153580,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #1039 Encounter rate grace period not working\n- #1229 Encounter rate grace period not working\n- #2297 FireRed: Leaving the house through a wall\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28"
-        },
-        {
-          "version": "0.2.63",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.63/gen1recomp%2B%2B-0.2.63-ios.ipa",
-          "size": 24142328,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi"
-        },
-        {
-          "version": "0.2.62",
-          "date": "2026-09-18",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.62/gen1recomp%2B%2B-0.2.62-ios.ipa",
-          "size": 24138802,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28"
-        },
-        {
-          "version": "0.2.61",
-          "date": "2026-09-16",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.61/gen1recomp%2B%2B-0.2.61-ios.ipa",
-          "size": 22599085,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2089 Update all mods doesn\u2019t actually update anything when you have a custom cart selected\n- #2198 Trading inaccurate\n- #2227 shaders fail to convert when portable.txt is active\n- #2246 The game may freeze when an other audio so"
         }
       ]
     },
@@ -1160,12 +1167,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260924",
-      "versionDate": "2026-09-24",
+      "version": "nightly-20260925",
+      "versionDate": "2026-09-25",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260924/ARMSX2-nightly-20260924-19c83bf065-iOS-arm64.ipa",
-      "size": 30558226,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260925/ARMSX2-nightly-20260925-59e2b17ed0-iOS-arm64.ipa",
+      "size": 30556571,
       "versions": [
+        {
+          "version": "nightly-20260925",
+          "date": "2026-09-25",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260925/ARMSX2-nightly-20260925-59e2b17ed0-iOS-arm64.ipa",
+          "size": 30556571,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260924",
           "date": "2026-09-24",
