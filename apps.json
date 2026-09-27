@@ -540,12 +540,33 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.5.0",
-      "versionDate": "2026-09-20",
-      "versionDescription": "[Stable] > **iPhone/iPad update:** The 0.5.0 IPA accidentally enables extra diagnostic checks. [0.5.1 experimental 1 / build60](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.1-experimental.1) disables them as a temporary mitigation. This is not yet a confirmed fix for reported slowdowns or ten-",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.0/KartPad-v0.5.0-ios-unsigned.ipa",
-      "size": 41995797,
+      "version": "0.5.3",
+      "versionDate": "2026-09-27",
+      "versionDescription": "[Stable] # KartPad 0.5.3 \u2014 Android, iPhone/iPad and Mac\n\nAndroid **0.5.3 / code 231**, iPhone/iPad **0.5.3 / build 87** and Mac **0.5.3 / build 86**.\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.3-arm64.apk` (Android) | 169375462 | `ed784e4dc949ab1b7fae49694db8f4d6751e791329a89a97f99c",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.3/KartPad-v0.5.3-ios-unsigned.ipa",
+      "size": 64877720,
       "versions": [
+        {
+          "version": "0.5.3",
+          "date": "2026-09-27",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.3/KartPad-v0.5.3-ios-unsigned.ipa",
+          "size": 64877720,
+          "localizedDescription": "[Stable] # KartPad 0.5.3 \u2014 Android, iPhone/iPad and Mac\n\nAndroid **0.5.3 / code 231**, iPhone/iPad **0.5.3 / build 87** and Mac **0.5.3 / build 86**.\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.3-arm64.apk` (Android) | 169375462 | `ed784e4dc949ab1b7fae49694db8f4d6751e791329a89a97f99c"
+        },
+        {
+          "version": "0.5.2",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.2/KartPad-v0.5.2-ios-unsigned.ipa",
+          "size": 64868370,
+          "localizedDescription": "[Stable] # KartPad 0.5.2 \u2014 Android hotfix, iPhone/iPad build 86\n\nAndroid **0.5.2 / code 230** and iPhone/iPad **0.5.2 / build 86**. Mac stays on\n[0.5.1 build 85](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.1).\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.2-arm64.apk` ("
+        },
+        {
+          "version": "0.5.1",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1/KartPad-v0.5.1-ios-unsigned.ipa",
+          "size": 64870553,
+          "localizedDescription": "[Stable] # KartPad 0.5.1 \u2014 Android, iPhone/iPad and Mac\n\n> **Android and iPhone/iPad: install [0.5.2](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.2) instead.** It fixes a race-load crash with Renderer Validation on (#325) and adds RVZ import on Android (#314). The Mac download below is curren"
+        },
         {
           "version": "0.5.0",
           "date": "2026-09-20",
@@ -594,20 +615,6 @@
           "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.16-ios.1/KartPad-v0.4.16-ios.1-unsigned.ipa",
           "size": 45039383,
           "localizedDescription": "[Stable] # KartPad 0.4.16 for iPhone and iPad\n\nBuild 35 rebuilds the complete ARM64 game app against the official Retro Rewind\n6.12.8 archive and its updated `Code.pul`. The version gate, native translated\nprofiles, and installer contract now agree on 6.12.8.\n\nRequires iOS/iPadOS 16 or newer on ARM64. The pu"
-        },
-        {
-          "version": "0.4.15-ios.1",
-          "date": "2026-09-10",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.15-ios.1/KartPad-v0.4.15-ios.1-unsigned.ipa",
-          "size": 45077843,
-          "localizedDescription": "[Stable] # KartPad 0.4.15 for iPhone and iPad\n\nBuild 34 adds diagnostic-log review before opening a GitHub report. Review the saved log, check the acknowledgment, then attach the file manually on GitHub. If you cannot attach a log, explain why; that explanation is included in the draft. No log is uploaded au"
-        },
-        {
-          "version": "0.4.14-ios.1",
-          "date": "2026-09-09",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.14-ios.1/KartPad-v0.4.14-ios.1-unsigned.ipa",
-          "size": 45068854,
-          "localizedDescription": "[Stable] The current official **iPhone and iPad release: 0.4.14, build 33**. Replaces the 0.4.13/build-29 preview. Android, Mac and experimental Apple TV packages remain separate.\n\n- Clearer game cards with setup status and built-in Help.\n- iPhone chooser fits on one screen; setup guidance and GitHub links s"
         }
       ]
     },
@@ -645,13 +652,6 @@
           "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.20-ios-reporting.1/KartPad-v0.4.20-reporting.1-ios-unsigned.ipa",
           "size": 45057558,
           "localizedDescription": "[Pre-release] Reporting test build for iPhone and iPad: **0.4.20 / build 42**. Re-sign this unsigned community IPA using the same application identity as your existing installation and supply your own supported game image.\n\nBoth KartPad and WiiCompiled are directly accessible from reporting, with search across bo"
-        },
-        {
-          "version": "0.4.13-ios.1",
-          "date": "2026-09-08",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.13-ios.1/KartPad-v0.4.13-ios.1-unsigned.ipa",
-          "size": 45058388,
-          "localizedDescription": "[Pre-release] # KartPad 0.4.13 \u2014 iPhone/iPad compatibility, chooser and diagnostics preview\n\nUnsigned ARM64 IPA, version0.4.13/build29, for iPhone and iPad on iOS/iPadOS16\nor newer. This platform-specific preview does not replace the Mac, Apple TV or\nAndroid packages. It is not an App Store or TestFlight build.\n\n"
         }
       ]
     },
@@ -904,12 +904,33 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.19",
-      "versionDate": "2026-09-26",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.19/gen1recomp%2B%2B-0.3.19-ios.ipa",
-      "size": 38583540,
+      "version": "0.3.22",
+      "versionDate": "2026-09-27",
+      "versionDescription": "[Stable] goia fixed her thing maybe\n\n## Issues closed\n\n- #1697 Standardize identification of mod-created options/settings screens\n- #1699 [Save editor] Option to sort out the items\n- #1701 Trading inside the game\n- #2452 Xbox controller loses connection to game periodically\n- #2493 Performance option change ",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.22/gen1recomp%2B%2B-0.3.22-ios.ipa",
+      "size": 38596309,
       "versions": [
+        {
+          "version": "0.3.22",
+          "date": "2026-09-27",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.22/gen1recomp%2B%2B-0.3.22-ios.ipa",
+          "size": 38596309,
+          "localizedDescription": "[Stable] goia fixed her thing maybe\n\n## Issues closed\n\n- #1697 Standardize identification of mod-created options/settings screens\n- #1699 [Save editor] Option to sort out the items\n- #1701 Trading inside the game\n- #2452 Xbox controller loses connection to game periodically\n- #2493 Performance option change "
+        },
+        {
+          "version": "0.3.21",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.21/gen1recomp%2B%2B-0.3.21-ios.ipa",
+          "size": 38592835,
+          "localizedDescription": "[Stable] If it's broken blame nexhas or gaia\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n- @Nexhas28\n"
+        },
+        {
+          "version": "0.3.20",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.20/gen1recomp%2B%2B-0.3.20-ios.ipa",
+          "size": 38583490,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2479 Textbox not closing automatically after picking up item\n- #2481 Pokemon cry issues during intro\n- #2483 Can't leave Safari Zone immediately\n- #2485 Moving up and down should adjust the radio frequency by 0.5 Hz, rather than"
+        },
         {
           "version": "0.3.19",
           "date": "2026-09-26",
@@ -1098,27 +1119,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.69/gen1recomp%2B%2B-0.2.69-ios.ipa",
           "size": 24625148,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.2.68",
-          "date": "2026-09-21",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.68/gen1recomp%2B%2B-0.2.68-ios.ipa",
-          "size": 24370430,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2303 Pokemon Fire Red - Gym Leader battles\n- #2306 (Fire Red) Multiple Incorrect or Premature Sound Effects\n- #2307 FireRed: NPCs can walk through the player in the overworld\n- #2309 FireRed: \"Void Fill: Trees\" option renders br"
-        },
-        {
-          "version": "0.2.67",
-          "date": "2026-09-20",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.67/gen1recomp%2B%2B-0.2.67-ios.ipa",
-          "size": 24250287,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2339 Wrong jingle for receiving the Boulderbadge\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n- @thibautbus"
-        },
-        {
-          "version": "0.2.66",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.2.66/gen1recomp%2B%2B-0.2.66-ios.ipa",
-          "size": 24206470,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2313 FireRed: no \"caught Pok\u00e9mon\" Pok\u00e9 Ball marker on the opponent's battle HUD\n- #2314 FireRed: hidden items are unreachable \u2014 no hidden-item runtime or ITEMFINDER (e.g. Viridian Forest hidden Antidote)\n- #2315 FireRed: default"
         }
       ]
     },
@@ -1167,12 +1167,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260925",
-      "versionDate": "2026-09-25",
+      "version": "nightly-20260926",
+      "versionDate": "2026-09-26",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260925/ARMSX2-nightly-20260925-59e2b17ed0-iOS-arm64.ipa",
-      "size": 30556571,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260926/ARMSX2-nightly-20260926-247fa6f094-iOS-arm64.ipa",
+      "size": 30555113,
       "versions": [
+        {
+          "version": "nightly-20260926",
+          "date": "2026-09-26",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260926/ARMSX2-nightly-20260926-247fa6f094-iOS-arm64.ipa",
+          "size": 30555113,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260925",
           "date": "2026-09-25",
@@ -1213,13 +1220,6 @@
           "date": "2026-09-20",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260920/ARMSX2-nightly-20260920-4497c92942-iOS-arm64.ipa",
           "size": 30514510,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260919",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260919/ARMSX2-nightly-20260919-8b5fad23dc-iOS-arm64.ipa",
-          "size": 30493138,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
