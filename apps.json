@@ -67,113 +67,6 @@
       ]
     },
     {
-      "name": "SunPad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.sunpad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "SunPad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for SunPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.13",
-      "versionDate": "2026-09-14",
-      "versionDescription": "[Pre-release] ## Preview 13: maintained-fork rebuild\n\nFresh unsigned **iPhone/iPad and experimental Apple TV** IPAs, version 0.1.0 build 13. Both are rebuilt from the maintained ModernGekko, RecompCore and DolRecomp forks with exact pinned source revisions. The Apple and tvOS audio paths remain separate.\n\nThis re",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-tvos-unsigned.ipa",
-      "size": 25461570,
-      "versions": [
-        {
-          "version": "0.1.0-preview.13",
-          "date": "2026-09-14",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.13/SunPad-0.1.0-preview.13-tvos-unsigned.ipa",
-          "size": 25461570,
-          "localizedDescription": "[Pre-release] ## Preview 13: maintained-fork rebuild\n\nFresh unsigned **iPhone/iPad and experimental Apple TV** IPAs, version 0.1.0 build 13. Both are rebuilt from the maintained ModernGekko, RecompCore and DolRecomp forks with exact pinned source revisions. The Apple and tvOS audio paths remain separate.\n\nThis re"
-        },
-        {
-          "version": "0.1.0-preview.12",
-          "date": "2026-09-04",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.12/SunPad-0.1.0-preview.12-tvos-unsigned.ipa",
-          "size": 24994750,
-          "localizedDescription": "[Pre-release] Preview 12 incorporates the meaningful parts of @joeblack2k\u2019s tvOS work while keeping Apple TV support explicitly experimental. Thank you to Jeroen for the substantial implementation and device investigation.\n\nIncluded:\n- native GMSE01 16:9 on tvOS (#35)\n- six-channel DPL2 output with stereo fallbac"
-        },
-        {
-          "version": "0.1.0-preview.11",
-          "date": "2026-09-04",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.11/SunPad-0.1.0-preview.11-tvos-unsigned.ipa",
-          "size": 24983402,
-          "localizedDescription": "[Pre-release] SunPad Preview 11 adds an experimental, maintainer-owned native Apple TV build for tvOS 17 and later.\\n\\nWhat is included:\\n- Native tvOS app target and CAMetalLayer runtime shell\\n- One required Extended Gamepad with SunPad controller mapping\\n- Mac-side staging and backup flow for your own extract"
-        },
-        {
-          "version": "0.1.0-preview.9",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.9/SunPad-0.1.0-preview.9-unsigned.ipa",
-          "size": 26460385,
-          "localizedDescription": "[Pre-release] Preview 9 addresses the shadow seams and duplicated geometry still visible in Issue #23 after the Preview 8 heatwave fix.\n\n- Replaces Dolphin's generic forced-wide projection with its bundled GMSE01-specific widescreen correction.\n- Keeps the generic widescreen hack disabled so it no longer alters S"
-        },
-        {
-          "version": "0.1.0-preview.10",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.10/SunPad-0.1.0-preview.10-unsigned.ipa",
-          "size": 26460496,
-          "localizedDescription": "[Pre-release] Preview 10 addresses the concrete StaticRecomp fallback leak exposed by the latest Issue #12 Noki Bay log.\n\nThe Preview 8 reporter session selected 16:9 and later returned to Original 4:3. Dolphin's one-shot patch-removal API removed bookkeeping but did not restore GMSE01's original heatwave instruc"
-        },
-        {
-          "version": "0.1.0-preview.8",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.8/SunPad-0.1.0-preview.8-unsigned.ipa",
-          "size": 26461143,
-          "localizedDescription": "[Pre-release] Preview 8 addresses the ghosted/duplicated scene rendering reported in Issue #23 when switching Super Mario Sunshine to experimental wide output.\n\n- Suppresses Sunshine\u2019s incompatible heat-distortion pass in 16:9 and Fill Screen.\n- Restores the original heat-distortion instruction in Original 4:3.\n-"
-        },
-        {
-          "version": "0.1.0-preview.7",
-          "date": "2026-09-01",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.7/SunPad-0.1.0-preview.7-unsigned.ipa",
-          "size": 26462028,
-          "localizedDescription": "[Pre-release] Preview 7 fixes and reorganizes the iPad three-dot settings menu.\n\nChanges:\n- Keeps the circular ellipsis white and stable when the menu is dismissed or the app returns to the foreground.\n- Adds **Display** with Render Resolution and Aspect Ratio.\n- Adds **Controls** with Controller Button Mapping a"
-        },
-        {
-          "version": "0.1.0-preview.6",
-          "date": "2026-08-31",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.6/SunPad-0.1.0-preview.6-unsigned.ipa",
-          "size": 26461394,
-          "localizedDescription": "[Pre-release] Preview 6 targets the reported warped-model problem and makes the supported configuration much clearer.\n\nChanges:\n- Regenerates the GMSE01 executable module with corrected Gekko floating-point and paired-register handling. This is the leading repair candidate for warped models, pending confirmation "
-        },
-        {
-          "version": "0.1.0-preview.5",
-          "date": "2026-08-18",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.5/SunPad-0.1.0-preview.5-unsigned.ipa",
-          "size": 25642266,
-          "localizedDescription": "[Pre-release] SunPad 0.1.0 Preview 5 rolls the accepted controller and diagnostic improvements into the public iPhone/iPad preview.\n\n### What changed\n\n- Left shoulder now maps to GameCube Z by default.\n- Right shoulder provides a medium-pressure FLUDD stream so Mario can run while spraying.\n- Right trigger retain"
-        },
-        {
-          "version": "0.1.0-preview.4",
-          "date": "2026-08-16",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.4/SunPad-0.1.0-preview.4-unsigned.ipa",
-          "size": 25630540,
-          "localizedDescription": "[Pre-release] Preview 4 improves the first-launch experience and controller lifecycle handling.\n\nChanges:\n- replaces the low-level missing game-root error with a clear **Game data required** explanation and direct **Choose ISO or GCM** action\n- reconciles current Apple GameController instances while active and af"
-        },
-        {
-          "version": "0.1.0-preview.3",
-          "date": "2026-08-13",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.3/SunPad-0.1.0-preview.3-unsigned.ipa",
-          "size": 26191140,
-          "localizedDescription": "[Pre-release] Updated release."
-        },
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-08-11",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.2/SunPad-0.1.0-preview.2-unsigned.ipa",
-          "size": 26178108,
-          "localizedDescription": "[Pre-release] SunPad 0.1.0 Preview 2 is the current unsigned arm64 iPhone/iPad developer preview.\n\nHighlights:\n\n- fixes ISO/GCM selection by requesting a local Files copy;\n- adds a Files-visible **On My iPhone/iPad \u2192 SunPad** folder and **Import from SunPad Folder** fallback;\n- includes the accepted compact-iPhon"
-        },
-        {
-          "version": "0.1.0-preview.1",
-          "date": "2026-08-10",
-          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.1.0-preview.1/SunPad-0.1.0-preview.1-unsigned.ipa",
-          "size": 26156925,
-          "localizedDescription": "[Pre-release] SunPad\u2019s first public iPhone and iPad developer-preview IPA.\n\n### What is included\n- unsigned arm64 iPhone/iPad app for user-side signing\n- required GMSE01 ahead-of-time recompiled executable module\n- persistent Modern C-stick L/R option for touch and physical controllers\n- license, third-party noti"
-        }
-      ]
-    },
-    {
       "name": "SpaghettiPad (Pre-release)",
       "bundleIdentifier": "com.chrissotraidis.spaghettipad.prerelease",
       "developerName": "Community / GitHub",
@@ -292,94 +185,6 @@
       ]
     },
     {
-      "name": "AnnePad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.annepad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "AnnePad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for AnnePad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.4",
-      "versionDate": "2026-09-19",
-      "versionDescription": "[Pre-release] A diagnostic preview for the Brock-gym battle crash reported in [issue #2](https://github.com/chrissotraidis/annepad/issues/2). **This is not yet a confirmed gameplay fix.**\n\nVersion 0.1.0, build 4 \u00b7 iPhone/iPad arm64 \u00b7 iOS 16 or later \u00b7 unsigned IPA.\n\n- Adds **Share Diagnostics** to the in-game uti",
-      "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.4/AnnePad-0.1.0-build4-unsigned.ipa",
-      "size": 85407796,
-      "versions": [
-        {
-          "version": "0.1.0-preview.4",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.4/AnnePad-0.1.0-build4-unsigned.ipa",
-          "size": 85407796,
-          "localizedDescription": "[Pre-release] A diagnostic preview for the Brock-gym battle crash reported in [issue #2](https://github.com/chrissotraidis/annepad/issues/2). **This is not yet a confirmed gameplay fix.**\n\nVersion 0.1.0, build 4 \u00b7 iPhone/iPad arm64 \u00b7 iOS 16 or later \u00b7 unsigned IPA.\n\n- Adds **Share Diagnostics** to the in-game uti"
-        },
-        {
-          "version": "0.1.0-preview.3",
-          "date": "2026-08-18",
-          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.3/AnnePad-0.1.0-preview.3-unsigned.ipa",
-          "size": 85343107,
-          "localizedDescription": "[Pre-release] AnnePad 0.1.0 Preview 3 repairs SDL2 controller ownership across sleep, disconnect, reconnect, remap, and foreground resume.\n\nWhat changed:\n\n- validates stored `SDL_GameController` handles against attached state and joystick instance identity;\n- reconciles four stable player slots against current SD"
-        },
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-08-06",
-          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.2/AnnePad-0.1.0-preview.2-unsigned.ipa",
-          "size": 85316453,
-          "localizedDescription": "[Pre-release] UUID-compatible unsigned developer preview.\\n\\nFixes the missing Mach-O LC_UUID load command that prevented the Preview 1 IPA from launching through LiveContainer. This ROM-free IPA remains unsigned and must be signed for your device."
-        },
-        {
-          "version": "0.1.0-preview.1",
-          "date": "2026-08-05",
-          "downloadURL": "https://github.com/chrissotraidis/annepad/releases/download/v0.1.0-preview.1/AnnePad-0.1.0-preview.1-unsigned.ipa",
-          "size": 85315074,
-          "localizedDescription": "[Pre-release] AnnePad brings Pok\u00e9mon Stadium to iPhone and iPad through static recompilation, with native Metal rendering and a touch-first interface.\r\n\r\n### Highlights\r\n\r\n- Native arm64 iOS build with RT64's Metal renderer\r\n- Files-based setup for a user-provided Pok\u00e9mon Stadium US 1.0 ROM\r\n- Customizable touch "
-        }
-      ]
-    },
-    {
-      "name": "GalaxyPad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.galaxypad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "GalaxyPad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for GalaxyPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.4",
-      "versionDate": "2026-09-19",
-      "versionDescription": "[Pre-release] GalaxyPad Preview 4 (**build 7168**) adds mobile motion aiming and ride controls for iPhone and iPad.\n\n- **Gyro cursor:** Controls \u2192 Gyro Cursor \u2192 This Device or Controller. Includes sensitivity, vertical inversion, and recentering; right-stick click also recenters. Defaults to Off. Controller motio",
-      "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.4/GalaxyPad-iOS-iPadOS-0.1.0-preview.4.ipa",
-      "size": 47832369,
-      "versions": [
-        {
-          "version": "0.1.0-preview.4",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.4/GalaxyPad-iOS-iPadOS-0.1.0-preview.4.ipa",
-          "size": 47832369,
-          "localizedDescription": "[Pre-release] GalaxyPad Preview 4 (**build 7168**) adds mobile motion aiming and ride controls for iPhone and iPad.\n\n- **Gyro cursor:** Controls \u2192 Gyro Cursor \u2192 This Device or Controller. Includes sensitivity, vertical inversion, and recentering; right-stick click also recenters. Defaults to Off. Controller motio"
-        },
-        {
-          "version": "0.1.0-preview.3",
-          "date": "2026-09-16",
-          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.3/GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa",
-          "size": 47743911,
-          "localizedDescription": "[Pre-release] An experimental **iPhone/iPad refinement update, build 7166**, based on the app the owner tested and reports is working great on iPad Pro. The macOS Preview 1 remains unchanged.\n\n## Download and update\n\nDownload **GalaxyPad-iOS-iPadOS-0.1.0-preview.3.ipa** below. Sign the app and nested module with "
-        },
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-09-14",
-          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.2/GalaxyPad-iOS-iPadOS-0.1.0-preview.2.ipa",
-          "size": 47763388,
-          "localizedDescription": "[Pre-release] An experimental **iPhone/iPad update, build 15**, with clearer attribution, maintained runtime forks, and reviewed correctness fixes. GalaxyPad began as a personal experiment to bring Super Mario Galaxy to Apple devices with touch and controllers. Stability and compatibility remain the priority; che"
-        },
-        {
-          "version": "0.1.0-preview.1",
-          "date": "2026-09-13",
-          "downloadURL": "https://github.com/chrissotraidis/galaxypad/releases/download/v0.1.0-preview.1/GalaxyPad-iOS-iPadOS-0.1.0-preview.1.ipa",
-          "size": 47703466,
-          "localizedDescription": "[Pre-release] **Newer iPhone/iPad build available:** [Preview 2 \u2014 build 15](https://github.com/chrissotraidis/galaxypad/releases/tag/v0.1.0-preview.2). The macOS archive on this page remains the current Mac preview. The notes below describe the original Preview 1 artifacts.\n\nAn experimental GalaxyPad preview for "
-        }
-      ]
-    },
-    {
       "name": "PaperPad (Pre-release)",
       "bundleIdentifier": "com.chrissotraidis.paperpad.prerelease",
       "developerName": "Community / GitHub",
@@ -413,64 +218,6 @@
           "downloadURL": "https://github.com/chrissotraidis/paperpad/releases/download/v0.1.0-preview.1/PaperPad-v0.1.0-preview.1-unsigned.ipa",
           "size": 11598140,
           "localizedDescription": "[Pre-release] PaperPad's first public iPhone and iPad preview.\r\n\r\n## Download\r\n\r\n- **PaperPad-v0.1.0-preview.1-unsigned.ipa**\r\n- **PaperPad-v0.1.0-preview.1-unsigned.ipa.sha256**\r\n- SHA-256: `80721e9a726e3131b86f7186ee150fdbec8a6e53ce327a11baa2a5d85fc7e8ee`\r\n\r\nThe IPA is **ROM-free and unsigned**. Sign it with yo"
-        }
-      ]
-    },
-    {
-      "name": "MeleePad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.meleepad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "MeleePad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for MeleePad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.7",
-      "versionDate": "2026-09-25",
-      "versionDescription": "[Pre-release] # MeleePad v0.1.0 Preview 7 \u2014 clearer in-game controls\n\nPreview 7 packages build 29. The in-game three-dot menu now has a short main\nlist with Slippi, display, controls, game data, help, and Exit to Home. The\nexisting actions remain available under those groups. Peer warnings are\nshorter and sit bel",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.7/MeleePad-v0.1.0-preview.7-module-free-unsigned.ipa",
-      "size": 15739495,
-      "versions": [
-        {
-          "version": "0.1.0-preview.7",
-          "date": "2026-09-25",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.7/MeleePad-v0.1.0-preview.7-module-free-unsigned.ipa",
-          "size": 15739495,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 7 \u2014 clearer in-game controls\n\nPreview 7 packages build 29. The in-game three-dot menu now has a short main\nlist with Slippi, display, controls, game data, help, and Exit to Home. The\nexisting actions remain available under those groups. Peer warnings are\nshorter and sit bel"
-        },
-        {
-          "version": "0.1.0-preview.6",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.6/MeleePad-v0.1.0-preview.6-module-free-unsigned.ipa",
-          "size": 15739072,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 6 \u2014 connection visibility\n\nBuild 28 adds **Slippi Connection Check** in Home Settings and the in-game three-dot menu. Three short requests measure Slippi website response and show the current network route. This does not test matchmaking UDP or predict an opponent's ping.\n\n"
-        },
-        {
-          "version": "0.1.0-preview.5",
-          "date": "2026-09-19",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.5/MeleePad-v0.1.0-preview.5-module-free-unsigned.ipa",
-          "size": 15717592,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 5 \u2014 Slippi support\n\nBuild 26 adds MeleePad-supported Slippi integration on iOS/iPadOS: account login,\nmatchmaking, rollback, replay recording and persistent connection diagnostics.\nThe maintainer completed two real Unranked games on a physical iPad. This is\nhardware evidenc"
-        },
-        {
-          "version": "0.1.0-preview.4",
-          "date": "2026-09-08",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.4/MeleePad-v0.1.0-preview.4-module-free-unsigned.ipa",
-          "size": 12123213,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 4\n\nPreview 4 is build 18. It adds recommended USA v1.02 support alongside v1.00,\nfloating touch controls, clearer version selection and Online Play, reduced\nnormal CPU-loop overhead, and lightweight gameplay frame-time summaries.\nmacOS branding and explicit keyboard mapping"
-        },
-        {
-          "version": "0.1.0-preview.3",
-          "date": "2026-09-05",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.3/MeleePad-v0.1.0-preview.3-module-free-unsigned.ipa",
-          "size": 12107666,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 3\n\nPreview 3 is build 7. It makes the current experimental multiplayer work\navailable in a release, carries the accepted C-stick repair, and retains the\nfirst measured iPhone performance improvement.\n\n## Highlights\n\n- Experimental Private Room and Direct IP play are availab"
-        },
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.1.0-preview.2/MeleePad-v0.1.0-preview.2-module-free-unsigned.ipa",
-          "size": 12059742,
-          "localizedDescription": "[Pre-release] # MeleePad v0.1.0 Preview 2\n\nPreview 2 makes MeleePad's first working Internet-room path available as an\nexperimental developer preview.\n\n## Highlights\n\n- Private Room can create and join eight-character codes through Dolphin's\n  public traversal rendezvous.\n- Direct IP remains available for local-n"
         }
       ]
     },
@@ -533,129 +280,6 @@
       ]
     },
     {
-      "name": "KartPad",
-      "bundleIdentifier": "com.chrissotraidis.kartpad",
-      "developerName": "Community / GitHub",
-      "subtitle": "KartPad - Stable Build",
-      "localizedDescription": "Stable releases for KartPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "4A90E2",
-      "version": "0.5.3",
-      "versionDate": "2026-09-27",
-      "versionDescription": "[Stable] # KartPad 0.5.3 \u2014 Android, iPhone/iPad and Mac\n\nAndroid **0.5.3 / code 231**, iPhone/iPad **0.5.3 / build 87** and Mac **0.5.3 / build 86**.\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.3-arm64.apk` (Android) | 169375462 | `ed784e4dc949ab1b7fae49694db8f4d6751e791329a89a97f99c",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.3/KartPad-v0.5.3-ios-unsigned.ipa",
-      "size": 64877720,
-      "versions": [
-        {
-          "version": "0.5.3",
-          "date": "2026-09-27",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.3/KartPad-v0.5.3-ios-unsigned.ipa",
-          "size": 64877720,
-          "localizedDescription": "[Stable] # KartPad 0.5.3 \u2014 Android, iPhone/iPad and Mac\n\nAndroid **0.5.3 / code 231**, iPhone/iPad **0.5.3 / build 87** and Mac **0.5.3 / build 86**.\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.3-arm64.apk` (Android) | 169375462 | `ed784e4dc949ab1b7fae49694db8f4d6751e791329a89a97f99c"
-        },
-        {
-          "version": "0.5.2",
-          "date": "2026-09-26",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.2/KartPad-v0.5.2-ios-unsigned.ipa",
-          "size": 64868370,
-          "localizedDescription": "[Stable] # KartPad 0.5.2 \u2014 Android hotfix, iPhone/iPad build 86\n\nAndroid **0.5.2 / code 230** and iPhone/iPad **0.5.2 / build 86**. Mac stays on\n[0.5.1 build 85](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.1).\n\n| Download | Bytes | SHA-256 |\n| --- | ---: | --- |\n| `KartPad-v0.5.2-arm64.apk` ("
-        },
-        {
-          "version": "0.5.1",
-          "date": "2026-09-26",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1/KartPad-v0.5.1-ios-unsigned.ipa",
-          "size": 64870553,
-          "localizedDescription": "[Stable] # KartPad 0.5.1 \u2014 Android, iPhone/iPad and Mac\n\n> **Android and iPhone/iPad: install [0.5.2](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.2) instead.** It fixes a race-load crash with Renderer Validation on (#325) and adds RVZ import on Android (#314). The Mac download below is curren"
-        },
-        {
-          "version": "0.5.0",
-          "date": "2026-09-20",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.0/KartPad-v0.5.0-ios-unsigned.ipa",
-          "size": 41995797,
-          "localizedDescription": "[Stable] > **iPhone/iPad update:** The 0.5.0 IPA accidentally enables extra diagnostic checks. [0.5.1 experimental 1 / build60](https://github.com/chrissotraidis/kartpad/releases/tag/v0.5.1-experimental.1) disables them as a temporary mitigation. This is not yet a confirmed fix for reported slowdowns or ten-"
-        },
-        {
-          "version": "0.4.24-ios.1",
-          "date": "2026-09-16",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.24-ios.1/KartPad-v0.4.24-ios.1-unsigned.ipa",
-          "size": 40889948,
-          "localizedDescription": "[Stable] # KartPad 0.4.24 for iPhone and iPad \u2014 build 49\n\nThe accepted mobile update brings consistent settings, Original Time Trial ghost transfers and clearer problem reporting.\n\n- Matching Android/iOS menu order and labels, with Player Identity and Time Trial Ghosts directly under Game Data & Saves.\n- Ori"
-        },
-        {
-          "version": "0.4.23-ios.1",
-          "date": "2026-09-15",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.23-ios.1/KartPad-v0.4.23-ios.1-unsigned.ipa",
-          "size": 40868593,
-          "localizedDescription": "[Stable] # KartPad 0.4.23 for iPhone and iPad\n\n- New racing K icon and refreshed game chooser, with dark mode by default and a saved light/dark toggle.\n- Original and Retro Rewind stay easy to switch between; existing setup, help and game options remain available.\n- Player Identity detects a missing linked M"
-        },
-        {
-          "version": "0.4.22-ios.1",
-          "date": "2026-09-15",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.22-ios.1/KartPad-v0.4.22-ios.1-unsigned.ipa",
-          "size": 45810937,
-          "localizedDescription": "[Stable] # KartPad 0.4.22 \u2014 ios\n\nThis release replaces the replayed WiiCompiled patch stack with maintained source and pinned platform branches. The upstream version and translated game behavior are unchanged. The existing KartPad repository, history and attribution are preserved.\n\nNative source parity, gene"
-        },
-        {
-          "version": "0.4.17-ios.1",
-          "date": "2026-09-13",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.17-ios.1/KartPad-v0.4.17-ios.1-unsigned.ipa",
-          "size": 45050589,
-          "localizedDescription": "[Stable] # KartPad 0.4.17 for iPhone and iPad \u2014 build 39\n\nThis is the current recommended iPhone/iPad download, with Retro Rewind 6.12.8 support.\n\n## Fixed in this update\n\n- **Compiled REL-report crash path (#196):** the bounds guard now covers the aggregate code actually used by the executable and preserves"
-        },
-        {
-          "version": "0.4.16-ios.2",
-          "date": "2026-09-11",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.16-ios.2/KartPad-v0.4.16-ios.2-unsigned.ipa",
-          "size": 45039643,
-          "localizedDescription": "[Stable] > **Superseded:** [0.4.17/build 39](https://github.com/chrissotraidis/kartpad/releases/tag/v0.4.17-ios.1) now delivers the corrected compiled guard.\n\n> **September 13 correction:** The later compiled-source audit found that build 36 still retained the faulting aggregate-shard read. The guard describ"
-        },
-        {
-          "version": "0.4.16-ios.1",
-          "date": "2026-09-10",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.16-ios.1/KartPad-v0.4.16-ios.1-unsigned.ipa",
-          "size": 45039383,
-          "localizedDescription": "[Stable] # KartPad 0.4.16 for iPhone and iPad\n\nBuild 35 rebuilds the complete ARM64 game app against the official Retro Rewind\n6.12.8 archive and its updated `Code.pul`. The version gate, native translated\nprofiles, and installer contract now agree on 6.12.8.\n\nRequires iOS/iPadOS 16 or newer on ARM64. The pu"
-        }
-      ]
-    },
-    {
-      "name": "KartPad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.kartpad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "KartPad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for KartPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.5.1-experimental.1",
-      "versionDate": "2026-09-20",
-      "versionDescription": "[Pre-release] # KartPad 0.5.1 experimental 1 \u2014 Apple build60\n\nThis is a temporary experimental mitigation while we collect more evidence about\nslowdowns reported after 0.5.0. It is **not a confirmed fix for all slowdowns or\ncrashes**, including the iPad report of exits after approximately ten minutes.\n\nThe public",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1-experimental.1/KartPad-v0.5.1-experimental.1-ios-unsigned.ipa",
-      "size": 41985168,
-      "versions": [
-        {
-          "version": "0.5.1-experimental.1",
-          "date": "2026-09-20",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.5.1-experimental.1/KartPad-v0.5.1-experimental.1-ios-unsigned.ipa",
-          "size": 41985168,
-          "localizedDescription": "[Pre-release] # KartPad 0.5.1 experimental 1 \u2014 Apple build60\n\nThis is a temporary experimental mitigation while we collect more evidence about\nslowdowns reported after 0.5.0. It is **not a confirmed fix for all slowdowns or\ncrashes**, including the iPad report of exits after approximately ten minutes.\n\nThe public"
-        },
-        {
-          "version": "0.4.25-diagnostics.2-ios",
-          "date": "2026-09-17",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.25-diagnostics.2-ios/KartPad-v0.4.25-diagnostics.2-ios-unsigned.ipa",
-          "size": 40898550,
-          "localizedDescription": "[Pre-release] Download **KartPad-v0.4.25-diagnostics.2-ios-unsigned.ipa** (build51), then re-sign with your existing setup. This is an optional diagnostic preview for existing reports.\n\n# KartPad 0.4.25 diagnostics preview 2\n\nAndroid code 119 and iPhone/iPad build 51 are available for people with an existing cras"
-        },
-        {
-          "version": "0.4.20-ios-reporting.1",
-          "date": "2026-09-14",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.4.20-ios-reporting.1/KartPad-v0.4.20-reporting.1-ios-unsigned.ipa",
-          "size": 45057558,
-          "localizedDescription": "[Pre-release] Reporting test build for iPhone and iPad: **0.4.20 / build 42**. Re-sign this unsigned community IPA using the same application identity as your existing installation and supply your own supported game image.\n\nBoth KartPad and WiiCompiled are directly accessible from reporting, with search across bo"
-        }
-      ]
-    },
-    {
       "name": "BellPad (Pre-release)",
       "bundleIdentifier": "com.chrissotraidis.bellpad.prerelease",
       "developerName": "Community / GitHub",
@@ -689,73 +313,6 @@
           "downloadURL": "https://github.com/chrissotraidis/bellpad/releases/download/v0.1.0-preview.1/Bellpad-0.1.0-preview.1-unsigned.ipa",
           "size": 14137497,
           "localizedDescription": "[Pre-release] Bellpad\u2019s first public iPhone and iPad preview.\n\n- Native ARM64 iOS/iPadOS 17.0+ app\n- Unsigned: sign with your own Apple identity before installation\n- ROM-free: provide your own legally obtained supported Animal Crossing game data after launch\n- Not an App Store or TestFlight release\n\nSHA-256: `d9"
-        }
-      ]
-    },
-    {
-      "name": "BananaPad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.bananapad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "BananaPad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for BananaPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.3",
-      "versionDate": "2026-09-03",
-      "versionDescription": "[Pre-release] # BananaPad v0.1.0-preview.3\n\nDeveloper Preview 3 is a focused response to the physical-iPhone feedback on\nIssue #2. It remains a ROM-free unsigned arm64 IPA for iOS and iPadOS 15 or\nnewer and includes the Preview 2 audio correction.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.3-unsigned.ipa`\n- `BananaP",
-      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.3/BananaPad-v0.1.0-preview.3-unsigned.ipa",
-      "size": 7479560,
-      "versions": [
-        {
-          "version": "0.1.0-preview.3",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.3/BananaPad-v0.1.0-preview.3-unsigned.ipa",
-          "size": 7479560,
-          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.3\n\nDeveloper Preview 3 is a focused response to the physical-iPhone feedback on\nIssue #2. It remains a ROM-free unsigned arm64 IPA for iOS and iPadOS 15 or\nnewer and includes the Preview 2 audio correction.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.3-unsigned.ipa`\n- `BananaP"
-        },
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-09-03",
-          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.2/BananaPad-v0.1.0-preview.2-unsigned.ipa",
-          "size": 7479552,
-          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.2\n\nDeveloper Preview 2 is a focused iPhone and iPad update for the two issues\nreported against Preview 1. It remains a ROM-free unsigned arm64 IPA for iOS\nand iPadOS 15 or newer.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.2-unsigned.ipa`\n- `BananaPad-v0.1.0-preview.2-unsigned"
-        },
-        {
-          "version": "0.1.0-preview.1",
-          "date": "2026-09-02",
-          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.1.0-preview.1/BananaPad-v0.1.0-preview.1-unsigned.ipa",
-          "size": 7479430,
-          "localizedDescription": "[Pre-release] # BananaPad v0.1.0-preview.1\n\nDeveloper Preview 1 is the first public ROM-free unsigned BananaPad IPA for\narm64 iPhone and iPad devices running iOS or iPadOS 15 or newer.\n\n## Assets\n\n- `BananaPad-v0.1.0-preview.1-unsigned.ipa`\n- `BananaPad-v0.1.0-preview.1-unsigned.ipa.sha256`\n- SHA-256: `a7f3a7a280"
-        }
-      ]
-    },
-    {
-      "name": "BearBirdPad (Pre-release)",
-      "bundleIdentifier": "com.chrissotraidis.bearbirdpad.prerelease",
-      "developerName": "Community / GitHub",
-      "subtitle": "BearBirdPad - Pre-release Build",
-      "localizedDescription": "Pre-release releases for BearBirdPad.",
-      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
-      "tintColor": "F5A623",
-      "version": "0.1.0-preview.2",
-      "versionDate": "2026-08-18",
-      "versionDescription": "[Pre-release] BearBirdPad 0.1.0 Preview 2 is an unsigned, self-signable iPhone/iPad developer preview. It contains no ROM or original game assets; users must provide their own legally acquired Banjo-Kazooie NTSC-U 1.0 ROM.\n\nThis preview repairs the SDL2 controller lifecycle path on iOS. BearBirdPad now reconciles",
-      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.1.0-preview.2/BearBirdPad-0.1.0-preview.2-unsigned.ipa",
-      "size": 10112862,
-      "versions": [
-        {
-          "version": "0.1.0-preview.2",
-          "date": "2026-08-18",
-          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.1.0-preview.2/BearBirdPad-0.1.0-preview.2-unsigned.ipa",
-          "size": 10112862,
-          "localizedDescription": "[Pre-release] BearBirdPad 0.1.0 Preview 2 is an unsigned, self-signable iPhone/iPad developer preview. It contains no ROM or original game assets; users must provide their own legally acquired Banjo-Kazooie NTSC-U 1.0 ROM.\n\nThis preview repairs the SDL2 controller lifecycle path on iOS. BearBirdPad now reconciles"
-        },
-        {
-          "version": "0.1.0-preview.1",
-          "date": "2026-07-31",
-          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.1.0-preview.1/BearBirdPad-0.1.0-preview.1-unsigned.ipa",
-          "size": 10107630,
-          "localizedDescription": "[Pre-release] ## BearBirdPad 0.1.0 Preview 1\n\nThis is a free, unsigned developer-preview IPA for iPhone and iPad. It is not\nan App Store or TestFlight build. Sign it with your own Apple ID before\ninstallation, then import your own legally acquired Banjo-Kazooie NTSC-U 1.0\nROM through Files.\n\nInstallation instruct"
         }
       ]
     },
@@ -1167,12 +724,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260926",
-      "versionDate": "2026-09-26",
+      "version": "nightly-20260927",
+      "versionDate": "2026-09-27",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260926/ARMSX2-nightly-20260926-247fa6f094-iOS-arm64.ipa",
-      "size": 30555113,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260927/ARMSX2-nightly-20260927-e2f7d015cb-iOS-arm64.ipa",
+      "size": 30562808,
       "versions": [
+        {
+          "version": "nightly-20260927",
+          "date": "2026-09-27",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260927/ARMSX2-nightly-20260927-e2f7d015cb-iOS-arm64.ipa",
+          "size": 30562808,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260926",
           "date": "2026-09-26",
@@ -1213,13 +777,6 @@
           "date": "2026-09-21",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260921/ARMSX2-nightly-20260921-e46fd5a893-iOS-arm64.ipa",
           "size": 30514495,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260920",
-          "date": "2026-09-20",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260920/ARMSX2-nightly-20260920-4497c92942-iOS-arm64.ipa",
-          "size": 30514510,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]

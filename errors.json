@@ -1,6 +1,41 @@
 {
-  "failed_count": 1,
+  "failed_count": 8,
   "failed_apps": [
+    {
+      "name": "SunPad",
+      "url": "https://api.github.com/repos/chrissotraidis/sunpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "AnnePad",
+      "url": "https://api.github.com/repos/chrissotraidis/annepad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "GalaxyPad",
+      "url": "https://api.github.com/repos/chrissotraidis/galaxypad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "MeleePad",
+      "url": "https://api.github.com/repos/chrissotraidis/meleepad/releases",
+      "reason": "Releases found, but none contained a valid .ipa file asset."
+    },
+    {
+      "name": "KartPad",
+      "url": "https://api.github.com/repos/chrissotraidis/kartpad/releases",
+      "reason": "Releases found, but none contained a valid .ipa file asset."
+    },
+    {
+      "name": "BananaPad",
+      "url": "https://api.github.com/repos/chrissotraidis/bananapad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "BearBirdPad",
+      "url": "https://api.github.com/repos/chrissotraidis/bearbirdpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
     {
       "name": "MeloNX",
       "url": "https://git.ryujinx.app/api/v1/repos/projects/MeloNX/releases",
