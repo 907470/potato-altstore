@@ -1,9 +1,24 @@
 {
-  "failed_count": 8,
+  "failed_count": 15,
   "failed_apps": [
     {
       "name": "SunPad",
       "url": "https://api.github.com/repos/chrissotraidis/sunpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "SpaghettiPad",
+      "url": "https://api.github.com/repos/chrissotraidis/spaghettipad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "CTRPad",
+      "url": "https://api.github.com/repos/chrissotraidis/ctrpad/releases",
+      "reason": "Request failed: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "BallPad",
+      "url": "https://api.github.com/repos/chrissotraidis/ballpad/releases",
       "reason": "No releases or empty payload returned from API."
     },
     {
@@ -17,14 +32,29 @@
       "reason": "No releases or empty payload returned from API."
     },
     {
+      "name": "PaperPad",
+      "url": "https://api.github.com/repos/chrissotraidis/paperpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
       "name": "MeleePad",
       "url": "https://api.github.com/repos/chrissotraidis/meleepad/releases",
       "reason": "Releases found, but none contained a valid .ipa file asset."
     },
     {
+      "name": "HarkinianPad",
+      "url": "https://api.github.com/repos/chrissotraidis/harkinianpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
       "name": "KartPad",
       "url": "https://api.github.com/repos/chrissotraidis/kartpad/releases",
-      "reason": "Releases found, but none contained a valid .ipa file asset."
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "BellPad",
+      "url": "https://api.github.com/repos/chrissotraidis/bellpad/releases",
+      "reason": "No releases or empty payload returned from API."
     },
     {
       "name": "BananaPad",
@@ -34,6 +64,11 @@
     {
       "name": "BearBirdPad",
       "url": "https://api.github.com/repos/chrissotraidis/bearbirdpad/releases",
+      "reason": "No releases or empty payload returned from API."
+    },
+    {
+      "name": "BrawlerPad",
+      "url": "https://api.github.com/repos/chrissotraidis/brawlerpad/releases",
       "reason": "No releases or empty payload returned from API."
     },
     {
