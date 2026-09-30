@@ -67,6 +67,75 @@
       ]
     },
     {
+      "name": "SunPad",
+      "bundleIdentifier": "com.chrissotraidis.sunpad",
+      "developerName": "Community / GitHub",
+      "subtitle": "SunPad - Stable Build",
+      "localizedDescription": "Stable releases for SunPad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+      "tintColor": "4A90E2",
+      "version": "0.2.0",
+      "versionDate": "2026-09-29",
+      "versionDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
+      "size": 12259719,
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
+          "size": 12259719,
+          "localizedDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n"
+        }
+      ]
+    },
+    {
+      "name": "MeleePad",
+      "bundleIdentifier": "com.chrissotraidis.meleepad",
+      "developerName": "Community / GitHub",
+      "subtitle": "MeleePad - Stable Build",
+      "localizedDescription": "Stable releases for MeleePad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+      "tintColor": "4A90E2",
+      "version": "0.2.0",
+      "versionDate": "2026-09-29",
+      "versionDescription": "[Stable] MeleePad 0.2.0 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploa",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
+      "size": 15739487,
+      "versions": [
+        {
+          "version": "0.2.0",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
+          "size": 15739487,
+          "localizedDescription": "[Stable] MeleePad 0.2.0 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploa"
+        }
+      ]
+    },
+    {
+      "name": "KartPad",
+      "bundleIdentifier": "com.chrissotraidis.kartpad",
+      "developerName": "Community / GitHub",
+      "subtitle": "KartPad - Stable Build",
+      "localizedDescription": "Stable releases for KartPad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+      "tintColor": "4A90E2",
+      "version": "0.6.0",
+      "versionDate": "2026-09-29",
+      "versionDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps:",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
+      "size": 8633023,
+      "versions": [
+        {
+          "version": "0.6.0",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
+          "size": 8633023,
+          "localizedDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps:"
+        }
+      ]
+    },
+    {
       "name": "Manic EMU",
       "bundleIdentifier": "com.manicemu.app",
       "developerName": "Community / GitHub",
@@ -181,12 +250,54 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.30",
-      "versionDate": "2026-09-29",
-      "versionDescription": "[Stable] Just some tweaks\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.30/gen1recomp%2B%2B-0.3.30-ios.ipa",
-      "size": 41376542,
+      "version": "0.3.36",
+      "versionDate": "2026-09-30",
+      "versionDescription": "[Stable] Em perf enhance 2\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.36/gen1recomp%2B%2B-0.3.36-ios.ipa",
+      "size": 44765924,
       "versions": [
+        {
+          "version": "0.3.36",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.36/gen1recomp%2B%2B-0.3.36-ios.ipa",
+          "size": 44765924,
+          "localizedDescription": "[Stable] Em perf enhance 2\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.35",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.35/gen1recomp%2B%2B-0.3.35-ios.ipa",
+          "size": 44773569,
+          "localizedDescription": "[Stable] Performance fix 1 for em\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.34",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.34/gen1recomp%2B%2B-0.3.34-ios.ipa",
+          "size": 44765185,
+          "localizedDescription": "[Stable] Maybe fix this maybe fix that idk blame goia\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.33",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.33/gen1recomp%2B%2B-0.3.33-ios.ipa",
+          "size": 44763900,
+          "localizedDescription": "[Stable] Just a couple gne 1 buggies.\n\n## Issues closed\n\n- #2548 PC layout issues\n- #2554 \"Use next Pokemon?\" options issue\n- #2557 Extra poison flash when healing in center\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.32",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.32/gen1recomp%2B%2B-0.3.32-ios.ipa",
+          "size": 44763689,
+          "localizedDescription": "[Stable] spooky season\n\n## Issues closed\n\n- #2524 Dialogue progresses automatically\n- #2540 Level up text displayed again after learning new move\n- #2541 X-item sound effect played when animations are off\n- #2542 Poison & Leech Seed deal combined damage\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.31",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.31/gen1recomp%2B%2B-0.3.31-ios.ipa",
+          "size": 41386677,
+          "localizedDescription": "[Stable] Goober nation rise up\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.30",
           "date": "2026-09-29",
@@ -354,48 +465,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.6/gen1recomp%2B%2B-0.3.6-ios.ipa",
           "size": 37936082,
           "localizedDescription": "[Stable] Try playing online in gen 3\n\n## Contributors\n\n- @bryanthaboi\n- @colsonrice"
-        },
-        {
-          "version": "0.3.5",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.5/gen1recomp%2B%2B-0.3.5-ios.ipa",
-          "size": 37730523,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.4",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.4/gen1recomp%2B%2B-0.3.4-ios.ipa",
-          "size": 37730446,
-          "localizedDescription": "[Stable] the world is a better place when we all just get along\n\n## Issues closed\n\n- #2425 Infinite Oran Berry Issue\n- #2428 Petal Dance animation not playing.\n- #2431 Using Outrage Move\n- #2432 Hm can't deleted by move deleter\n- #2433 Move max PP decreasing\n- #2435 Names of Pok\u00e9mon in trading menu not showi"
-        },
-        {
-          "version": "0.3.3",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.3/gen1recomp%2B%2B-0.3.3-ios.ipa",
-          "size": 37674471,
-          "localizedDescription": "[Stable] after this, it should be able to remember ur roms and import them automatically if needed\n\n## Issues closed\n\n- #2430 Town map for Sevii island showing kanto map\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.2",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.2/gen1recomp%2B%2B-0.3.2-ios.ipa",
-          "size": 37578962,
-          "localizedDescription": "[Stable] Anything is possible\n\n## Issues closed\n\n- #2408 aide requirement for everstone listed as 0 pokemon in dialog\n- #2411 Bill's transformation is too fast\n- #2413 Indigo Plateau guards refer to badges as numbers\n- #2414 Whatever this is\n- #2415 PC missing log on sound\n- #2416 Berry powder man is a liar\n"
-        },
-        {
-          "version": "0.3.1",
-          "date": "2026-09-22",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.1/gen1recomp%2B%2B-0.3.1-ios.ipa",
-          "size": 37528942,
-          "localizedDescription": "[Stable] we combined our powers and DOMINATED bugs plz wish list boya coya on steam\n\n## Issues closed\n\n- #1951 [Save editor] Move itens btw bag and PC directly by Save Editor\n- #2037 (Feature Request) Command Argument to update mods\n- #2177 Mod load order configuring in app\n- #2186 Add an option to implement"
-        },
-        {
-          "version": "0.3.0",
-          "date": "2026-09-22",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.0/gen1recomp%2B%2B-0.3.0-ios.ipa",
-          "size": 37504222,
-          "localizedDescription": "[Stable] bazinga [release 0.3.0]\n\n## Issues closed\n\n- #2299 Pokemon crystal: Thunder should not miss while raining\n- #2369 API Bug: mod.content.encounters:patch fails silently on Pok\u00e9mon Crystal\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n- @sergiomele97"
         }
       ]
     },
@@ -444,12 +513,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260928",
-      "versionDate": "2026-09-28",
+      "version": "nightly-20260929",
+      "versionDate": "2026-09-29",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260928/ARMSX2-nightly-20260928-75e095e82b-iOS-arm64.ipa",
-      "size": 30515249,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260929/ARMSX2-nightly-20260929-6d8ab02a1e-iOS-arm64.ipa",
+      "size": 30518128,
       "versions": [
+        {
+          "version": "nightly-20260929",
+          "date": "2026-09-29",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260929/ARMSX2-nightly-20260929-6d8ab02a1e-iOS-arm64.ipa",
+          "size": 30518128,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260928",
           "date": "2026-09-28",
@@ -490,13 +566,6 @@
           "date": "2026-09-23",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260923/ARMSX2-nightly-20260923-92aa2174da-iOS-arm64.ipa",
           "size": 30551630,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260922",
-          "date": "2026-09-22",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260922/ARMSX2-nightly-20260922-2ecae98a2c-iOS-arm64.ipa",
-          "size": 30518422,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
