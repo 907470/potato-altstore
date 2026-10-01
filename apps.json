@@ -76,7 +76,7 @@
       "tintColor": "4A90E2",
       "version": "0.2.0",
       "versionDate": "2026-09-29",
-      "versionDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n",
+      "versionDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n\n#",
       "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
       "size": 12259719,
       "versions": [
@@ -85,7 +85,7 @@
           "date": "2026-09-29",
           "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
           "size": 12259719,
-          "localizedDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n"
+          "localizedDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n\n#"
         }
       ]
     },
@@ -97,18 +97,25 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.0",
-      "versionDate": "2026-09-29",
-      "versionDescription": "[Stable] MeleePad 0.2.0 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploa",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
-      "size": 15739487,
+      "version": "0.2.1",
+      "versionDate": "2026-09-30",
+      "versionDescription": "[Stable] MeleePad 0.2.1 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploade",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.1/MeleePad-v0.2.1-ios-unsigned.ipa",
+      "size": 15739652,
       "versions": [
+        {
+          "version": "0.2.1",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.1/MeleePad-v0.2.1-ios-unsigned.ipa",
+          "size": 15739652,
+          "localizedDescription": "[Stable] MeleePad 0.2.1 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploade"
+        },
         {
           "version": "0.2.0",
           "date": "2026-09-29",
           "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.0/MeleePad-v0.2.0-ios-unsigned.ipa",
           "size": 15739487,
-          "localizedDescription": "[Stable] MeleePad 0.2.0 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploa"
+          "localizedDescription": "[Stable] MeleePad 0.2.0 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploade"
         }
       ]
     },
@@ -120,18 +127,53 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.6.0",
-      "versionDate": "2026-09-29",
-      "versionDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps:",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
-      "size": 8633023,
+      "version": "0.7.3",
+      "versionDate": "2026-09-30",
+      "versionDescription": "[Stable] KartPad 0.7.3 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint) from your own Mario Kart Wii disc. Nothing from your disc is upl",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.3/KartPad-v0.7.3-ios-unsigned.ipa",
+      "size": 8633284,
       "versions": [
+        {
+          "version": "0.7.3",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.3/KartPad-v0.7.3-ios-unsigned.ipa",
+          "size": 8633284,
+          "localizedDescription": "[Stable] KartPad 0.7.3 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint) from your own Mario Kart Wii disc. Nothing from your disc is upl"
+        },
+        {
+          "version": "0.7.2",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.2/KartPad-v0.7.2-ios-unsigned.ipa",
+          "size": 8633285,
+          "localizedDescription": "[Stable] KartPad 0.7.2 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint), on your own Windows, Mac or Linux computer, from your own Mario"
+        },
+        {
+          "version": "0.7.1",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.1/KartPad-v0.7.1-ios-unsigned.ipa",
+          "size": 8632959,
+          "localizedDescription": "[Stable] **Superseded by [KartPad 0.7.2](https://github.com/chrissotraidis/kartpad/releases/tag/v0.7.2)**, which keeps your game pack and adds the fixes promised in September.\n\nKartPad 0.7.1 for Android and iPhone/iPad. **Your game pack from 0.7.0 keeps working**, so this is the first update that needs no ne"
+        },
+        {
+          "version": "0.7.0",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.0/KartPad-v0.7.0-ios-unsigned.ipa",
+          "size": 8632972,
+          "localizedDescription": "[Stable] **Superseded by [KartPad 0.7.1](https://github.com/chrissotraidis/kartpad/releases/tag/v0.7.1)**, which keeps your 0.7.0 game pack. PadForge is now called [PadMint](https://github.com/chrissotraidis/padmint).\n\nKartPad 0.7.0 for Android and iPhone/iPad. **This is the last update that needs a new game"
+        },
+        {
+          "version": "0.6.1",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.1/KartPad-v0.6.1-ios-unsigned.ipa",
+          "size": 8633028,
+          "localizedDescription": "[Stable] **Superseded by [KartPad 0.7.0](https://github.com/chrissotraidis/kartpad/releases/tag/v0.7.0)**, which keeps your game pack working across future updates.\n\nKartPad 0.6.1 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadMint](https://github.c"
+        },
         {
           "version": "0.6.0",
           "date": "2026-09-29",
           "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
           "size": 8633023,
-          "localizedDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadForge](https://github.com/chrissotraidis/padforge), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps:"
+          "localizedDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: *"
         }
       ]
     },
@@ -250,12 +292,40 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.36",
+      "version": "0.3.40",
       "versionDate": "2026-09-30",
-      "versionDescription": "[Stable] Em perf enhance 2\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.36/gen1recomp%2B%2B-0.3.36-ios.ipa",
-      "size": 44765924,
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.40/gen1recomp%2B%2B-0.3.40-ios.ipa",
+      "size": 44816287,
       "versions": [
+        {
+          "version": "0.3.40",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.40/gen1recomp%2B%2B-0.3.40-ios.ipa",
+          "size": 44816287,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.39",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.39/gen1recomp%2B%2B-0.3.39-ios.ipa",
+          "size": 44822669,
+          "localizedDescription": "[Stable] Good handful of buggies have been squashed. \n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.38",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.38/gen1recomp%2B%2B-0.3.38-ios.ipa",
+          "size": 44812985,
+          "localizedDescription": "[Stable] Lots of bug fixes and further performance enhancing drugs for Gen 3 \n\n## Issues closed\n\n- #2564 Able to bike in doors\n- #2570 [Emerald] Oldale's Pokemon Center incomplete text\n- #2572 Unable to return speed to normal (Emerald)\n- #2573 Graphical Glitch with Textboxes (Emerald)\n- #2577 battle.low_heal"
+        },
+        {
+          "version": "0.3.37",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.37/gen1recomp%2B%2B-0.3.37-ios.ipa",
+          "size": 44766547,
+          "localizedDescription": "[Stable] Em perf 3\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.36",
           "date": "2026-09-30",
@@ -437,34 +507,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.10/gen1recomp%2B%2B-0.3.10-ios.ipa",
           "size": 37969396,
           "localizedDescription": "[Stable] another little baby mystery gift clean up for modern day lifestyles and cool people type hobbyists\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.9",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.9/gen1recomp%2B%2B-0.3.9-ios.ipa",
-          "size": 37968553,
-          "localizedDescription": "[Stable] little clean up for mystery gifts\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.8",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.8/gen1recomp%2B%2B-0.3.8-ios.ipa",
-          "size": 37969773,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.7",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.7/gen1recomp%2B%2B-0.3.7-ios.ipa",
-          "size": 37970343,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2441 some safari zone tiles not solid\n- #2444 Importing saves not working\n- #2445 Fire Red: premier ball is a pokeball\n- #2448 Sevii Island quest - seagallop transition softlock\n- #2450 Pokemons trying to learn a new move in the"
-        },
-        {
-          "version": "0.3.6",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.6/gen1recomp%2B%2B-0.3.6-ios.ipa",
-          "size": 37936082,
-          "localizedDescription": "[Stable] Try playing online in gen 3\n\n## Contributors\n\n- @bryanthaboi\n- @colsonrice"
         }
       ]
     },
@@ -513,12 +555,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260929",
-      "versionDate": "2026-09-29",
+      "version": "nightly-20260930",
+      "versionDate": "2026-09-30",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260929/ARMSX2-nightly-20260929-6d8ab02a1e-iOS-arm64.ipa",
-      "size": 30518128,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260930/ARMSX2-nightly-20260930-1959bcfdab-iOS-arm64.ipa",
+      "size": 30547056,
       "versions": [
+        {
+          "version": "nightly-20260930",
+          "date": "2026-09-30",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260930/ARMSX2-nightly-20260930-1959bcfdab-iOS-arm64.ipa",
+          "size": 30547056,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260929",
           "date": "2026-09-29",
@@ -559,13 +608,6 @@
           "date": "2026-09-24",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260924/ARMSX2-nightly-20260924-19c83bf065-iOS-arm64.ipa",
           "size": 30558226,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260923",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260923/ARMSX2-nightly-20260923-92aa2174da-iOS-arm64.ipa",
-          "size": 30551630,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
