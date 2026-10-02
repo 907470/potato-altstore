@@ -292,12 +292,40 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.40",
-      "versionDate": "2026-09-30",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.40/gen1recomp%2B%2B-0.3.40-ios.ipa",
-      "size": 44816287,
+      "version": "0.3.44",
+      "versionDate": "2026-10-02",
+      "versionDescription": "[Stable] + save editor enhanced\n\n## Issues closed\n\n- #2604 Ghosts spawn after you complete a contest\n- #2605 Can't select GBA rom for gen3\n- #2607 Small Snorlax sprite issue\n- #2608 Post-battle Snorlax text when running\n- #2610 Sealed chamber hole can't be opened with dig\n- #2611 Ball animation & sound out o",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.44/gen1recomp%2B%2B-0.3.44-ios.ipa",
+      "size": 44977295,
       "versions": [
+        {
+          "version": "0.3.44",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.44/gen1recomp%2B%2B-0.3.44-ios.ipa",
+          "size": 44977295,
+          "localizedDescription": "[Stable] + save editor enhanced\n\n## Issues closed\n\n- #2604 Ghosts spawn after you complete a contest\n- #2605 Can't select GBA rom for gen3\n- #2607 Small Snorlax sprite issue\n- #2608 Post-battle Snorlax text when running\n- #2610 Sealed chamber hole can't be opened with dig\n- #2611 Ball animation & sound out o"
+        },
+        {
+          "version": "0.3.43",
+          "date": "2026-10-01",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.43/gen1recomp%2B%2B-0.3.43-ios.ipa",
+          "size": 44933101,
+          "localizedDescription": "[Stable] Hopefully perfecting save import / export for good.\n\n## Issues closed\n\n- #2603 Pokemon ability don't change when evolves\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.42",
+          "date": "2026-10-01",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.42/gen1recomp%2B%2B-0.3.42-ios.ipa",
+          "size": 44824883,
+          "localizedDescription": "[Stable] Gen 3 should be even more performant after this.\n\n## Issues closed\n\n- #2498 Method mod.world:spawnNpc does not provide NPC an ID\n- #2601 [Gen 3 / 0.3.39] Sweet Scent finishes its field animation without starting an encounter\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.41",
+          "date": "2026-10-01",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.41/gen1recomp%2B%2B-0.3.41-ios.ipa",
+          "size": 44821840,
+          "localizedDescription": "[Stable] inching closer to gen 1 perfection OH! so close. \n\n## Issues closed\n\n- #2555 Wrong jingle for receiving rods\n- #2558 Captain not turning during dialogue\n- #2560 Small S.S. Anne departure inaccuracies\n- #2561 Clip into trees at the start\n- #2562 Pokeballs all black in Rock Tunnel when not using Flash"
+        },
         {
           "version": "0.3.40",
           "date": "2026-09-30",
@@ -479,34 +507,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.14/gen1recomp%2B%2B-0.3.14-ios.ipa",
           "size": 37794320,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.13",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.13/gen1recomp%2B%2B-0.3.13-ios.ipa",
-          "size": 37781583,
-          "localizedDescription": "[Stable] another online fix maybe for gen 3\\\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.12",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.12/gen1recomp%2B%2B-0.3.12-ios.ipa",
-          "size": 37781319,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.11",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.11/gen1recomp%2B%2B-0.3.11-ios.ipa",
-          "size": 37968880,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi"
-        },
-        {
-          "version": "0.3.10",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.10/gen1recomp%2B%2B-0.3.10-ios.ipa",
-          "size": 37969396,
-          "localizedDescription": "[Stable] another little baby mystery gift clean up for modern day lifestyles and cool people type hobbyists\n\n## Contributors\n\n- @bryanthaboi"
         }
       ]
     },
