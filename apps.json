@@ -127,12 +127,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.7.3",
-      "versionDate": "2026-09-30",
-      "versionDescription": "[Stable] KartPad 0.7.3 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint) from your own Mario Kart Wii disc. Nothing from your disc is upl",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.3/KartPad-v0.7.3-ios-unsigned.ipa",
-      "size": 8633284,
+      "version": "0.7.4",
+      "versionDate": "2026-10-03",
+      "versionDescription": "[Stable] KartPad 0.7.4 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint) from your own Mario Kart Wii disc. Nothing from your disc is upl",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.4/KartPad-v0.7.4-ios-unsigned.ipa",
+      "size": 8635033,
       "versions": [
+        {
+          "version": "0.7.4",
+          "date": "2026-10-03",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.4/KartPad-v0.7.4-ios-unsigned.ipa",
+          "size": 8635033,
+          "localizedDescription": "[Stable] KartPad 0.7.4 for Android and iPhone/iPad. **Your game pack keeps working**: this update needs no new pack.\n\nThe apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint) from your own Mario Kart Wii disc. Nothing from your disc is upl"
+        },
         {
           "version": "0.7.3",
           "date": "2026-09-30",
@@ -292,12 +299,54 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.44",
-      "versionDate": "2026-10-02",
-      "versionDescription": "[Stable] + save editor enhanced\n\n## Issues closed\n\n- #2604 Ghosts spawn after you complete a contest\n- #2605 Can't select GBA rom for gen3\n- #2607 Small Snorlax sprite issue\n- #2608 Post-battle Snorlax text when running\n- #2610 Sealed chamber hole can't be opened with dig\n- #2611 Ball animation & sound out o",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.44/gen1recomp%2B%2B-0.3.44-ios.ipa",
-      "size": 44977295,
+      "version": "0.3.50",
+      "versionDate": "2026-10-03",
+      "versionDescription": "[Stable] Also save editor should now hopefully see custom maps. (Gen 3 custom maps)\n\n## Issues closed\n\n- #2632 Guy has wrong dialogue after getting Earth Badge\n- #2634 Blank lines missing in NPCs dialogue\n- #2637 Gen 3 Bike breaks doors and Rename Screen is wrong.\n- #2638 Battle tent issue\n\n## Contributors\n\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.50/gen1recomp%2B%2B-0.3.50-ios.ipa",
+      "size": 45950599,
       "versions": [
+        {
+          "version": "0.3.50",
+          "date": "2026-10-03",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.50/gen1recomp%2B%2B-0.3.50-ios.ipa",
+          "size": 45950599,
+          "localizedDescription": "[Stable] Also save editor should now hopefully see custom maps. (Gen 3 custom maps)\n\n## Issues closed\n\n- #2632 Guy has wrong dialogue after getting Earth Badge\n- #2634 Blank lines missing in NPCs dialogue\n- #2637 Gen 3 Bike breaks doors and Rename Screen is wrong.\n- #2638 Battle tent issue\n\n## Contributors\n\n"
+        },
+        {
+          "version": "0.3.49",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.49/gen1recomp%2B%2B-0.3.49-ios.ipa",
+          "size": 45948378,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n- @Code-Grub\n"
+        },
+        {
+          "version": "0.3.48",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.48/gen1recomp%2B%2B-0.3.48-ios.ipa",
+          "size": 45941961,
+          "localizedDescription": "[Stable] bugs\n\n## Issues closed\n\n- #2578 MENU SPEED doesn't apply to menus opened from the overworld or battle\n- #2588 bug: Filter mods by game doesn\u2019t filter.\n- #2617 Softlock under the bikers bridge\n- #2623 Goldenrod City music playing at Goldenrod Radio Tower instead of Team Rocket Takeover music\n- #2626 "
+        },
+        {
+          "version": "0.3.47",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.47/gen1recomp%2B%2B-0.3.47-ios.ipa",
+          "size": 45941144,
+          "localizedDescription": "[Stable] windows fix and spooky nation. try this version if ur on windows and u have the stuck restart to update and maybe the NEXT version after this will work correctly.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.46",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.46/gen1recomp%2B%2B-0.3.46-ios.ipa",
+          "size": 45004681,
+          "localizedDescription": "[Stable] some bug fixes and major gen 3 performance enhancement\n\n## Issues closed\n\n- #2618 Trainer ID generation is broken\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.45",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.45/gen1recomp%2B%2B-0.3.45-ios.ipa",
+          "size": 44989096,
+          "localizedDescription": "[Stable] Save editor enhancements part two\n\n## Issues closed\n\n- #2619 Problems with save editor\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.44",
           "date": "2026-10-02",
@@ -465,48 +514,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.20/gen1recomp%2B%2B-0.3.20-ios.ipa",
           "size": 38583490,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2479 Textbox not closing automatically after picking up item\n- #2481 Pokemon cry issues during intro\n- #2483 Can't leave Safari Zone immediately\n- #2485 Moving up and down should adjust the radio frequency by 0.5 Hz, rather than"
-        },
-        {
-          "version": "0.3.19",
-          "date": "2026-09-26",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.19/gen1recomp%2B%2B-0.3.19-ios.ipa",
-          "size": 38583540,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.18",
-          "date": "2026-09-25",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.18/gen1recomp%2B%2B-0.3.18-ios.ipa",
-          "size": 38580776,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.17",
-          "date": "2026-09-25",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.17/gen1recomp%2B%2B-0.3.17-ios.ipa",
-          "size": 38569796,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2477 Freezing game after picking up items on one island\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.16",
-          "date": "2026-09-25",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.16/gen1recomp%2B%2B-0.3.16-ios.ipa",
-          "size": 38565957,
-          "localizedDescription": "[Stable] subtle fix and option to disable or mute splash\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.15",
-          "date": "2026-09-25",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.15/gen1recomp%2B%2B-0.3.15-ios.ipa",
-          "size": 38575791,
-          "localizedDescription": "[Stable] This one's for the bois\n\n## Issues closed\n\n- #2347 Pikachu's Flash interaction in Rock Tunnel is missing\n- #2384 Two small issues with the mart menu\n- #2456 Six island disappear\n- #2460 Youngster Dave hiding behind pokemart\n- #2461 Firered save import shows 0 caught, fine in game\n- #2468 Save files "
-        },
-        {
-          "version": "0.3.14",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.14/gen1recomp%2B%2B-0.3.14-ios.ipa",
-          "size": 37794320,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
@@ -518,12 +525,19 @@
       "localizedDescription": "Stable releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "4A90E2",
-      "version": "iOSv2.5.2",
-      "versionDate": "2026-08-06",
-      "versionDescription": "[Stable] **Frame rate cap**\r\n\r\n@Henyckma added an FPS cap that limits presentation only. The game and the audio keep running at full speed, so it costs nothing in emulation and gives back battery and heat instead. Targets are 15, 23.976, 29.94, 30, 45, 59.97, 60, 90 and 120, set globally or per game. The gai",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.2/ARMSX2-iOS-2.5.2.ipa",
-      "size": 26425138,
+      "version": "iOSv2.6.0",
+      "versionDate": "2026-10-02",
+      "versionDescription": "[Stable] This one is big. The whole app works with a controller now, and save states were rebuilt around auto-save and Undo. Shaders and texture packs are new on iOS. Everything below is compared with 2.5.2.\r\n\r\niOS 17.4 or newer is required now.\r\n\r\n## New\r\n\r\n**Controller support across the whole app** (@heny",
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.0/ARMSX2-iOS-2.6.0.ipa",
+      "size": 39142850,
       "versions": [
+        {
+          "version": "iOSv2.6.0",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.0/ARMSX2-iOS-2.6.0.ipa",
+          "size": 39142850,
+          "localizedDescription": "[Stable] This one is big. The whole app works with a controller now, and save states were rebuilt around auto-save and Undo. Shaders and texture packs are new on iOS. Everything below is compared with 2.5.2.\r\n\r\niOS 17.4 or newer is required now.\r\n\r\n## New\r\n\r\n**Controller support across the whole app** (@heny"
+        },
         {
           "version": "iOSv2.5.2",
           "date": "2026-08-06",
@@ -555,12 +569,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20260930",
-      "versionDate": "2026-09-30",
+      "version": "nightly-20261002",
+      "versionDate": "2026-10-02",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260930/ARMSX2-nightly-20260930-1959bcfdab-iOS-arm64.ipa",
-      "size": 30547056,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261002/ARMSX2-nightly-20261002-e23b6a5579-iOS-arm64.ipa",
+      "size": 38987191,
       "versions": [
+        {
+          "version": "nightly-20261002",
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261002/ARMSX2-nightly-20261002-e23b6a5579-iOS-arm64.ipa",
+          "size": 38987191,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20260930",
           "date": "2026-09-30",
@@ -601,13 +622,6 @@
           "date": "2026-09-25",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260925/ARMSX2-nightly-20260925-59e2b17ed0-iOS-arm64.ipa",
           "size": 30556571,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260924",
-          "date": "2026-09-24",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260924/ARMSX2-nightly-20260924-19c83bf065-iOS-arm64.ipa",
-          "size": 30558226,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
