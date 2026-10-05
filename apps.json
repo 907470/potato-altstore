@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.0",
-      "versionDate": "2026-09-29",
-      "versionDescription": "[Stable] SunPad 0.2.0 for iPhone and iPad: Super Mario Sunshine, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploaded.\n\n#",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.0/SunPad-v0.2.0-ios-unsigned.ipa",
-      "size": 12259719,
+      "version": "0.2.1",
+      "versionDate": "2026-10-04",
+      "versionDescription": "[Stable] SunPad 0.2.1 for iPhone and iPad. The app below contains no game code: PadMint adds the game, made on your Apple Silicon Mac from your own Super Mario Sunshine (GMSE01) disc, and saves your SunPad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. SunPad 0.2.0 was built with Xcode 27 but still used",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.1/SunPad-v0.2.1-ios-unsigned.ipa",
+      "size": 12264704,
       "versions": [
+        {
+          "version": "0.2.1",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.1/SunPad-v0.2.1-ios-unsigned.ipa",
+          "size": 12264704,
+          "localizedDescription": "[Stable] SunPad 0.2.1 for iPhone and iPad. The app below contains no game code: PadMint adds the game, made on your Apple Silicon Mac from your own Super Mario Sunshine (GMSE01) disc, and saves your SunPad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. SunPad 0.2.0 was built with Xcode 27 but still used"
+        },
         {
           "version": "0.2.0",
           "date": "2026-09-29",
@@ -97,12 +104,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.1",
-      "versionDate": "2026-09-30",
-      "versionDescription": "[Stable] MeleePad 0.2.1 for iPhone and iPad: Super Smash Bros. Melee, running natively. The app below contains no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own disc. Nothing from your disc is uploade",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.1/MeleePad-v0.2.1-ios-unsigned.ipa",
-      "size": 15739652,
+      "version": "0.2.2",
+      "versionDate": "2026-10-04",
+      "versionDescription": "[Stable] MeleePad 0.2.2 for iPhone and iPad. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. Apps built with Xcode 27 have to sta",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.2/MeleePad-v0.2.2-ios-unsigned.ipa",
+      "size": 15741134,
       "versions": [
+        {
+          "version": "0.2.2",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.2/MeleePad-v0.2.2-ios-unsigned.ipa",
+          "size": 15741134,
+          "localizedDescription": "[Stable] MeleePad 0.2.2 for iPhone and iPad. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. Apps built with Xcode 27 have to sta"
+        },
         {
           "version": "0.2.1",
           "date": "2026-09-30",
@@ -127,12 +141,33 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.7.9",
-      "versionDate": "2026-10-03",
-      "versionDescription": "[Stable] KartPad 0.7.9 brings back **ready-to-play downloads**. PadMint is still in beta and has been hard for many of you, especially on Android, so you no longer need it: download, install, and add your own game data the first time you open KartPad.\n\n| You want KartPad on | Download |\n|---|---|\n| **Android",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.9/KartPad-v0.7.9-ios-for-padmint.ipa",
-      "size": 8633896,
+      "version": "0.7.12",
+      "versionDate": "2026-10-05",
+      "versionDescription": "[Stable] KartPad 0.7.12 helps track down the Android graphics problems where characters go missing, turn white or look washed out. Like 0.7.11, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\n| You want KartPad on | Download |\n|---|---|\n| **Android** | ",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.12/KartPad-v0.7.12-ios-for-padmint.ipa",
+      "size": 8639373,
       "versions": [
+        {
+          "version": "0.7.12",
+          "date": "2026-10-05",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.12/KartPad-v0.7.12-ios-for-padmint.ipa",
+          "size": 8639373,
+          "localizedDescription": "[Stable] KartPad 0.7.12 helps track down the Android graphics problems where characters go missing, turn white or look washed out. Like 0.7.11, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\n| You want KartPad on | Download |\n|---|---|\n| **Android** | "
+        },
+        {
+          "version": "0.7.11",
+          "date": "2026-10-05",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.11/KartPad-v0.7.11-ios-for-padmint.ipa",
+          "size": 8639374,
+          "localizedDescription": "[Stable] KartPad 0.7.11 makes first-time setup clearer. Like 0.7.10, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\n| You want KartPad on | Download |\n|---|---|\n| **Android** | `KartPad-v0.7.11-android.apk` |\n| **iPhone and iPad** | `KartPad-v0.7.11-io"
+        },
+        {
+          "version": "0.7.10",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.10/KartPad-v0.7.10-ios-for-padmint.ipa",
+          "size": 8638798,
+          "localizedDescription": "[Stable] KartPad 0.7.10 fixes the biggest problems reported since 0.7.9. Like 0.7.9, the downloads are ready to play: install, then add your own game data the first time you open KartPad.\n\n| You want KartPad on | Download |\n|---|---|\n| **Android** | `KartPad-v0.7.10-android.apk` |\n| **iPhone and iPad** | `Ka"
+        },
         {
           "version": "0.7.9",
           "date": "2026-10-03",
@@ -564,13 +599,13 @@
       "versionDate": "2026-10-02",
       "versionDescription": "[Stable] This one is big. The whole app works with a controller now, and save states were rebuilt around auto-save and Undo. Shaders and texture packs are new on iOS. Everything below is compared with 2.5.2.\r\n\r\niOS 17.4 or newer is required now.\r\n\r\n## New\r\n\r\n**Controller support across the whole app** (@heny",
       "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.0/ARMSX2-iOS-2.6.0.ipa",
-      "size": 39142850,
+      "size": 39142823,
       "versions": [
         {
           "version": "iOSv2.6.0",
           "date": "2026-10-02",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.0/ARMSX2-iOS-2.6.0.ipa",
-          "size": 39142850,
+          "size": 39142823,
           "localizedDescription": "[Stable] This one is big. The whole app works with a controller now, and save states were rebuilt around auto-save and Undo. Shaders and texture packs are new on iOS. Everything below is compared with 2.5.2.\r\n\r\niOS 17.4 or newer is required now.\r\n\r\n## New\r\n\r\n**Controller support across the whole app** (@heny"
         },
         {
@@ -586,13 +621,6 @@
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.1/ARMSX2-iOS-2.5.1.ipa",
           "size": 26327755,
           "localizedDescription": "[Stable] 2.5.1 is mostly a fixes release.\r\n\r\nThe two biggest issues were A12 devices crashing on launch and rumble being completely broken since 2.4.1. Both are fixed, along with a proper no-JIT fallback, several performance improvements, and a collection of Virtual Pad and interface fixes.\r\n\r\n## Highlights\r"
-        },
-        {
-          "version": "iOSv2.5.0",
-          "date": "2026-07-30",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.0/ARMSX2-iOS-2.5.0.ipa",
-          "size": 25630097,
-          "localizedDescription": "[Stable] ARMSX2 2.5.0 is a major update to the emulator core and the iOS frontend.\r\n\r\nThe biggest core change is a new shared ARM64 recompiler, replacing the older iOS-specific EE, IOP and VU recompilers. It brings iOS in line with the ARM handheld builds, reduces CPU overhead in several parts of emulation, "
         }
       ]
     },
@@ -604,12 +632,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261003",
-      "versionDate": "2026-10-03",
+      "version": "nightly-20261004",
+      "versionDate": "2026-10-04",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261003/ARMSX2-nightly-20261003-9d989ca933-iOS-arm64.ipa",
-      "size": 38988244,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261004/ARMSX2-nightly-20261004-d383b36369-iOS-arm64.ipa",
+      "size": 39037501,
       "versions": [
+        {
+          "version": "nightly-20261004",
+          "date": "2026-10-04",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261004/ARMSX2-nightly-20261004-d383b36369-iOS-arm64.ipa",
+          "size": 39037501,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261003",
           "date": "2026-10-03",
@@ -650,13 +685,6 @@
           "date": "2026-09-27",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260927/ARMSX2-nightly-20260927-e2f7d015cb-iOS-arm64.ipa",
           "size": 30562808,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260926",
-          "date": "2026-09-26",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260926/ARMSX2-nightly-20260926-247fa6f094-iOS-arm64.ipa",
-          "size": 30555113,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
