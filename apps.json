@@ -383,12 +383,40 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.54",
-      "versionDate": "2026-10-06",
-      "versionDescription": "[Stable] ID Sync\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.54/gen1recomp%2B%2B-0.3.54-ios.ipa",
-      "size": 50919741,
+      "version": "0.3.58",
+      "versionDate": "2026-10-07",
+      "versionDescription": "[Stable] Clean up, bugs, and contributor work\n\n## Issues closed\n\n- #2484 Option to duplicate (back up) save files directly via the launcher\n- #2600 Speed Down keyboard hotkey?\n- #2694 Bugs when changing speed in portmaster build, which weren't present in 0.3.19\n- #2708 Naming a pokemon in starter and capture",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.58/gen1recomp%2B%2B-0.3.58-ios.ipa",
+      "size": 52972673,
       "versions": [
+        {
+          "version": "0.3.58",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.58/gen1recomp%2B%2B-0.3.58-ios.ipa",
+          "size": 52972673,
+          "localizedDescription": "[Stable] Clean up, bugs, and contributor work\n\n## Issues closed\n\n- #2484 Option to duplicate (back up) save files directly via the launcher\n- #2600 Speed Down keyboard hotkey?\n- #2694 Bugs when changing speed in portmaster build, which weren't present in 0.3.19\n- #2708 Naming a pokemon in starter and capture"
+        },
+        {
+          "version": "0.3.57",
+          "date": "2026-10-06",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.57/gen1recomp%2B%2B-0.3.57-ios.ipa",
+          "size": 52956167,
+          "localizedDescription": "[Stable] \u2026sence\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.56",
+          "date": "2026-10-06",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.56/gen1recomp%2B%2B-0.3.56-ios.ipa",
+          "size": 52942319,
+          "localizedDescription": "[Stable] \u2026 CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CLOSES #2710, CLOSES #2711, CLOSES #2712, CLOSES #2714\r\n\r\nCLOSES #2693, CLOSES #2697, CLOSES #2698, CLOSES #2699, CLOSES #2701, CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CL"
+        },
+        {
+          "version": "0.3.55",
+          "date": "2026-10-06",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.55/gen1recomp%2B%2B-0.3.55-ios.ipa",
+          "size": 52935624,
+          "localizedDescription": "[Stable] ID Sync fix and new feature - BOX!\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n"
+        },
         {
           "version": "0.3.54",
           "date": "2026-10-06",
@@ -570,34 +598,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.29/gen1recomp%2B%2B-0.3.29-ios.ipa",
           "size": 41342753,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2515 Moving through trees during cut animation\n- #2516 Wrong message when trying to use rod\n- #2518 Unique items have their quantity displayed\n- #2519 Cannot trade farfetched from gen 1 to gen 2\n- #2521 A couple of bugs when usi"
-        },
-        {
-          "version": "0.3.28",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.28/gen1recomp%2B%2B-0.3.28-ios.ipa",
-          "size": 41347001,
-          "localizedDescription": "[Stable] performance updates\n"
-        },
-        {
-          "version": "0.3.27",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.27/gen1recomp%2B%2B-0.3.27-ios.ipa",
-          "size": 41347000,
-          "localizedDescription": "[Stable] performance updates\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.26",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.26/gen1recomp%2B%2B-0.3.26-ios.ipa",
-          "size": 41333830,
-          "localizedDescription": "[Stable] another quick update\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.25",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.25/gen1recomp%2B%2B-0.3.25-ios.ipa",
-          "size": 40671628,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
@@ -646,12 +646,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261005",
-      "versionDate": "2026-10-05",
+      "version": "nightly-20261006",
+      "versionDate": "2026-10-06",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261005/ARMSX2-nightly-20261005-8f6da1639f-iOS-arm64.ipa",
-      "size": 39043867,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261006/ARMSX2-nightly-20261006-46c06fe7ca-iOS-arm64.ipa",
+      "size": 39474199,
       "versions": [
+        {
+          "version": "nightly-20261006",
+          "date": "2026-10-06",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261006/ARMSX2-nightly-20261006-46c06fe7ca-iOS-arm64.ipa",
+          "size": 39474199,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261005",
           "date": "2026-10-05",
@@ -692,13 +699,6 @@
           "date": "2026-09-29",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260929/ARMSX2-nightly-20260929-6d8ab02a1e-iOS-arm64.ipa",
           "size": 30518128,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260928",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260928/ARMSX2-nightly-20260928-75e095e82b-iOS-arm64.ipa",
-          "size": 30515249,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
