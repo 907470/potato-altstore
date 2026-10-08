@@ -383,12 +383,47 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.58",
-      "versionDate": "2026-10-07",
-      "versionDescription": "[Stable] Clean up, bugs, and contributor work\n\n## Issues closed\n\n- #2484 Option to duplicate (back up) save files directly via the launcher\n- #2600 Speed Down keyboard hotkey?\n- #2694 Bugs when changing speed in portmaster build, which weren't present in 0.3.19\n- #2708 Naming a pokemon in starter and capture",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.58/gen1recomp%2B%2B-0.3.58-ios.ipa",
-      "size": 52972673,
+      "version": "0.3.63",
+      "versionDate": "2026-10-08",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2732 Audio sync issue on Android for Gen 2\n- #2746 Sootopolis City camera oddities during unique events\n- #2748 Aqua team member Matt invisble\n- #2752 [Save Editor] Edit Volcanic Ash currency in R/S/E\n- #2756 Firered start menu ",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.63/gen1recomp%2B%2B-0.3.63-ios.ipa",
+      "size": 56248514,
       "versions": [
+        {
+          "version": "0.3.63",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.63/gen1recomp%2B%2B-0.3.63-ios.ipa",
+          "size": 56248514,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2732 Audio sync issue on Android for Gen 2\n- #2746 Sootopolis City camera oddities during unique events\n- #2748 Aqua team member Matt invisble\n- #2752 [Save Editor] Edit Volcanic Ash currency in R/S/E\n- #2756 Firered start menu "
+        },
+        {
+          "version": "0.3.62",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.62/gen1recomp%2B%2B-0.3.62-ios.ipa",
+          "size": 56231585,
+          "localizedDescription": "[Stable] blah bla blah ps4\n\n## Issues closed\n\n- #2742 Android: External music causes game audio to freeze after audio focus changes\n\n## Contributors\n\n- @bryanthaboi\n- @tomasmorello\n- Autoresearch\n"
+        },
+        {
+          "version": "0.3.61",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.61/gen1recomp%2B%2B-0.3.61-ios.ipa",
+          "size": 53198152,
+          "localizedDescription": "[Stable] union for me, union for you, union for everyone on earth!\n\n## Contributors\n\n- @bryanthaboi\n- @HimioneGranger\n- @thibautbus\n"
+        },
+        {
+          "version": "0.3.60",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.60/gen1recomp%2B%2B-0.3.60-ios.ipa",
+          "size": 52995898,
+          "localizedDescription": "[Stable] small bug fix update\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.59",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.59/gen1recomp%2B%2B-0.3.59-ios.ipa",
+          "size": 52985361,
+          "localizedDescription": "[Stable] + BOX enhancements \ud83e\udd85 _(that's a bird emoji because it has something to do w migration mods)_\n\n## Issues closed\n\n- #2726 [Save editor] Edit Unown's form\n- #2727 berry in bag is broken so is ui\n- #2729 quick attack and box is messed up on the battle menu\n- #2730 Petalburg Woods encounter animation som"
+        },
         {
           "version": "0.3.58",
           "date": "2026-10-07",
@@ -563,41 +598,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.34/gen1recomp%2B%2B-0.3.34-ios.ipa",
           "size": 44765185,
           "localizedDescription": "[Stable] Maybe fix this maybe fix that idk blame goia\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.33",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.33/gen1recomp%2B%2B-0.3.33-ios.ipa",
-          "size": 44763900,
-          "localizedDescription": "[Stable] Just a couple gne 1 buggies.\n\n## Issues closed\n\n- #2548 PC layout issues\n- #2554 \"Use next Pokemon?\" options issue\n- #2557 Extra poison flash when healing in center\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.32",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.32/gen1recomp%2B%2B-0.3.32-ios.ipa",
-          "size": 44763689,
-          "localizedDescription": "[Stable] spooky season\n\n## Issues closed\n\n- #2524 Dialogue progresses automatically\n- #2540 Level up text displayed again after learning new move\n- #2541 X-item sound effect played when animations are off\n- #2542 Poison & Leech Seed deal combined damage\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.31",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.31/gen1recomp%2B%2B-0.3.31-ios.ipa",
-          "size": 41386677,
-          "localizedDescription": "[Stable] Goober nation rise up\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.30",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.30/gen1recomp%2B%2B-0.3.30-ios.ipa",
-          "size": 41376542,
-          "localizedDescription": "[Stable] Just some tweaks\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.29",
-          "date": "2026-09-28",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.29/gen1recomp%2B%2B-0.3.29-ios.ipa",
-          "size": 41342753,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2515 Moving through trees during cut animation\n- #2516 Wrong message when trying to use rod\n- #2518 Unique items have their quantity displayed\n- #2519 Cannot trade farfetched from gen 1 to gen 2\n- #2521 A couple of bugs when usi"
         }
       ]
     },
@@ -646,12 +646,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261006",
-      "versionDate": "2026-10-06",
+      "version": "nightly-20261007",
+      "versionDate": "2026-10-07",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261006/ARMSX2-nightly-20261006-46c06fe7ca-iOS-arm64.ipa",
-      "size": 39474199,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261007/ARMSX2-nightly-20261007-e194ae09e6-iOS-arm64.ipa",
+      "size": 39480032,
       "versions": [
+        {
+          "version": "nightly-20261007",
+          "date": "2026-10-07",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261007/ARMSX2-nightly-20261007-e194ae09e6-iOS-arm64.ipa",
+          "size": 39480032,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261006",
           "date": "2026-10-06",
@@ -692,13 +699,6 @@
           "date": "2026-09-30",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260930/ARMSX2-nightly-20260930-1959bcfdab-iOS-arm64.ipa",
           "size": 30547056,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260929",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260929/ARMSX2-nightly-20260929-6d8ab02a1e-iOS-arm64.ipa",
-          "size": 30518128,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
