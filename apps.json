@@ -383,12 +383,47 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.63",
-      "versionDate": "2026-10-08",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2732 Audio sync issue on Android for Gen 2\n- #2746 Sootopolis City camera oddities during unique events\n- #2748 Aqua team member Matt invisble\n- #2752 [Save Editor] Edit Volcanic Ash currency in R/S/E\n- #2756 Firered start menu ",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.63/gen1recomp%2B%2B-0.3.63-ios.ipa",
-      "size": 56248514,
+      "version": "0.3.68",
+      "versionDate": "2026-10-09",
+      "versionDescription": "[Stable] Oops I make a oopsie\n\n## Issues closed\n\n- #2799 Pok\u00e9mon emerald stuck for a few frames when collide while running\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.68/gen1recomp%2B%2B-0.3.68-ios.ipa",
+      "size": 56253722,
       "versions": [
+        {
+          "version": "0.3.68",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.68/gen1recomp%2B%2B-0.3.68-ios.ipa",
+          "size": 56253722,
+          "localizedDescription": "[Stable] Oops I make a oopsie\n\n## Issues closed\n\n- #2799 Pok\u00e9mon emerald stuck for a few frames when collide while running\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.67",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.67/gen1recomp%2B%2B-0.3.67-ios.ipa",
+          "size": 56252813,
+          "localizedDescription": "[Stable] I'm eating hot and spicy cheez its rn\n\n## Issues closed\n\n- #2793 Text advance indicator at the end of dialogue sections\n- #2794 Unintentional Visual Glitch (Shiny Sparkle )\n- #2795 Emerald Pok\u00e9dex Cry Needle is not correct.\n- #2796 Crash when trying to start Emerald on PS4\n- #2797 Pok\u00e9mon Stats and "
+        },
+        {
+          "version": "0.3.66",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.66/gen1recomp%2B%2B-0.3.66-ios.ipa",
+          "size": 56251569,
+          "localizedDescription": "[Stable] shiddy doo\n\n## Issues closed\n\n- #2784 Issue entering buildings while riding a bike\n- #2785 Able to fast-forward through Hall of Fame\n- #2786 Credits roll too fast\n- #2787 No bumping sfx\n- #2789 battle transition incomplete\n- #2790 \"Can't use that here.\" dialogue inconsistency\n\n## Contributors\n\n- @br"
+        },
+        {
+          "version": "0.3.65",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.65/gen1recomp%2B%2B-0.3.65-ios.ipa",
+          "size": 56251113,
+          "localizedDescription": "[Stable] sue me ? ???? no... SUE U!\n\n## Issues closed\n\n- #2768 Broken palette\n- #2770 Dialogue inconsistencies\n- #2771 Incomplete/broken using field moves animation\n- #2772 [Modding API] Wrong pokemon.sprite callback value (\"kind\") in Summary screen\n- #2773 [Save Editor] Edit BP currency in Emerald\n- #2775 ["
+        },
+        {
+          "version": "0.3.64",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.64/gen1recomp%2B%2B-0.3.64-ios.ipa",
+          "size": 56250108,
+          "localizedDescription": "[Stable] slam dunking on these hoes (the bugs)\n\n## Issues closed\n\n- #2759 [FireRed] Player loads standing on water when saving while surfing\n- #2761 surf doesn't persist -emerald \n- #2762 Game Breaks using flash on 3rd floor of cave seeing steven.\n- #2763 hidden ninja npc visiable before battle\n- #2764 weird"
+        },
         {
           "version": "0.3.63",
           "date": "2026-10-08",
@@ -563,41 +598,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.39/gen1recomp%2B%2B-0.3.39-ios.ipa",
           "size": 44822669,
           "localizedDescription": "[Stable] Good handful of buggies have been squashed. \n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.38",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.38/gen1recomp%2B%2B-0.3.38-ios.ipa",
-          "size": 44812985,
-          "localizedDescription": "[Stable] Lots of bug fixes and further performance enhancing drugs for Gen 3 \n\n## Issues closed\n\n- #2564 Able to bike in doors\n- #2570 [Emerald] Oldale's Pokemon Center incomplete text\n- #2572 Unable to return speed to normal (Emerald)\n- #2573 Graphical Glitch with Textboxes (Emerald)\n- #2577 battle.low_heal"
-        },
-        {
-          "version": "0.3.37",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.37/gen1recomp%2B%2B-0.3.37-ios.ipa",
-          "size": 44766547,
-          "localizedDescription": "[Stable] Em perf 3\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.36",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.36/gen1recomp%2B%2B-0.3.36-ios.ipa",
-          "size": 44765924,
-          "localizedDescription": "[Stable] Em perf enhance 2\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.35",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.35/gen1recomp%2B%2B-0.3.35-ios.ipa",
-          "size": 44773569,
-          "localizedDescription": "[Stable] Performance fix 1 for em\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.34",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.34/gen1recomp%2B%2B-0.3.34-ios.ipa",
-          "size": 44765185,
-          "localizedDescription": "[Stable] Maybe fix this maybe fix that idk blame goia\n\n## Contributors\n\n- @1Jamie\n- @bryanthaboi\n"
         }
       ]
     },
@@ -646,12 +646,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261007",
-      "versionDate": "2026-10-07",
+      "version": "nightly-20261008",
+      "versionDate": "2026-10-08",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261007/ARMSX2-nightly-20261007-e194ae09e6-iOS-arm64.ipa",
-      "size": 39480032,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261008/ARMSX2-nightly-20261008-b1f3196b9e-iOS-arm64.ipa",
+      "size": 39479574,
       "versions": [
+        {
+          "version": "nightly-20261008",
+          "date": "2026-10-08",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261008/ARMSX2-nightly-20261008-b1f3196b9e-iOS-arm64.ipa",
+          "size": 39479574,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261007",
           "date": "2026-10-07",
@@ -692,13 +699,6 @@
           "date": "2026-10-02",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261002/ARMSX2-nightly-20261002-e23b6a5579-iOS-arm64.ipa",
           "size": 38987191,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20260930",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20260930/ARMSX2-nightly-20260930-1959bcfdab-iOS-arm64.ipa",
-          "size": 30547056,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
