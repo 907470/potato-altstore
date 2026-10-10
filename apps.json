@@ -141,12 +141,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.7.14",
-      "versionDate": "2026-10-05",
-      "versionDescription": "[Stable] KartPad 0.7.14 updates itself on Android, and catches incomplete game data before you play.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | `KartPad-v0.7.14-android.apk` |\n| **iPhone, iPad and Mac** | Build it with [PadMint](https://github.com/chrissotraidis/padmint) |\n\nFull steps: **[Get K",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.14/KartPad-v0.7.14-ios-for-padmint.ipa",
-      "size": 8642505,
+      "version": "0.7.15",
+      "versionDate": "2026-10-09",
+      "versionDescription": "[Stable] KartPad 0.7.15 updates Retro Rewind to 6.13.1, so Retro WFC online works again, and brings fixes for saves, ghosts and Apple controls.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | `KartPad-v0.7.15-android.apk` |\n| **iPhone, iPad and Mac** | Build it with [PadMint](https://github.com/chri",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.15/KartPad-v0.7.15-ios-for-padmint.ipa",
+      "size": 8650148,
       "versions": [
+        {
+          "version": "0.7.15",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.15/KartPad-v0.7.15-ios-for-padmint.ipa",
+          "size": 8650148,
+          "localizedDescription": "[Stable] KartPad 0.7.15 updates Retro Rewind to 6.13.1, so Retro WFC online works again, and brings fixes for saves, ghosts and Apple controls.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | `KartPad-v0.7.15-android.apk` |\n| **iPhone, iPad and Mac** | Build it with [PadMint](https://github.com/chri"
+        },
         {
           "version": "0.7.14",
           "date": "2026-10-05",
@@ -383,12 +390,33 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.68",
+      "version": "0.3.71",
       "versionDate": "2026-10-09",
-      "versionDescription": "[Stable] Oops I make a oopsie\n\n## Issues closed\n\n- #2799 Pok\u00e9mon emerald stuck for a few frames when collide while running\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.68/gen1recomp%2B%2B-0.3.68-ios.ipa",
-      "size": 56253722,
+      "versionDescription": "[Stable] This one's for [non problematic musical artist]\n\n## Issues closed\n\n- #2813 issue with bobbing animation on water and underwater\n- #2814 Issue #2807 is still not working\n- #2815 issues with the lab interlude\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.71/gen1recomp%2B%2B-0.3.71-ios.ipa",
+      "size": 56263935,
       "versions": [
+        {
+          "version": "0.3.71",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.71/gen1recomp%2B%2B-0.3.71-ios.ipa",
+          "size": 56263935,
+          "localizedDescription": "[Stable] This one's for [non problematic musical artist]\n\n## Issues closed\n\n- #2813 issue with bobbing animation on water and underwater\n- #2814 Issue #2807 is still not working\n- #2815 issues with the lab interlude\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.70",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.70/gen1recomp%2B%2B-0.3.70-ios.ipa",
+          "size": 56262211,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.69",
+          "date": "2026-10-09",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.69/gen1recomp%2B%2B-0.3.69-ios.ipa",
+          "size": 56262155,
+          "localizedDescription": "[Stable] Bacons last resort\n\n## Issues closed\n\n- #2802 generic party indicator (slide-in and out animation and no sfx)\n- #2803 no side background\n- #2804 Minor incorrect Pikachu eye color\n- #2805 Save Edit Nature Type Causes Crash\n- #2806 Cannot get pokemon back from Daycare\n- #2807 badges on trainer card do"
+        },
         {
           "version": "0.3.68",
           "date": "2026-10-09",
@@ -577,27 +605,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.42/gen1recomp%2B%2B-0.3.42-ios.ipa",
           "size": 44824883,
           "localizedDescription": "[Stable] Gen 3 should be even more performant after this.\n\n## Issues closed\n\n- #2498 Method mod.world:spawnNpc does not provide NPC an ID\n- #2601 [Gen 3 / 0.3.39] Sweet Scent finishes its field animation without starting an encounter\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.41",
-          "date": "2026-10-01",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.41/gen1recomp%2B%2B-0.3.41-ios.ipa",
-          "size": 44821840,
-          "localizedDescription": "[Stable] inching closer to gen 1 perfection OH! so close. \n\n## Issues closed\n\n- #2555 Wrong jingle for receiving rods\n- #2558 Captain not turning during dialogue\n- #2560 Small S.S. Anne departure inaccuracies\n- #2561 Clip into trees at the start\n- #2562 Pokeballs all black in Rock Tunnel when not using Flash"
-        },
-        {
-          "version": "0.3.40",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.40/gen1recomp%2B%2B-0.3.40-ios.ipa",
-          "size": 44816287,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.39",
-          "date": "2026-09-30",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.39/gen1recomp%2B%2B-0.3.39-ios.ipa",
-          "size": 44822669,
-          "localizedDescription": "[Stable] Good handful of buggies have been squashed. \n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
