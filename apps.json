@@ -390,12 +390,33 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.71",
-      "versionDate": "2026-10-09",
-      "versionDescription": "[Stable] This one's for [non problematic musical artist]\n\n## Issues closed\n\n- #2813 issue with bobbing animation on water and underwater\n- #2814 Issue #2807 is still not working\n- #2815 issues with the lab interlude\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.71/gen1recomp%2B%2B-0.3.71-ios.ipa",
-      "size": 56263935,
+      "version": "0.3.74",
+      "versionDate": "2026-10-10",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2840 Item window not overlapping correctly at PC\n- #2841 Sprite color on the Town Map\n- #2843 Oak's first dialogue closes too fast\n- #2844 Music skip\n- #2845 Fainting in bug catching contest doesn't end the contest\n- #2846 Small",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.74/gen1recomp%2B%2B-0.3.74-ios.ipa",
+      "size": 56260051,
       "versions": [
+        {
+          "version": "0.3.74",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.74/gen1recomp%2B%2B-0.3.74-ios.ipa",
+          "size": 56260051,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2840 Item window not overlapping correctly at PC\n- #2841 Sprite color on the Town Map\n- #2843 Oak's first dialogue closes too fast\n- #2844 Music skip\n- #2845 Fainting in bug catching contest doesn't end the contest\n- #2846 Small"
+        },
+        {
+          "version": "0.3.73",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.73/gen1recomp%2B%2B-0.3.73-ios.ipa",
+          "size": 56259647,
+          "localizedDescription": "[Stable] Weird name tho tbh\n\n## Issues closed\n\n- #2833 Optional dependancies\n- #2835 Music stops after defeating rival in the League\n- #2836 Hall Of Fame cutscene inaccuracies\n- #2838 Wrong position of pokeballs on hall of fame machine\n- #2839 Walking animation frames while idle during cutscenes\n\n## Contribu"
+        },
+        {
+          "version": "0.3.72",
+          "date": "2026-10-10",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.72/gen1recomp%2B%2B-0.3.72-ios.ipa",
+          "size": 56258677,
+          "localizedDescription": "[Stable] sheeshing like a b word\n\n## Issues closed\n\n- #2817 Slow Oak\n- #2818 pikachu why are you not looking at me :(\n- #2819 Pikachu turns around instantly\n- #2820 no music fade out on title screen\n- #2821 Rival too slow\n- #2822 Pikachu doesn't twitch\n- #2823 \"piiiiikaaaaa...\" not audible\n- #2824 Mindless P"
+        },
         {
           "version": "0.3.71",
           "date": "2026-10-09",
@@ -584,27 +605,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.45/gen1recomp%2B%2B-0.3.45-ios.ipa",
           "size": 44989096,
           "localizedDescription": "[Stable] Save editor enhancements part two\n\n## Issues closed\n\n- #2619 Problems with save editor\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.44",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.44/gen1recomp%2B%2B-0.3.44-ios.ipa",
-          "size": 44977295,
-          "localizedDescription": "[Stable] + save editor enhanced\n\n## Issues closed\n\n- #2604 Ghosts spawn after you complete a contest\n- #2605 Can't select GBA rom for gen3\n- #2607 Small Snorlax sprite issue\n- #2608 Post-battle Snorlax text when running\n- #2610 Sealed chamber hole can't be opened with dig\n- #2611 Ball animation & sound out o"
-        },
-        {
-          "version": "0.3.43",
-          "date": "2026-10-01",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.43/gen1recomp%2B%2B-0.3.43-ios.ipa",
-          "size": 44933101,
-          "localizedDescription": "[Stable] Hopefully perfecting save import / export for good.\n\n## Issues closed\n\n- #2603 Pokemon ability don't change when evolves\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.42",
-          "date": "2026-10-01",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.42/gen1recomp%2B%2B-0.3.42-ios.ipa",
-          "size": 44824883,
-          "localizedDescription": "[Stable] Gen 3 should be even more performant after this.\n\n## Issues closed\n\n- #2498 Method mod.world:spawnNpc does not provide NPC an ID\n- #2601 [Gen 3 / 0.3.39] Sweet Scent finishes its field animation without starting an encounter\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
