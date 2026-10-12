@@ -390,12 +390,54 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.74",
-      "versionDate": "2026-10-10",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2840 Item window not overlapping correctly at PC\n- #2841 Sprite color on the Town Map\n- #2843 Oak's first dialogue closes too fast\n- #2844 Music skip\n- #2845 Fainting in bug catching contest doesn't end the contest\n- #2846 Small",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.74/gen1recomp%2B%2B-0.3.74-ios.ipa",
-      "size": 56260051,
+      "version": "0.3.80",
+      "versionDate": "2026-10-11",
+      "versionDescription": "[Stable] Quick performant update gen 3\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.80/gen1recomp%2B%2B-0.3.80-ios.ipa",
+      "size": 56274201,
       "versions": [
+        {
+          "version": "0.3.80",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.80/gen1recomp%2B%2B-0.3.80-ios.ipa",
+          "size": 56274201,
+          "localizedDescription": "[Stable] Quick performant update gen 3\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.79",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.79/gen1recomp%2B%2B-0.3.79-ios.ipa",
+          "size": 56273971,
+          "localizedDescription": "[Stable] Bazinga m9\n\n## Issues closed\n\n- #2862 (Crystal) Pok\u00e9mon gaining exp. in battle tower\n- #2863 (RBY, GSC) FLASH state not being saved\n- #2864 (Crystal) Missing SFX when closing options\n- #2865 Poison visual effect missing\n- #2866 Problem importing Fire Red\n- #2867 \"display\" refresh rate just sets fram"
+        },
+        {
+          "version": "0.3.78",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.78/gen1recomp%2B%2B-0.3.78-ios.ipa",
+          "size": 56271392,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2828 Cannot import FireRed, Sapphire and Emerald on sbc-portmaster version\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.77",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.77/gen1recomp%2B%2B-0.3.77-ios.ipa",
+          "size": 56269693,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2858 Shoal Cave tides don't seem to be working properly\n- #2859 Deoxys doesn't change form\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.76",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.76/gen1recomp%2B%2B-0.3.76-ios.ipa",
+          "size": 56267765,
+          "localizedDescription": "[Stable] Everyone thinks they are the real they\n\n## Issues closed\n\n- #2788 [Save editor] Pok\u00e9blocks editor\n- #2811 [Save editor] A more direct way to set the Mirage Island values \u200b\u200bin the save editor\n- #2829 Can't scroll up or down in the save file editor on sbc-portmaster version\n- #2837 SBC PortMaster pack"
+        },
+        {
+          "version": "0.3.75",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.75/gen1recomp%2B%2B-0.3.75-ios.ipa",
+          "size": 56260241,
+          "localizedDescription": "[Stable] Deez bugs\n\n## Issues closed\n\n- #2847 pikachu bump sfx\n- #2848 most pointless bug to be patched\n- #2849 Bug with move reminder in Emerald\n- #2853 Viridian City blackboard is a little broken\n- #2854 Wrong theme when rival leaves lab\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n"
+        },
         {
           "version": "0.3.74",
           "date": "2026-10-10",
@@ -563,48 +605,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.51/gen1recomp%2B%2B-0.3.51-ios.ipa",
           "size": 45960216,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2639 Buena's Password aren't playing in the Radio\n- #2640 Edit Buena's Password points in save editor\n- #2642 Pokemon stats never increase when you check Pokemon summary\n- #2643 Game look for a move that has id 0 in battle palac"
-        },
-        {
-          "version": "0.3.50",
-          "date": "2026-10-03",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.50/gen1recomp%2B%2B-0.3.50-ios.ipa",
-          "size": 45950599,
-          "localizedDescription": "[Stable] Also save editor should now hopefully see custom maps. (Gen 3 custom maps)\n\n## Issues closed\n\n- #2632 Guy has wrong dialogue after getting Earth Badge\n- #2634 Blank lines missing in NPCs dialogue\n- #2637 Gen 3 Bike breaks doors and Rename Screen is wrong.\n- #2638 Battle tent issue\n\n## Contributors\n\n"
-        },
-        {
-          "version": "0.3.49",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.49/gen1recomp%2B%2B-0.3.49-ios.ipa",
-          "size": 45948378,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n- @Code-Grub\n"
-        },
-        {
-          "version": "0.3.48",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.48/gen1recomp%2B%2B-0.3.48-ios.ipa",
-          "size": 45941961,
-          "localizedDescription": "[Stable] bugs\n\n## Issues closed\n\n- #2578 MENU SPEED doesn't apply to menus opened from the overworld or battle\n- #2588 bug: Filter mods by game doesn\u2019t filter.\n- #2617 Softlock under the bikers bridge\n- #2623 Goldenrod City music playing at Goldenrod Radio Tower instead of Team Rocket Takeover music\n- #2626 "
-        },
-        {
-          "version": "0.3.47",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.47/gen1recomp%2B%2B-0.3.47-ios.ipa",
-          "size": 45941144,
-          "localizedDescription": "[Stable] windows fix and spooky nation. try this version if ur on windows and u have the stuck restart to update and maybe the NEXT version after this will work correctly.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.46",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.46/gen1recomp%2B%2B-0.3.46-ios.ipa",
-          "size": 45004681,
-          "localizedDescription": "[Stable] some bug fixes and major gen 3 performance enhancement\n\n## Issues closed\n\n- #2618 Trainer ID generation is broken\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.45",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.45/gen1recomp%2B%2B-0.3.45-ios.ipa",
-          "size": 44989096,
-          "localizedDescription": "[Stable] Save editor enhancements part two\n\n## Issues closed\n\n- #2619 Problems with save editor\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
@@ -653,12 +653,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261008",
-      "versionDate": "2026-10-08",
+      "version": "nightly-20261011",
+      "versionDate": "2026-10-11",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261008/ARMSX2-nightly-20261008-b1f3196b9e-iOS-arm64.ipa",
-      "size": 39479574,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261011/ARMSX2-nightly-20261011-0076b5c389-iOS-arm64.ipa",
+      "size": 39938405,
       "versions": [
+        {
+          "version": "nightly-20261011",
+          "date": "2026-10-11",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261011/ARMSX2-nightly-20261011-0076b5c389-iOS-arm64.ipa",
+          "size": 39938405,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261008",
           "date": "2026-10-08",
@@ -699,13 +706,6 @@
           "date": "2026-10-03",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261003/ARMSX2-nightly-20261003-9d989ca933-iOS-arm64.ipa",
           "size": 38988244,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261002",
-          "date": "2026-10-02",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261002/ARMSX2-nightly-20261002-e23b6a5579-iOS-arm64.ipa",
-          "size": 38987191,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
