@@ -141,12 +141,26 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.7.15",
-      "versionDate": "2026-10-09",
-      "versionDescription": "[Stable] KartPad 0.7.15 updates Retro Rewind to 6.13.1, so Retro WFC online works again, and brings fixes for saves, ghosts and Apple controls.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | `KartPad-v0.7.15-android.apk` |\n| **iPhone, iPad and Mac** | Build it with [PadMint](https://github.com/chri",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.7.15/KartPad-v0.7.15-ios-for-padmint.ipa",
-      "size": 8650148,
+      "version": "0.8.1",
+      "versionDate": "2026-10-13",
+      "versionDescription": "[Stable] KartPad 0.8.1 fixes two problems in 0.8.0: characters that disappeared on some Snapdragon phones, and Mac builds that refused most disc images. It also fixes choosing a game folder on iPhone and iPad.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | Download `KartPad-v0.8.1-android.apk` belo",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.1/KartPad-v0.8.1-ios-for-padmint.ipa",
+      "size": 9292669,
       "versions": [
+        {
+          "version": "0.8.1",
+          "date": "2026-10-13",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.1/KartPad-v0.8.1-ios-for-padmint.ipa",
+          "size": 9292669,
+          "localizedDescription": "[Stable] KartPad 0.8.1 fixes two problems in 0.8.0: characters that disappeared on some Snapdragon phones, and Mac builds that refused most disc images. It also fixes choosing a game folder on iPhone and iPad.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | Download `KartPad-v0.8.1-android.apk` belo"
+        },
+        {
+          "version": "0.8.0",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.0/KartPad-v0.8.0-ios-for-padmint.ipa",
+          "size": 9290784,
+          "localizedDescription": "[Stable] KartPad 0.8.0 moves to the latest WiiCompiled engine, fixes controllers on the Mac, tries a new fix for invisible characters on older Snapdragon phones, and adds update notices, Shake to Trick and a choice of app icons. The Mac version is back through PadMint.\n\n| You want KartPad on | How |\n|---|---"
+        },
         {
           "version": "0.7.15",
           "date": "2026-10-09",
@@ -390,12 +404,47 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.80",
-      "versionDate": "2026-10-11",
-      "versionDescription": "[Stable] Quick performant update gen 3\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.80/gen1recomp%2B%2B-0.3.80-ios.ipa",
-      "size": 56274201,
+      "version": "0.3.85",
+      "versionDate": "2026-10-12",
+      "versionDescription": "[Stable] Gazoontite ?\n\n## Issues closed\n\n- #2907 Character sprite on Trainer Card incorrect\n- #2909 Inaccurate location banner\n- #2911 Awkward silence in cutscenes\n- #2913 Savestates can be used to bypass guy that stops you from going to left\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.85/gen1recomp%2B%2B-0.3.85-ios.ipa",
+      "size": 56323592,
       "versions": [
+        {
+          "version": "0.3.85",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.85/gen1recomp%2B%2B-0.3.85-ios.ipa",
+          "size": 56323592,
+          "localizedDescription": "[Stable] Gazoontite ?\n\n## Issues closed\n\n- #2907 Character sprite on Trainer Card incorrect\n- #2909 Inaccurate location banner\n- #2911 Awkward silence in cutscenes\n- #2913 Savestates can be used to bypass guy that stops you from going to left\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.84",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.84/gen1recomp%2B%2B-0.3.84-ios.ipa",
+          "size": 56324224,
+          "localizedDescription": "[Stable] bazinga nation runnin wild\n\n## Issues closed\n\n- #2897 Various Gen 3 sound effects lowers the music volume down\n- #2898 (Modding API + Trades) Gen1 copy of Gen2 species added through mod throws error when trying to trade between the two gens\n- #2899 Ditto appears to keep it's crit rate rather than ch"
+        },
+        {
+          "version": "0.3.83",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.83/gen1recomp%2B%2B-0.3.83-ios.ipa",
+          "size": 56309430,
+          "localizedDescription": "[Stable] Keep em comin\n\n## Issues closed\n\n- #2889 Save screen not accurate\n- #2890 Poke Dude walking animation broken\n- #2891 Using Teachy TV doesn't have a fading animation\n- #2892 Teachy TV item random space\n- #2893 no old man throwing pokeball animation\n- #2894 old man instantly throws pokeball\n- #2895 is"
+        },
+        {
+          "version": "0.3.82",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.82/gen1recomp%2B%2B-0.3.82-ios.ipa",
+          "size": 56311752,
+          "localizedDescription": "[Stable] Cry cry cry (gen 3 ambient cries)\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.81",
+          "date": "2026-10-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.81/gen1recomp%2B%2B-0.3.81-ios.ipa",
+          "size": 56304890,
+          "localizedDescription": "[Stable] my flow state is getting fungshway'd\n\n## Issues closed\n\n- #2873 [Emerald] Loading save state during battle doesn't work properly\n- #2876 Ninja Boys and Hidden Trainers show\n- #2877 Pokenav menu broken\n- #2878 putting pokemon in box ui is broken\n- #2879 sadly the running against something or someone "
+        },
         {
           "version": "0.3.80",
           "date": "2026-10-11",
@@ -570,41 +619,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.56/gen1recomp%2B%2B-0.3.56-ios.ipa",
           "size": 52942319,
           "localizedDescription": "[Stable] \u2026 CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CLOSES #2710, CLOSES #2711, CLOSES #2712, CLOSES #2714\r\n\r\nCLOSES #2693, CLOSES #2697, CLOSES #2698, CLOSES #2699, CLOSES #2701, CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CL"
-        },
-        {
-          "version": "0.3.55",
-          "date": "2026-10-06",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.55/gen1recomp%2B%2B-0.3.55-ios.ipa",
-          "size": 52935624,
-          "localizedDescription": "[Stable] ID Sync fix and new feature - BOX!\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n"
-        },
-        {
-          "version": "0.3.54",
-          "date": "2026-10-06",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.54/gen1recomp%2B%2B-0.3.54-ios.ipa",
-          "size": 50919741,
-          "localizedDescription": "[Stable] ID Sync\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.53",
-          "date": "2026-10-05",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.53/gen1recomp%2B%2B-0.3.53-ios.ipa",
-          "size": 50922309,
-          "localizedDescription": "[Stable] cleaning a couple ruby / sapphire bugs and overal gen 3 performance enhancements\n\n## Contributors\n\n- @bryanthaboi\n- @thibautbus\n"
-        },
-        {
-          "version": "0.3.52",
-          "date": "2026-10-05",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.52/gen1recomp%2B%2B-0.3.52-ios.ipa",
-          "size": 50907816,
-          "localizedDescription": "[Stable] Fixed some bugs and added some other stuff.\n\n## Issues closed\n\n- #2646 Pokemon Gen 2 Fly bug on map\n- #2647 Poison sttatus displayed immediately after move selection\n- #2649 Victory Road Guards missing dialogue\n- #2650 Boulder dust has wrong color\n- #2651 Crashes when picking up Pokemon at the dayca"
-        },
-        {
-          "version": "0.3.51",
-          "date": "2026-10-03",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.51/gen1recomp%2B%2B-0.3.51-ios.ipa",
-          "size": 45960216,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2639 Buena's Password aren't playing in the Radio\n- #2640 Edit Buena's Password points in save editor\n- #2642 Pokemon stats never increase when you check Pokemon summary\n- #2643 Game look for a move that has id 0 in battle palac"
         }
       ]
     },
