@@ -404,12 +404,33 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.85",
-      "versionDate": "2026-10-12",
-      "versionDescription": "[Stable] Gazoontite ?\n\n## Issues closed\n\n- #2907 Character sprite on Trainer Card incorrect\n- #2909 Inaccurate location banner\n- #2911 Awkward silence in cutscenes\n- #2913 Savestates can be used to bypass guy that stops you from going to left\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.85/gen1recomp%2B%2B-0.3.85-ios.ipa",
-      "size": 56323592,
+      "version": "0.3.88",
+      "versionDate": "2026-10-14",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2828 Cannot import FireRed, Sapphire and Emerald on sbc-portmaster version\n- #2916 RG35xxsp\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.88/gen1recomp%2B%2B-0.3.88-ios.ipa",
+      "size": 56337448,
       "versions": [
+        {
+          "version": "0.3.88",
+          "date": "2026-10-14",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.88/gen1recomp%2B%2B-0.3.88-ios.ipa",
+          "size": 56337448,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2828 Cannot import FireRed, Sapphire and Emerald on sbc-portmaster version\n- #2916 RG35xxsp\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n"
+        },
+        {
+          "version": "0.3.87",
+          "date": "2026-10-14",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.87/gen1recomp%2B%2B-0.3.87-ios.ipa",
+          "size": 56337258,
+          "localizedDescription": "[Stable] +++ goober boulder bug patched out\n\n## Issues closed\n\n- #2982 Improve Fractional Scaling Support in Windows\n- #2983 Pacifidlog Town log bridges not reacting to player (Ruby and Sapphire)\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
+        {
+          "version": "0.3.86",
+          "date": "2026-10-14",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.86/gen1recomp%2B%2B-0.3.86-ios.ipa",
+          "size": 56341503,
+          "localizedDescription": "[Stable] hella bs /s\n\n## Issues closed\n\n- #2917 Roamer area location doesn't initialize in emerald\n- #2918 Mods can't add fly towns\n- #2920 Curse uses Ghost Animation for non-ghost types\n- #2921 The NPCs in Sootopolis who ask for Lotad and Seedot are not recognizing the respective Pok\u00e9mon to measure their si"
+        },
         {
           "version": "0.3.85",
           "date": "2026-10-12",
@@ -598,27 +619,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.59/gen1recomp%2B%2B-0.3.59-ios.ipa",
           "size": 52985361,
           "localizedDescription": "[Stable] + BOX enhancements \ud83e\udd85 _(that's a bird emoji because it has something to do w migration mods)_\n\n## Issues closed\n\n- #2726 [Save editor] Edit Unown's form\n- #2727 berry in bag is broken so is ui\n- #2729 quick attack and box is messed up on the battle menu\n- #2730 Petalburg Woods encounter animation som"
-        },
-        {
-          "version": "0.3.58",
-          "date": "2026-10-07",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.58/gen1recomp%2B%2B-0.3.58-ios.ipa",
-          "size": 52972673,
-          "localizedDescription": "[Stable] Clean up, bugs, and contributor work\n\n## Issues closed\n\n- #2484 Option to duplicate (back up) save files directly via the launcher\n- #2600 Speed Down keyboard hotkey?\n- #2694 Bugs when changing speed in portmaster build, which weren't present in 0.3.19\n- #2708 Naming a pokemon in starter and capture"
-        },
-        {
-          "version": "0.3.57",
-          "date": "2026-10-06",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.57/gen1recomp%2B%2B-0.3.57-ios.ipa",
-          "size": 52956167,
-          "localizedDescription": "[Stable] \u2026sence\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.56",
-          "date": "2026-10-06",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.56/gen1recomp%2B%2B-0.3.56-ios.ipa",
-          "size": 52942319,
-          "localizedDescription": "[Stable] \u2026 CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CLOSES #2710, CLOSES #2711, CLOSES #2712, CLOSES #2714\r\n\r\nCLOSES #2693, CLOSES #2697, CLOSES #2698, CLOSES #2699, CLOSES #2701, CLOSES #2702, CLOSES #2703, CLOSES #2705, CLOSES #2706, CLOSES #2707, CLOSES #2709, CL"
         }
       ]
     },

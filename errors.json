@@ -24,7 +24,7 @@
     {
       "name": "GalaxyPad",
       "url": "https://api.github.com/repos/chrissotraidis/galaxypad/releases",
-      "reason": "No releases or empty payload returned from API."
+      "reason": "Releases found, but none contained a valid .ipa file asset."
     },
     {
       "name": "PaperPad",
