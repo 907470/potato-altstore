@@ -404,12 +404,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.88",
-      "versionDate": "2026-10-14",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2828 Cannot import FireRed, Sapphire and Emerald on sbc-portmaster version\n- #2916 RG35xxsp\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.88/gen1recomp%2B%2B-0.3.88-ios.ipa",
-      "size": 56337448,
+      "version": "0.3.89",
+      "versionDate": "2026-10-15",
+      "versionDescription": "[Stable] Crystal Enhancements mainly but several that affect GS as well.\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.89/gen1recomp%2B%2B-0.3.89-ios.ipa",
+      "size": 56348310,
       "versions": [
+        {
+          "version": "0.3.89",
+          "date": "2026-10-15",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.89/gen1recomp%2B%2B-0.3.89-ios.ipa",
+          "size": 56348310,
+          "localizedDescription": "[Stable] Crystal Enhancements mainly but several that affect GS as well.\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.88",
           "date": "2026-10-14",
@@ -612,13 +619,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.60/gen1recomp%2B%2B-0.3.60-ios.ipa",
           "size": 52995898,
           "localizedDescription": "[Stable] small bug fix update\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.59",
-          "date": "2026-10-07",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.59/gen1recomp%2B%2B-0.3.59-ios.ipa",
-          "size": 52985361,
-          "localizedDescription": "[Stable] + BOX enhancements \ud83e\udd85 _(that's a bird emoji because it has something to do w migration mods)_\n\n## Issues closed\n\n- #2726 [Save editor] Edit Unown's form\n- #2727 berry in bag is broken so is ui\n- #2729 quick attack and box is messed up on the battle menu\n- #2730 Petalburg Woods encounter animation som"
         }
       ]
     },
