@@ -141,12 +141,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.1",
-      "versionDate": "2026-10-13",
-      "versionDescription": "[Stable] KartPad 0.8.1 fixes two problems in 0.8.0: characters that disappeared on some Snapdragon phones, and Mac builds that refused most disc images. It also fixes choosing a game folder on iPhone and iPad.\n\n| You want KartPad on | How |\n|---|---|\n| **Android** | Download `KartPad-v0.8.1-android.apk` belo",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.1/KartPad-v0.8.1-ios-for-padmint.ipa",
-      "size": 9292669,
+      "version": "0.8.2",
+      "versionDate": "2026-10-16",
+      "versionDescription": "[Stable] KartPad 0.8.2 fixes Mac build retries, keyboard settings and a Retro Rewind race-start crash.\n\n- Repeated PadMint builds reuse verified prepared files and preserve earlier app/ZIP outputs.\n- Keyboard reset restores defaults; remaps and clears save immediately and reach the game. Shift, Control and O",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.2/KartPad-v0.8.2-ios-for-padmint.ipa",
+      "size": 9292659,
       "versions": [
+        {
+          "version": "0.8.2",
+          "date": "2026-10-16",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.2/KartPad-v0.8.2-ios-for-padmint.ipa",
+          "size": 9292659,
+          "localizedDescription": "[Stable] KartPad 0.8.2 fixes Mac build retries, keyboard settings and a Retro Rewind race-start crash.\n\n- Repeated PadMint builds reuse verified prepared files and preserve earlier app/ZIP outputs.\n- Keyboard reset restores defaults; remaps and clears save immediately and reach the game. Shift, Control and O"
+        },
         {
           "version": "0.8.1",
           "date": "2026-10-13",
@@ -667,12 +674,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261011",
-      "versionDate": "2026-10-11",
+      "version": "nightly-20261016",
+      "versionDate": "2026-10-16",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261011/ARMSX2-nightly-20261011-0076b5c389-iOS-arm64.ipa",
-      "size": 39938405,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261016/ARMSX2-nightly-20261016-25e7084fde-iOS-arm64.ipa",
+      "size": 39952375,
       "versions": [
+        {
+          "version": "nightly-20261016",
+          "date": "2026-10-16",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261016/ARMSX2-nightly-20261016-25e7084fde-iOS-arm64.ipa",
+          "size": 39952375,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261011",
           "date": "2026-10-11",
@@ -713,13 +727,6 @@
           "date": "2026-10-04",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261004/ARMSX2-nightly-20261004-d383b36369-iOS-arm64.ipa",
           "size": 39037501,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261003",
-          "date": "2026-10-03",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261003/ARMSX2-nightly-20261003-9d989ca933-iOS-arm64.ipa",
-          "size": 38988244,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
