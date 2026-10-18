@@ -141,12 +141,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.2",
-      "versionDate": "2026-10-16",
-      "versionDescription": "[Stable] KartPad 0.8.2 fixes Mac build retries, keyboard settings and a Retro Rewind race-start crash.\n\n- Repeated PadMint builds reuse verified prepared files and preserve earlier app/ZIP outputs.\n- Keyboard reset restores defaults; remaps and clears save immediately and reach the game. Shift, Control and O",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.2/KartPad-v0.8.2-ios-for-padmint.ipa",
-      "size": 9292659,
+      "version": "0.8.3",
+      "versionDate": "2026-10-17",
+      "versionDescription": "[Stable] KartPad 0.8.3 (build 265) supports Retro Rewind 6.13.3.\n\n### Changed\n\n- **Retro Rewind 6.13.3:** KartPad compiles the new Retro Rewind game code and downloads the official 6.13.3 pack. Retro WFC only accepts the current pack. Retro Rewind's own `version.txt` in this release still reads 6.13.2; KartP",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.3/KartPad-v0.8.3-ios-for-padmint.ipa",
+      "size": 9289255,
       "versions": [
+        {
+          "version": "0.8.3",
+          "date": "2026-10-17",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.3/KartPad-v0.8.3-ios-for-padmint.ipa",
+          "size": 9289255,
+          "localizedDescription": "[Stable] KartPad 0.8.3 (build 265) supports Retro Rewind 6.13.3.\n\n### Changed\n\n- **Retro Rewind 6.13.3:** KartPad compiles the new Retro Rewind game code and downloads the official 6.13.3 pack. Retro WFC only accepts the current pack. Retro Rewind's own `version.txt` in this release still reads 6.13.2; KartP"
+        },
         {
           "version": "0.8.2",
           "date": "2026-10-16",
@@ -656,13 +663,6 @@
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.2/ARMSX2-iOS-2.5.2.ipa",
           "size": 26425138,
           "localizedDescription": "[Stable] **Frame rate cap**\r\n\r\n@Henyckma added an FPS cap that limits presentation only. The game and the audio keep running at full speed, so it costs nothing in emulation and gives back battery and heat instead. Targets are 15, 23.976, 29.94, 30, 45, 59.97, 60, 90 and 120, set globally or per game. The gai"
-        },
-        {
-          "version": "iOSv2.5.1",
-          "date": "2026-07-31",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.5.1/ARMSX2-iOS-2.5.1.ipa",
-          "size": 26327755,
-          "localizedDescription": "[Stable] 2.5.1 is mostly a fixes release.\r\n\r\nThe two biggest issues were A12 devices crashing on launch and rumble being completely broken since 2.4.1. Both are fixed, along with a proper no-JIT fallback, several performance improvements, and a collection of Virtual Pad and interface fixes.\r\n\r\n## Highlights\r"
         }
       ]
     },
