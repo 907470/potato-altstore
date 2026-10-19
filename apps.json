@@ -418,12 +418,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.89",
-      "versionDate": "2026-10-15",
-      "versionDescription": "[Stable] Crystal Enhancements mainly but several that affect GS as well.\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.89/gen1recomp%2B%2B-0.3.89-ios.ipa",
-      "size": 56348310,
+      "version": "0.3.90",
+      "versionDate": "2026-10-18",
+      "versionDescription": "[Stable] Bazinga time\n\n## Issues closed\n\n- #2989 (Saphire) Crash when fishing\n- #2991 problem with map transitions\n- #2992 no typewriting effect on quit confirmation dialog\n- #2994 (Gen 3) Funky graphics on chat system with most of the screen turning black\n- #2997 Inconsistent display scaling between generat",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.90/gen1recomp%2B%2B-0.3.90-ios.ipa",
+      "size": 44590913,
       "versions": [
+        {
+          "version": "0.3.90",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.90/gen1recomp%2B%2B-0.3.90-ios.ipa",
+          "size": 44590913,
+          "localizedDescription": "[Stable] Bazinga time\n\n## Issues closed\n\n- #2989 (Saphire) Crash when fishing\n- #2991 problem with map transitions\n- #2992 no typewriting effect on quit confirmation dialog\n- #2994 (Gen 3) Funky graphics on chat system with most of the screen turning black\n- #2997 Inconsistent display scaling between generat"
+        },
         {
           "version": "0.3.89",
           "date": "2026-10-15",
@@ -626,13 +633,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.61/gen1recomp%2B%2B-0.3.61-ios.ipa",
           "size": 53198152,
           "localizedDescription": "[Stable] union for me, union for you, union for everyone on earth!\n\n## Contributors\n\n- @bryanthaboi\n- @HimioneGranger\n- @thibautbus\n"
-        },
-        {
-          "version": "0.3.60",
-          "date": "2026-10-07",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.60/gen1recomp%2B%2B-0.3.60-ios.ipa",
-          "size": 52995898,
-          "localizedDescription": "[Stable] small bug fix update\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
@@ -674,12 +674,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261016",
-      "versionDate": "2026-10-16",
+      "version": "nightly-20261018",
+      "versionDate": "2026-10-18",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261016/ARMSX2-nightly-20261016-25e7084fde-iOS-arm64.ipa",
-      "size": 39952375,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261018/ARMSX2-nightly-20261018-0d525e4bdb-iOS-arm64.ipa",
+      "size": 40304220,
       "versions": [
+        {
+          "version": "nightly-20261018",
+          "date": "2026-10-18",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261018/ARMSX2-nightly-20261018-0d525e4bdb-iOS-arm64.ipa",
+          "size": 40304220,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261016",
           "date": "2026-10-16",
@@ -720,13 +727,6 @@
           "date": "2026-10-05",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261005/ARMSX2-nightly-20261005-8f6da1639f-iOS-arm64.ipa",
           "size": 39043867,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261004",
-          "date": "2026-10-04",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261004/ARMSX2-nightly-20261004-d383b36369-iOS-arm64.ipa",
-          "size": 39037501,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
