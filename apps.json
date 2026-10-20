@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.1",
-      "versionDate": "2026-10-04",
-      "versionDescription": "[Stable] SunPad 0.2.1 for iPhone and iPad. The app below contains no game code: PadMint adds the game, made on your Apple Silicon Mac from your own Super Mario Sunshine (GMSE01) disc, and saves your SunPad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. SunPad 0.2.0 was built with Xcode 27 but still used",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.1/SunPad-v0.2.1-ios-unsigned.ipa",
-      "size": 12264704,
+      "version": "0.2.2",
+      "versionDate": "2026-10-19",
+      "versionDescription": "[Stable] SunPad 0.2.2 for iPhone, iPad and now Mac: Super Mario Sunshine through ModernGekko. This release contains no game code: you build your own with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own GMSE01 disc image.\n\n### What's new\n\n- **Build S",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.2/SunPad-v0.2.2-ios-unsigned.ipa",
+      "size": 12278113,
       "versions": [
+        {
+          "version": "0.2.2",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.2/SunPad-v0.2.2-ios-unsigned.ipa",
+          "size": 12278113,
+          "localizedDescription": "[Stable] SunPad 0.2.2 for iPhone, iPad and now Mac: Super Mario Sunshine through ModernGekko. This release contains no game code: you build your own with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own GMSE01 disc image.\n\n### What's new\n\n- **Build S"
+        },
         {
           "version": "0.2.1",
           "date": "2026-10-04",
@@ -104,12 +111,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.2",
-      "versionDate": "2026-10-04",
-      "versionDescription": "[Stable] MeleePad 0.2.2 for iPhone and iPad. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad IPA.\n\n### What's new\n\n- Opens on iOS and iPadOS 27. Apps built with Xcode 27 have to sta",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.2/MeleePad-v0.2.2-ios-unsigned.ipa",
-      "size": 15741134,
+      "version": "0.2.3",
+      "versionDate": "2026-10-19",
+      "versionDescription": "[Stable] MeleePad 0.2.3 for iPhone, iPad and now Mac. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad copy.\n\n### What's new\n\n- **Build it for this Mac.** In PadMint 0.5.5, choose Me",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.3/MeleePad-v0.2.3-ios-unsigned.ipa",
+      "size": 15741116,
       "versions": [
+        {
+          "version": "0.2.3",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.3/MeleePad-v0.2.3-ios-unsigned.ipa",
+          "size": 15741116,
+          "localizedDescription": "[Stable] MeleePad 0.2.3 for iPhone, iPad and now Mac. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad copy.\n\n### What's new\n\n- **Build it for this Mac.** In PadMint 0.5.5, choose Me"
+        },
         {
           "version": "0.2.2",
           "date": "2026-10-04",
@@ -418,12 +432,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.90",
-      "versionDate": "2026-10-18",
-      "versionDescription": "[Stable] Bazinga time\n\n## Issues closed\n\n- #2989 (Saphire) Crash when fishing\n- #2991 problem with map transitions\n- #2992 no typewriting effect on quit confirmation dialog\n- #2994 (Gen 3) Funky graphics on chat system with most of the screen turning black\n- #2997 Inconsistent display scaling between generat",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.90/gen1recomp%2B%2B-0.3.90-ios.ipa",
-      "size": 44590913,
+      "version": "0.3.91",
+      "versionDate": "2026-10-19",
+      "versionDescription": "[Stable] Ui fix specifically for ui mods \n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.91/gen1recomp%2B%2B-0.3.91-ios.ipa",
+      "size": 44586417,
       "versions": [
+        {
+          "version": "0.3.91",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.91/gen1recomp%2B%2B-0.3.91-ios.ipa",
+          "size": 44586417,
+          "localizedDescription": "[Stable] Ui fix specifically for ui mods \n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.90",
           "date": "2026-10-18",
@@ -626,13 +647,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.62/gen1recomp%2B%2B-0.3.62-ios.ipa",
           "size": 56231585,
           "localizedDescription": "[Stable] blah bla blah ps4\n\n## Issues closed\n\n- #2742 Android: External music causes game audio to freeze after audio focus changes\n\n## Contributors\n\n- @bryanthaboi\n- @tomasmorello\n- Autoresearch\n"
-        },
-        {
-          "version": "0.3.61",
-          "date": "2026-10-07",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.61/gen1recomp%2B%2B-0.3.61-ios.ipa",
-          "size": 53198152,
-          "localizedDescription": "[Stable] union for me, union for you, union for everyone on earth!\n\n## Contributors\n\n- @bryanthaboi\n- @HimioneGranger\n- @thibautbus\n"
         }
       ]
     },
@@ -674,12 +688,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261018",
-      "versionDate": "2026-10-18",
+      "version": "nightly-20261019",
+      "versionDate": "2026-10-19",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261018/ARMSX2-nightly-20261018-0d525e4bdb-iOS-arm64.ipa",
-      "size": 40304220,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261019/ARMSX2-nightly-20261019-83fe4e293f-iOS-arm64.ipa",
+      "size": 40356686,
       "versions": [
+        {
+          "version": "nightly-20261019",
+          "date": "2026-10-19",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261019/ARMSX2-nightly-20261019-83fe4e293f-iOS-arm64.ipa",
+          "size": 40356686,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261018",
           "date": "2026-10-18",
@@ -720,13 +741,6 @@
           "date": "2026-10-06",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261006/ARMSX2-nightly-20261006-46c06fe7ca-iOS-arm64.ipa",
           "size": 39474199,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261005",
-          "date": "2026-10-05",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261005/ARMSX2-nightly-20261005-8f6da1639f-iOS-arm64.ipa",
-          "size": 39043867,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
