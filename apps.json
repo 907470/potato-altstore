@@ -111,12 +111,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.3",
-      "versionDate": "2026-10-19",
-      "versionDescription": "[Stable] MeleePad 0.2.3 for iPhone, iPad and now Mac. The app below contains no game code: PadMint adds your game module, made on your Apple Silicon Mac from your own Super Smash Bros. Melee (GALE01) disc, and saves your MeleePad copy.\n\n### What's new\n\n- **Build it for this Mac.** In PadMint 0.5.5, choose Me",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.3/MeleePad-v0.2.3-ios-unsigned.ipa",
-      "size": 15741116,
+      "version": "0.2.4",
+      "versionDate": "2026-10-23",
+      "versionDescription": "[Stable] # MeleePad 0.2.4\n\nFixes Mac builds from a Melee USA v1.02 disc that stopped after compilation with\n`modules-macos14/GALE01/active-module.txt: No such file or directory` (#49).\nThe packager now uses the module prepared from your disc without requiring a\nprevious v1.00 build. Each revision keeps its o",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.4/MeleePad-v0.2.4-ios-unsigned.ipa",
+      "size": 15741173,
       "versions": [
+        {
+          "version": "0.2.4",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.4/MeleePad-v0.2.4-ios-unsigned.ipa",
+          "size": 15741173,
+          "localizedDescription": "[Stable] # MeleePad 0.2.4\n\nFixes Mac builds from a Melee USA v1.02 disc that stopped after compilation with\n`modules-macos14/GALE01/active-module.txt: No such file or directory` (#49).\nThe packager now uses the module prepared from your disc without requiring a\nprevious v1.00 build. Each revision keeps its o"
+        },
         {
           "version": "0.2.3",
           "date": "2026-10-19",
@@ -446,12 +453,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.95",
-      "versionDate": "2026-10-21",
-      "versionDescription": "[Stable] Mod Mon index cap \ud83e\udde2\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.95/gen1recomp%2B%2B-0.3.95-ios.ipa",
-      "size": 44713427,
+      "version": "0.3.96",
+      "versionDate": "2026-10-23",
+      "versionDescription": "[Stable] honestly RIP zaboomafoo we will never forget u\n\n## Issues closed\n\n- #3036 Gen2: a mod can't add a phone contact\n- #3037 Mods can't change Gen2 shops (no registry for data.gen2Marts)\n- #3038 Gen 2: new species and items get no script number (index capped at 255, never assigned)\n- #3040 FRLG: Hoenn sp",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.96/gen1recomp%2B%2B-0.3.96-ios.ipa",
+      "size": 44711034,
       "versions": [
+        {
+          "version": "0.3.96",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.96/gen1recomp%2B%2B-0.3.96-ios.ipa",
+          "size": 44711034,
+          "localizedDescription": "[Stable] honestly RIP zaboomafoo we will never forget u\n\n## Issues closed\n\n- #3036 Gen2: a mod can't add a phone contact\n- #3037 Mods can't change Gen2 shops (no registry for data.gen2Marts)\n- #3038 Gen 2: new species and items get no script number (index capped at 255, never assigned)\n- #3040 FRLG: Hoenn sp"
+        },
         {
           "version": "0.3.95",
           "date": "2026-10-21",
@@ -654,13 +668,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.67/gen1recomp%2B%2B-0.3.67-ios.ipa",
           "size": 56252813,
           "localizedDescription": "[Stable] I'm eating hot and spicy cheez its rn\n\n## Issues closed\n\n- #2793 Text advance indicator at the end of dialogue sections\n- #2794 Unintentional Visual Glitch (Shiny Sparkle )\n- #2795 Emerald Pok\u00e9dex Cry Needle is not correct.\n- #2796 Crash when trying to start Emerald on PS4\n- #2797 Pok\u00e9mon Stats and "
-        },
-        {
-          "version": "0.3.66",
-          "date": "2026-10-08",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.66/gen1recomp%2B%2B-0.3.66-ios.ipa",
-          "size": 56251569,
-          "localizedDescription": "[Stable] shiddy doo\n\n## Issues closed\n\n- #2784 Issue entering buildings while riding a bike\n- #2785 Able to fast-forward through Hall of Fame\n- #2786 Credits roll too fast\n- #2787 No bumping sfx\n- #2789 battle transition incomplete\n- #2790 \"Can't use that here.\" dialogue inconsistency\n\n## Contributors\n\n- @br"
         }
       ]
     },
@@ -702,12 +709,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261022",
-      "versionDate": "2026-10-22",
+      "version": "nightly-20261023",
+      "versionDate": "2026-10-23",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261022/ARMSX2-nightly-20261022-b276f045c6-iOS-arm64.ipa",
-      "size": 40373291,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261023/ARMSX2-nightly-20261023-90126bdfea-iOS-arm64.ipa",
+      "size": 40376158,
       "versions": [
+        {
+          "version": "nightly-20261023",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261023/ARMSX2-nightly-20261023-90126bdfea-iOS-arm64.ipa",
+          "size": 40376158,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261022",
           "date": "2026-10-22",
@@ -741,13 +755,6 @@
           "date": "2026-10-16",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261016/ARMSX2-nightly-20261016-25e7084fde-iOS-arm64.ipa",
           "size": 39952375,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261011",
-          "date": "2026-10-11",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261011/ARMSX2-nightly-20261011-0076b5c389-iOS-arm64.ipa",
-          "size": 39938405,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
