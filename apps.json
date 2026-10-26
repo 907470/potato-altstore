@@ -162,12 +162,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.5",
-      "versionDate": "2026-10-21",
-      "versionDescription": "[Stable] KartPad 0.8.5 (build 267) updates Retro Rewind to 6.13.4 and adds the requested rumble-strength and stick-click controls on Android, plus a quicker touch item hold on Android and iPhone/iPad.\n\n### Added\n\n- **Android rumble strength:** in **Controls \u2192 Controller Button Mapping\u2026**, adjust **Rumble str",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.5/KartPad-v0.8.5-ios-for-padmint.ipa",
-      "size": 9303796,
+      "version": "0.8.6",
+      "versionDate": "2026-10-25",
+      "versionDescription": "[Stable] KartPad 0.8.6 (build 268) fixes PadMint builds, which had stopped for everyone after an upstream change, gives the game your country for the online flag and globe, adds two speed options for slower Android phones and custom GPU drivers for Snapdragon phones, brings in WiiCompiled's fixes through v0.",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.6/KartPad-v0.8.6-ios-for-padmint.ipa",
+      "size": 9442192,
       "versions": [
+        {
+          "version": "0.8.6",
+          "date": "2026-10-25",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.6/KartPad-v0.8.6-ios-for-padmint.ipa",
+          "size": 9442192,
+          "localizedDescription": "[Stable] KartPad 0.8.6 (build 268) fixes PadMint builds, which had stopped for everyone after an upstream change, gives the game your country for the online flag and globe, adds two speed options for slower Android phones and custom GPU drivers for Snapdragon phones, brings in WiiCompiled's fixes through v0."
+        },
         {
           "version": "0.8.5",
           "date": "2026-10-21",
