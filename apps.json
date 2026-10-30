@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.2",
-      "versionDate": "2026-10-19",
-      "versionDescription": "[Stable] SunPad 0.2.2 for iPhone, iPad and now Mac: Super Mario Sunshine through ModernGekko. This release contains no game code: you build your own with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest) on an Apple Silicon Mac, from your own GMSE01 disc image.\n\n### What's new\n\n- **Build S",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.2/SunPad-v0.2.2-ios-unsigned.ipa",
-      "size": 12278113,
+      "version": "0.2.3",
+      "versionDate": "2026-10-30",
+      "versionDescription": "[Stable] SunPad 0.2.3 (build 17) fixes two confirmed import/build failures:\n\n- Incomplete disc extraction is rejected before installed data is replaced. Every extracted file must have the expected type and size; a partial file can no longer pass just because the file count looks correct. Existing game data a",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.3/SunPad-v0.2.3-ios-unsigned.ipa",
+      "size": 12891500,
       "versions": [
+        {
+          "version": "0.2.3",
+          "date": "2026-10-30",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.3/SunPad-v0.2.3-ios-unsigned.ipa",
+          "size": 12891500,
+          "localizedDescription": "[Stable] SunPad 0.2.3 (build 17) fixes two confirmed import/build failures:\n\n- Incomplete disc extraction is rejected before installed data is replaced. Every extracted file must have the expected type and size; a partial file can no longer pass just because the file count looks correct. Existing game data a"
+        },
         {
           "version": "0.2.2",
           "date": "2026-10-19",
@@ -111,12 +118,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.4",
-      "versionDate": "2026-10-23",
-      "versionDescription": "[Stable] # MeleePad 0.2.4\n\nFixes Mac builds from a Melee USA v1.02 disc that stopped after compilation with\n`modules-macos14/GALE01/active-module.txt: No such file or directory` (#49).\nThe packager now uses the module prepared from your disc without requiring a\nprevious v1.00 build. Each revision keeps its o",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.4/MeleePad-v0.2.4-ios-unsigned.ipa",
-      "size": 15741173,
+      "version": "0.2.5",
+      "versionDate": "2026-10-30",
+      "versionDescription": "[Stable] # MeleePad 0.2.5\n\nFixes iPhone and iPad imports that could report success after a game resource was\nonly partially written, for example when storage ran out. Import now checks each\nextracted file against the disc's expected length before activating the new data.\nAn incomplete extraction shows an err",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.5/MeleePad-v0.2.5-ios-unsigned.ipa",
+      "size": 15740594,
       "versions": [
+        {
+          "version": "0.2.5",
+          "date": "2026-10-30",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.5/MeleePad-v0.2.5-ios-unsigned.ipa",
+          "size": 15740594,
+          "localizedDescription": "[Stable] # MeleePad 0.2.5\n\nFixes iPhone and iPad imports that could report success after a game resource was\nonly partially written, for example when storage ran out. Import now checks each\nextracted file against the disc's expected length before activating the new data.\nAn incomplete extraction shows an err"
+        },
         {
           "version": "0.2.4",
           "date": "2026-10-23",
@@ -460,12 +474,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.97",
-      "versionDate": "2026-10-26",
-      "versionDescription": "[Stable] \u2026 CLOSES #3059, CLOSES #3061, CLOSES #3062\n\n## Issues closed\n\n- #3048 emerald data gets imported twice on portable installation\n- #3049 (Modding API v3) battleScaleBack causes error in gen2 games\n- #3055 mod.datasets:open(\"crystal\") rejects Crystal's pokemon data over its tutorMoves table\n- #3057 Mo",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.97/gen1recomp%2B%2B-0.3.97-ios.ipa",
-      "size": 44714538,
+      "version": "0.3.98",
+      "versionDate": "2026-10-29",
+      "versionDescription": "[Stable] squash deez\n\n## Issues closed\n\n- #3066 Trainer gender bug? (Sapphire)\n- #3069 Can't move items in bag in Gen 3 (Emerald, FRLG)\n- #3071 Jessie james sprites are not colored with advanced colors (OVERWORLD)\n- #3073 some attack moves like SMOG, bug the color pallete in battle while its attacking (ADVAN",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.98/gen1recomp%2B%2B-0.3.98-ios.ipa",
+      "size": 44721717,
       "versions": [
+        {
+          "version": "0.3.98",
+          "date": "2026-10-29",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.98/gen1recomp%2B%2B-0.3.98-ios.ipa",
+          "size": 44721717,
+          "localizedDescription": "[Stable] squash deez\n\n## Issues closed\n\n- #3066 Trainer gender bug? (Sapphire)\n- #3069 Can't move items in bag in Gen 3 (Emerald, FRLG)\n- #3071 Jessie james sprites are not colored with advanced colors (OVERWORLD)\n- #3073 some attack moves like SMOG, bug the color pallete in battle while its attacking (ADVAN"
+        },
         {
           "version": "0.3.97",
           "date": "2026-10-26",
@@ -668,13 +689,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.69/gen1recomp%2B%2B-0.3.69-ios.ipa",
           "size": 56262155,
           "localizedDescription": "[Stable] Bacons last resort\n\n## Issues closed\n\n- #2802 generic party indicator (slide-in and out animation and no sfx)\n- #2803 no side background\n- #2804 Minor incorrect Pikachu eye color\n- #2805 Save Edit Nature Type Causes Crash\n- #2806 Cannot get pokemon back from Daycare\n- #2807 badges on trainer card do"
-        },
-        {
-          "version": "0.3.68",
-          "date": "2026-10-09",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.68/gen1recomp%2B%2B-0.3.68-ios.ipa",
-          "size": 56253722,
-          "localizedDescription": "[Stable] Oops I make a oopsie\n\n## Issues closed\n\n- #2799 Pok\u00e9mon emerald stuck for a few frames when collide while running\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
@@ -716,12 +730,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261028",
-      "versionDate": "2026-10-28",
+      "version": "nightly-20261029",
+      "versionDate": "2026-10-29",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261028/ARMSX2-nightly-20261028-e3c7d2102e-iOS-arm64.ipa",
-      "size": 40405112,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261029/ARMSX2-nightly-20261029-aa52a1fdc7-iOS-arm64.ipa",
+      "size": 40543149,
       "versions": [
+        {
+          "version": "nightly-20261029",
+          "date": "2026-10-29",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261029/ARMSX2-nightly-20261029-aa52a1fdc7-iOS-arm64.ipa",
+          "size": 40543149,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261028",
           "date": "2026-10-28",
@@ -755,13 +776,6 @@
           "date": "2026-10-19",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261019/ARMSX2-nightly-20261019-83fe4e293f-iOS-arm64.ipa",
           "size": 40356686,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261018",
-          "date": "2026-10-18",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261018/ARMSX2-nightly-20261018-0d525e4bdb-iOS-arm64.ipa",
-          "size": 40304220,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
