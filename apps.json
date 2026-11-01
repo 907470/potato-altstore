@@ -118,12 +118,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.5",
-      "versionDate": "2026-10-30",
-      "versionDescription": "[Stable] # MeleePad 0.2.5\n\nFixes iPhone and iPad imports that could report success after a game resource was\nonly partially written, for example when storage ran out. Import now checks each\nextracted file against the disc's expected length before activating the new data.\nAn incomplete extraction shows an err",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.2.5/MeleePad-v0.2.5-ios-unsigned.ipa",
-      "size": 15740594,
+      "version": "0.3.0",
+      "versionDate": "2026-11-01",
+      "versionDescription": "[Stable] MeleePad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own NTSC v1.02 Melee disc image with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because MeleePad contains code translated from Super Sm",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.3.0/MeleePad-v0.3.0-ios-unsigned.ipa",
+      "size": 15740589,
       "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-11-01",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.3.0/MeleePad-v0.3.0-ios-unsigned.ipa",
+          "size": 15740589,
+          "localizedDescription": "[Stable] MeleePad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own NTSC v1.02 Melee disc image with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because MeleePad contains code translated from Super Sm"
+        },
         {
           "version": "0.2.5",
           "date": "2026-10-30",
@@ -176,12 +183,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.6",
-      "versionDate": "2026-10-25",
-      "versionDescription": "[Stable] KartPad 0.8.6 (build 268) fixes PadMint builds, which had stopped for everyone after an upstream change, gives the game your country for the online flag and globe, adds two speed options for slower Android phones and custom GPU drivers for Snapdragon phones, brings in WiiCompiled's fixes through v0.",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.6/KartPad-v0.8.6-ios-for-padmint.ipa",
-      "size": 9442192,
+      "version": "0.8.7",
+      "versionDate": "2026-11-01",
+      "versionDescription": "[Stable] KartPad 0.8.7 (build 272) makes the Android WiiCompiled 0.9 (Beta) graphics engine much faster, fixes iPhone and iPad builds that couldn't start the game on some self-signed installs, and adds a Disable Bloom setting on Android, iPhone and iPad. Retro Rewind stays at 6.13.4.\n\n### New\n\n- **Disable Bl",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.7/KartPad-v0.8.7-ios-for-padmint.ipa",
+      "size": 9444166,
       "versions": [
+        {
+          "version": "0.8.7",
+          "date": "2026-11-01",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.7/KartPad-v0.8.7-ios-for-padmint.ipa",
+          "size": 9444166,
+          "localizedDescription": "[Stable] KartPad 0.8.7 (build 272) makes the Android WiiCompiled 0.9 (Beta) graphics engine much faster, fixes iPhone and iPad builds that couldn't start the game on some self-signed installs, and adds a Disable Bloom setting on Android, iPhone and iPad. Retro Rewind stays at 6.13.4.\n\n### New\n\n- **Disable Bl"
+        },
         {
           "version": "0.8.6",
           "date": "2026-10-25",
@@ -360,6 +374,52 @@
       ]
     },
     {
+      "name": "BananaPad",
+      "bundleIdentifier": "com.chrissotraidis.bananapad",
+      "developerName": "Community / GitHub",
+      "subtitle": "BananaPad - Stable Build",
+      "localizedDescription": "Stable releases for BananaPad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+      "tintColor": "4A90E2",
+      "version": "0.3.0",
+      "versionDate": "2026-11-01",
+      "versionDescription": "[Stable] BananaPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BananaPad contains code translated from Donkey Kong ",
+      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.0/BananaPad-v0.3.0-ios-shell.ipa",
+      "size": 5488160,
+      "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-11-01",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.0/BananaPad-v0.3.0-ios-shell.ipa",
+          "size": 5488160,
+          "localizedDescription": "[Stable] BananaPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BananaPad contains code translated from Donkey Kong "
+        }
+      ]
+    },
+    {
+      "name": "BearBirdPad",
+      "bundleIdentifier": "com.chrissotraidis.bearbirdpad",
+      "developerName": "Community / GitHub",
+      "subtitle": "BearBirdPad - Stable Build",
+      "localizedDescription": "Stable releases for BearBirdPad.",
+      "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
+      "tintColor": "4A90E2",
+      "version": "0.3.0",
+      "versionDate": "2026-11-01",
+      "versionDescription": "[Stable] BearBirdPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BearBirdPad contains code translated from Banjo-Kaz",
+      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.0/BearBirdPad-v0.3.0-ios-shell.ipa",
+      "size": 8522349,
+      "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-11-01",
+          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.0/BearBirdPad-v0.3.0-ios-shell.ipa",
+          "size": 8522349,
+          "localizedDescription": "[Stable] BearBirdPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BearBirdPad contains code translated from Banjo-Kaz"
+        }
+      ]
+    },
+    {
       "name": "Manic EMU",
       "bundleIdentifier": "com.manicemu.app",
       "developerName": "Community / GitHub",
@@ -474,12 +534,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.98",
-      "versionDate": "2026-10-29",
-      "versionDescription": "[Stable] squash deez\n\n## Issues closed\n\n- #3066 Trainer gender bug? (Sapphire)\n- #3069 Can't move items in bag in Gen 3 (Emerald, FRLG)\n- #3071 Jessie james sprites are not colored with advanced colors (OVERWORLD)\n- #3073 some attack moves like SMOG, bug the color pallete in battle while its attacking (ADVAN",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.98/gen1recomp%2B%2B-0.3.98-ios.ipa",
-      "size": 44721717,
+      "version": "0.3.99",
+      "versionDate": "2026-10-31",
+      "versionDescription": "[Stable] JdsjziziakakLLl\n\n## Contributors\n\n- @bryanthaboi\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.99/gen1recomp%2B%2B-0.3.99-ios.ipa",
+      "size": 44722207,
       "versions": [
+        {
+          "version": "0.3.99",
+          "date": "2026-10-31",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.99/gen1recomp%2B%2B-0.3.99-ios.ipa",
+          "size": 44722207,
+          "localizedDescription": "[Stable] JdsjziziakakLLl\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.3.98",
           "date": "2026-10-29",
@@ -682,13 +749,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.70/gen1recomp%2B%2B-0.3.70-ios.ipa",
           "size": 56262211,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.69",
-          "date": "2026-10-09",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.69/gen1recomp%2B%2B-0.3.69-ios.ipa",
-          "size": 56262155,
-          "localizedDescription": "[Stable] Bacons last resort\n\n## Issues closed\n\n- #2802 generic party indicator (slide-in and out animation and no sfx)\n- #2803 no side background\n- #2804 Minor incorrect Pikachu eye color\n- #2805 Save Edit Nature Type Causes Crash\n- #2806 Cannot get pokemon back from Daycare\n- #2807 badges on trainer card do"
         }
       ]
     },
@@ -769,13 +829,6 @@
           "date": "2026-10-20",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261020/ARMSX2-nightly-20261020-c66d053fe5-iOS-arm64.ipa",
           "size": 40360087,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261019",
-          "date": "2026-10-19",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261019/ARMSX2-nightly-20261019-83fe4e293f-iOS-arm64.ipa",
-          "size": 40356686,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]

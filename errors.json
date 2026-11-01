@@ -1,5 +1,5 @@
 {
-  "failed_count": 12,
+  "failed_count": 10,
   "failed_apps": [
     {
       "name": "SpaghettiPad",
@@ -39,16 +39,6 @@
     {
       "name": "BellPad",
       "url": "https://api.github.com/repos/chrissotraidis/bellpad/releases",
-      "reason": "Releases found, but none contained a valid .ipa file asset."
-    },
-    {
-      "name": "BananaPad",
-      "url": "https://api.github.com/repos/chrissotraidis/bananapad/releases",
-      "reason": "Releases found, but none contained a valid .ipa file asset."
-    },
-    {
-      "name": "BearBirdPad",
-      "url": "https://api.github.com/repos/chrissotraidis/bearbirdpad/releases",
       "reason": "Releases found, but none contained a valid .ipa file asset."
     },
     {
