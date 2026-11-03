@@ -427,12 +427,19 @@
       "localizedDescription": "Stable releases for Manic EMU.",
       "iconURL": "https://raw.githubusercontent.com/Manic-EMU/ManicEMU/main/Assets.xcassets/AppIcon.appiconset/1024.png",
       "tintColor": "4A90E2",
-      "version": "2.0.1",
-      "versionDate": "2026-09-18",
-      "versionDescription": "[Stable] - Added WonderSwan support\r\n- Added NAOMI, Atomiswave, and System SP arcade support\r\n- Added Flash support\r\n  \u00b7 Skin button binding\r\n  \u00b7 Hardware keyboard input\r\n  \u00b7 Software keyboard input\r\n  \u00b7 Touch input\r\n- Built-in, self-contained JIT \u2014 no external debugger required\r\n- Added Slow Motion\r\n- Impro",
-      "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.1/ManicEMU.v2.0.1.SideloadJIT.ipa",
-      "size": 288525117,
+      "version": "2.0.2",
+      "versionDate": "2026-11-02",
+      "versionDescription": "[Stable] - Improved 3DS performance\r\n- Nimbus in Artic Base now supports the latest Pretendo\r\n- Improved Home Menu performance on the Azahar core\r\n- Fixed Wii pointer behavior for affected users\r\n- Added MeloCafe Link support\r\n- iPad now supports windowed apps\r\n- Redesigned the SNES skin\r\n- Added skin fallba",
+      "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.2/ManicEMU.v2.0.2.SideloadJIT.ipa",
+      "size": 293317769,
       "versions": [
+        {
+          "version": "2.0.2",
+          "date": "2026-11-02",
+          "downloadURL": "https://github.com/Manic-EMU/ManicEMU/releases/download/v2.0.2/ManicEMU.v2.0.2.SideloadJIT.ipa",
+          "size": 293317769,
+          "localizedDescription": "[Stable] - Improved 3DS performance\r\n- Nimbus in Artic Base now supports the latest Pretendo\r\n- Improved Home Menu performance on the Azahar core\r\n- Fixed Wii pointer behavior for affected users\r\n- Added MeloCafe Link support\r\n- iPad now supports windowed apps\r\n- Redesigned the SNES skin\r\n- Added skin fallba"
+        },
         {
           "version": "2.0.1",
           "date": "2026-09-18",
@@ -534,12 +541,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.3.99",
-      "versionDate": "2026-10-31",
-      "versionDescription": "[Stable] JdsjziziakakLLl\n\n## Contributors\n\n- @bryanthaboi\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.99/gen1recomp%2B%2B-0.3.99-ios.ipa",
-      "size": 44722207,
+      "version": "0.4.0",
+      "versionDate": "2026-11-02",
+      "versionDescription": "[Stable] bugs and some switch stuff\n\n## Issues closed\n\n- #3083 Whitescreen on Trendy Phrase/Gabbys Interview screen\n- #3088 Scrolling issues on iOS\n- #3089 Missing phone jingle\n- #3090 Gen2 Bug-Catching Contest ignores the encounters registry\n- #3091 Gold: script.command's ctx.mapId is never the map label\n- ",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.0/gen1recomp%2B%2B-0.4.0-ios.ipa",
+      "size": 44727368,
       "versions": [
+        {
+          "version": "0.4.0",
+          "date": "2026-11-02",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.0/gen1recomp%2B%2B-0.4.0-ios.ipa",
+          "size": 44727368,
+          "localizedDescription": "[Stable] bugs and some switch stuff\n\n## Issues closed\n\n- #3083 Whitescreen on Trendy Phrase/Gabbys Interview screen\n- #3088 Scrolling issues on iOS\n- #3089 Missing phone jingle\n- #3090 Gen2 Bug-Catching Contest ignores the encounters registry\n- #3091 Gold: script.command's ctx.mapId is never the map label\n- "
+        },
         {
           "version": "0.3.99",
           "date": "2026-10-31",
@@ -742,13 +756,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.71/gen1recomp%2B%2B-0.3.71-ios.ipa",
           "size": 56263935,
           "localizedDescription": "[Stable] This one's for [non problematic musical artist]\n\n## Issues closed\n\n- #2813 issue with bobbing animation on water and underwater\n- #2814 Issue #2807 is still not working\n- #2815 issues with the lab interlude\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.70",
-          "date": "2026-10-09",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.70/gen1recomp%2B%2B-0.3.70-ios.ipa",
-          "size": 56262211,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Contributors\n\n- @bryanthaboi\n"
         }
       ]
     },
