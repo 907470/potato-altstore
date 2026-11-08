@@ -548,12 +548,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.4.1",
-      "versionDate": "2026-11-06",
-      "versionDescription": "[Stable] squashed some shiz tyvm iykyk\n\n## Issues closed\n\n- #3099 Patch notes aren't working on switch\n- #3112 cartridge failing checksum prevening save exports???\n- #3113 Keep Update button Visible without scroll\n- #3116 bunch of emerald bugs, missing text and battle freeze\n- #3117 Poke flute gen 3 not work",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.1/gen1recomp%2B%2B-0.4.1-ios.ipa",
-      "size": 44734536,
+      "version": "0.4.2",
+      "versionDate": "2026-11-08",
+      "versionDescription": "[Stable] fox me silly\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
+      "size": 44739710,
       "versions": [
+        {
+          "version": "0.4.2",
+          "date": "2026-11-08",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
+          "size": 44739710,
+          "localizedDescription": "[Stable] fox me silly\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n"
+        },
         {
           "version": "0.4.1",
           "date": "2026-11-06",
@@ -756,13 +763,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.73/gen1recomp%2B%2B-0.3.73-ios.ipa",
           "size": 56259647,
           "localizedDescription": "[Stable] Weird name tho tbh\n\n## Issues closed\n\n- #2833 Optional dependancies\n- #2835 Music stops after defeating rival in the League\n- #2836 Hall Of Fame cutscene inaccuracies\n- #2838 Wrong position of pokeballs on hall of fame machine\n- #2839 Walking animation frames while idle during cutscenes\n\n## Contribu"
-        },
-        {
-          "version": "0.3.72",
-          "date": "2026-10-10",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.72/gen1recomp%2B%2B-0.3.72-ios.ipa",
-          "size": 56258677,
-          "localizedDescription": "[Stable] sheeshing like a b word\n\n## Issues closed\n\n- #2817 Slow Oak\n- #2818 pikachu why are you not looking at me :(\n- #2819 Pikachu turns around instantly\n- #2820 no music fade out on title screen\n- #2821 Rival too slow\n- #2822 Pikachu doesn't twitch\n- #2823 \"piiiiikaaaaa...\" not audible\n- #2824 Mindless P"
         }
       ]
     },
@@ -797,12 +797,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261106",
-      "versionDate": "2026-11-06",
+      "version": "nightly-20261107",
+      "versionDate": "2026-11-07",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261106/ARMSX2-nightly-20261106-afd93842f9-iOS-arm64.ipa",
-      "size": 40577893,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261107/ARMSX2-nightly-20261107-9144e4ff1f-iOS-arm64.ipa",
+      "size": 40593571,
       "versions": [
+        {
+          "version": "nightly-20261107",
+          "date": "2026-11-07",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261107/ARMSX2-nightly-20261107-9144e4ff1f-iOS-arm64.ipa",
+          "size": 40593571,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261106",
           "date": "2026-11-06",
@@ -836,13 +843,6 @@
           "date": "2026-10-23",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261023/ARMSX2-nightly-20261023-90126bdfea-iOS-arm64.ipa",
           "size": 40376158,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261022",
-          "date": "2026-10-22",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261022/ARMSX2-nightly-20261022-b276f045c6-iOS-arm64.ipa",
-          "size": 40373291,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
