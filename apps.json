@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.2.3",
-      "versionDate": "2026-10-30",
-      "versionDescription": "[Stable] SunPad 0.2.3 (build 17) fixes two confirmed import/build failures:\n\n- Incomplete disc extraction is rejected before installed data is replaced. Every extracted file must have the expected type and size; a partial file can no longer pass just because the file count looks correct. Existing game data a",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.2.3/SunPad-v0.2.3-ios-unsigned.ipa",
-      "size": 12891500,
+      "version": "0.3.0",
+      "versionDate": "2026-11-10",
+      "versionDescription": "[Stable] SunPad 0.3.0 (build 18) can be built for iPhone and iPad on a **Windows PC** (experimental). Players asked for this.\n\n**How:** install the free [Build Tools for Visual Studio](https://visualstudio.microsoft.com/visual-cpp-build-tools/) with \"Desktop development with C++\", download [PadMint for Windo",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.0/SunPad-v0.3.0-ios-unsigned.ipa",
+      "size": 12891490,
       "versions": [
+        {
+          "version": "0.3.0",
+          "date": "2026-11-10",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.0/SunPad-v0.3.0-ios-unsigned.ipa",
+          "size": 12891490,
+          "localizedDescription": "[Stable] SunPad 0.3.0 (build 18) can be built for iPhone and iPad on a **Windows PC** (experimental). Players asked for this.\n\n**How:** install the free [Build Tools for Visual Studio](https://visualstudio.microsoft.com/visual-cpp-build-tools/) with \"Desktop development with C++\", download [PadMint for Windo"
+        },
         {
           "version": "0.2.3",
           "date": "2026-10-30",
