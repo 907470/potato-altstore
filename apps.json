@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.0",
-      "versionDate": "2026-11-10",
-      "versionDescription": "[Stable] SunPad 0.3.0 (build 18) can be built for iPhone and iPad on a **Windows PC** (experimental). Players asked for this.\n\n**How:** install the free [Build Tools for Visual Studio](https://visualstudio.microsoft.com/visual-cpp-build-tools/) with \"Desktop development with C++\", download [PadMint for Windo",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.0/SunPad-v0.3.0-ios-unsigned.ipa",
-      "size": 12891490,
+      "version": "0.3.1",
+      "versionDate": "2026-11-11",
+      "versionDescription": "[Stable] SunPad 0.3.1 (build 19) fixes the experimental **Windows** build from 0.3.0. On most Windows PCs, the ones without their own Python installation, the build stopped at the start of the iPhone module stage with:\n\n```\nCould NOT find Python3 (missing: Python3_EXECUTABLE Interpreter)\nCMakeLists.txt:40 (f",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.1/SunPad-v0.3.1-ios-unsigned.ipa",
+      "size": 12891491,
       "versions": [
+        {
+          "version": "0.3.1",
+          "date": "2026-11-11",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.1/SunPad-v0.3.1-ios-unsigned.ipa",
+          "size": 12891491,
+          "localizedDescription": "[Stable] SunPad 0.3.1 (build 19) fixes the experimental **Windows** build from 0.3.0. On most Windows PCs, the ones without their own Python installation, the build stopped at the start of the iPhone module stage with:\n\n```\nCould NOT find Python3 (missing: Python3_EXECUTABLE Interpreter)\nCMakeLists.txt:40 (f"
+        },
         {
           "version": "0.3.0",
           "date": "2026-11-10",
@@ -569,12 +576,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.4.2",
-      "versionDate": "2026-11-08",
-      "versionDescription": "[Stable] fox me silly\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.2/gen1recomp%2B%2B-0.4.2-ios.ipa",
-      "size": 44739710,
+      "version": "0.4.3",
+      "versionDate": "2026-11-11",
+      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #3121 Mod API 3 returns broken mon with fieldmove.eligibility\n- #3122 Gen 3: a mod can't change which metatiles a map shows\n- #3124 [Red/Android/0.4.1] Professor Oak missing after Champion\n- #3126 Quest Log recap doesn\u2019t draw the",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.3/gen1recomp%2B%2B-0.4.3-ios.ipa",
+      "size": 44747096,
       "versions": [
+        {
+          "version": "0.4.3",
+          "date": "2026-11-11",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.3/gen1recomp%2B%2B-0.4.3-ios.ipa",
+          "size": 44747096,
+          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #3121 Mod API 3 returns broken mon with fieldmove.eligibility\n- #3122 Gen 3: a mod can't change which metatiles a map shows\n- #3124 [Red/Android/0.4.1] Professor Oak missing after Champion\n- #3126 Quest Log recap doesn\u2019t draw the"
+        },
         {
           "version": "0.4.2",
           "date": "2026-11-08",
@@ -777,13 +791,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.74/gen1recomp%2B%2B-0.3.74-ios.ipa",
           "size": 56260051,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2840 Item window not overlapping correctly at PC\n- #2841 Sprite color on the Town Map\n- #2843 Oak's first dialogue closes too fast\n- #2844 Music skip\n- #2845 Fainting in bug catching contest doesn't end the contest\n- #2846 Small"
-        },
-        {
-          "version": "0.3.73",
-          "date": "2026-10-10",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.73/gen1recomp%2B%2B-0.3.73-ios.ipa",
-          "size": 56259647,
-          "localizedDescription": "[Stable] Weird name tho tbh\n\n## Issues closed\n\n- #2833 Optional dependancies\n- #2835 Music stops after defeating rival in the League\n- #2836 Hall Of Fame cutscene inaccuracies\n- #2838 Wrong position of pokeballs on hall of fame machine\n- #2839 Walking animation frames while idle during cutscenes\n\n## Contribu"
         }
       ]
     },
@@ -818,12 +825,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261108",
-      "versionDate": "2026-11-08",
+      "version": "nightly-20261111",
+      "versionDate": "2026-11-11",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261108/ARMSX2-nightly-20261108-9144e4ff1f-iOS-arm64.ipa",
-      "size": 40592382,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261111/ARMSX2-nightly-20261111-22b1a7661f-iOS-arm64.ipa",
+      "size": 40652510,
       "versions": [
+        {
+          "version": "nightly-20261111",
+          "date": "2026-11-11",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261111/ARMSX2-nightly-20261111-22b1a7661f-iOS-arm64.ipa",
+          "size": 40652510,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261108",
           "date": "2026-11-08",
@@ -857,13 +871,6 @@
           "date": "2026-10-29",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261029/ARMSX2-nightly-20261029-aa52a1fdc7-iOS-arm64.ipa",
           "size": 40543149,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261028",
-          "date": "2026-10-28",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261028/ARMSX2-nightly-20261028-e3c7d2102e-iOS-arm64.ipa",
-          "size": 40405112,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
