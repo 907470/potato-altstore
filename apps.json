@@ -576,12 +576,19 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.4.3",
-      "versionDate": "2026-11-11",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #3121 Mod API 3 returns broken mon with fieldmove.eligibility\n- #3122 Gen 3: a mod can't change which metatiles a map shows\n- #3124 [Red/Android/0.4.1] Professor Oak missing after Champion\n- #3126 Quest Log recap doesn\u2019t draw the",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.3/gen1recomp%2B%2B-0.4.3-ios.ipa",
-      "size": 44747096,
+      "version": "0.4.4",
+      "versionDate": "2026-11-12",
+      "versionDescription": "[Stable] Bingo\n\n## Issues closed\n\n- #3132 [GB audio] Emulation bugs\n- #3133 A nickname on a trainer.party row shows in Gold, Silver and Crystal but is dropped in Red, Blue, Yellow and the Gen 3 games\n- #3134 Opponent held items fail\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.4/gen1recomp%2B%2B-0.4.4-ios.ipa",
+      "size": 44750328,
       "versions": [
+        {
+          "version": "0.4.4",
+          "date": "2026-11-12",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.4/gen1recomp%2B%2B-0.4.4-ios.ipa",
+          "size": 44750328,
+          "localizedDescription": "[Stable] Bingo\n\n## Issues closed\n\n- #3132 [GB audio] Emulation bugs\n- #3133 A nickname on a trainer.party row shows in Gold, Silver and Crystal but is dropped in Red, Blue, Yellow and the Gen 3 games\n- #3134 Opponent held items fail\n\n## Contributors\n\n- @bryanthaboi\n- @Nexhas28\n"
+        },
         {
           "version": "0.4.3",
           "date": "2026-11-11",
@@ -784,13 +791,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.75/gen1recomp%2B%2B-0.3.75-ios.ipa",
           "size": 56260241,
           "localizedDescription": "[Stable] Deez bugs\n\n## Issues closed\n\n- #2847 pikachu bump sfx\n- #2848 most pointless bug to be patched\n- #2849 Bug with move reminder in Emerald\n- #2853 Viridian City blackboard is a little broken\n- #2854 Wrong theme when rival leaves lab\n\n## Contributors\n\n- @AverageConsumer\n- @bryanthaboi\n- @Nexhas28\n"
-        },
-        {
-          "version": "0.3.74",
-          "date": "2026-10-10",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.74/gen1recomp%2B%2B-0.3.74-ios.ipa",
-          "size": 56260051,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2840 Item window not overlapping correctly at PC\n- #2841 Sprite color on the Town Map\n- #2843 Oak's first dialogue closes too fast\n- #2844 Music skip\n- #2845 Fainting in bug catching contest doesn't end the contest\n- #2846 Small"
         }
       ]
     },
@@ -825,12 +825,26 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261111",
-      "versionDate": "2026-11-11",
+      "version": "nightly-20261113",
+      "versionDate": "2026-11-13",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261111/ARMSX2-nightly-20261111-22b1a7661f-iOS-arm64.ipa",
-      "size": 40652510,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261113/ARMSX2-nightly-20261113-37ed35b88f-iOS-arm64.ipa",
+      "size": 40715589,
       "versions": [
+        {
+          "version": "nightly-20261113",
+          "date": "2026-11-13",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261113/ARMSX2-nightly-20261113-37ed35b88f-iOS-arm64.ipa",
+          "size": 40715589,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
+        {
+          "version": "nightly-20261112",
+          "date": "2026-11-12",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261112/ARMSX2-nightly-20261112-c25493a202-iOS-arm64.ipa",
+          "size": 40658081,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
+        },
         {
           "version": "nightly-20261111",
           "date": "2026-11-11",
@@ -864,13 +878,6 @@
           "date": "2026-11-04",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261104/ARMSX2-nightly-20261104-720f409f00-iOS-arm64.ipa",
           "size": 40568716,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261029",
-          "date": "2026-10-29",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261029/ARMSX2-nightly-20261029-aa52a1fdc7-iOS-arm64.ipa",
-          "size": 40543149,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
