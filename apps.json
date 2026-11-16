@@ -74,12 +74,19 @@
       "localizedDescription": "Stable releases for SunPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.1",
-      "versionDate": "2026-11-11",
-      "versionDescription": "[Stable] SunPad 0.3.1 (build 19) fixes the experimental **Windows** build from 0.3.0. On most Windows PCs, the ones without their own Python installation, the build stopped at the start of the iPhone module stage with:\n\n```\nCould NOT find Python3 (missing: Python3_EXECUTABLE Interpreter)\nCMakeLists.txt:40 (f",
-      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.1/SunPad-v0.3.1-ios-unsigned.ipa",
-      "size": 12891491,
+      "version": "0.3.2",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] SunPad 0.3.2 (build 20) changes how the on-screen touch controls behave when a game controller is connected on iPhone and iPad (#86).\n\n- While a controller has hidden the touch controls, **Show Touch Controls** appears at the top of the three-dot menu. It brings them back with the controller still c",
+      "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.2/SunPad-v0.3.2-ios-unsigned.ipa",
+      "size": 12893285,
       "versions": [
+        {
+          "version": "0.3.2",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/chrissotraidis/sunpad/releases/download/v0.3.2/SunPad-v0.3.2-ios-unsigned.ipa",
+          "size": 12893285,
+          "localizedDescription": "[Stable] SunPad 0.3.2 (build 20) changes how the on-screen touch controls behave when a game controller is connected on iPhone and iPad (#86).\n\n- While a controller has hidden the touch controls, **Show Touch Controls** appears at the top of the three-dot menu. It brings them back with the controller still c"
+        },
         {
           "version": "0.3.1",
           "date": "2026-11-11",
@@ -132,12 +139,19 @@
       "localizedDescription": "Stable releases for MeleePad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.0",
-      "versionDate": "2026-11-01",
-      "versionDescription": "[Stable] MeleePad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own NTSC v1.02 Melee disc image with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because MeleePad contains code translated from Super Sm",
-      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.3.0/MeleePad-v0.3.0-ios-unsigned.ipa",
-      "size": 15740589,
+      "version": "0.3.1",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] MeleePad 0.3.1 for iPhone and iPad brings the touch controls back on demand while a controller is connected. As before, you build your own copy from your own NTSC Melee disc image with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because MeleePad contains code translated fro",
+      "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.3.1/MeleePad-v0.3.1-ios-unsigned.ipa",
+      "size": 15776450,
       "versions": [
+        {
+          "version": "0.3.1",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/chrissotraidis/meleepad/releases/download/v0.3.1/MeleePad-v0.3.1-ios-unsigned.ipa",
+          "size": 15776450,
+          "localizedDescription": "[Stable] MeleePad 0.3.1 for iPhone and iPad brings the touch controls back on demand while a controller is connected. As before, you build your own copy from your own NTSC Melee disc image with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because MeleePad contains code translated fro"
+        },
         {
           "version": "0.3.0",
           "date": "2026-11-01",
@@ -197,12 +211,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.10",
-      "versionDate": "2026-11-09",
-      "versionDescription": "[Stable] KartPad 0.8.10 (build 275) fixes custom GPU drivers on Android after 0.8.9.\n\n### Fixed\n\n- **A driver chosen in an earlier version switched on by itself (Android):** 0.8.9 made custom GPU drivers load. That also made any driver chosen in 0.8.6\u20130.8.8 run for the first time the moment you updated, with",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.10/KartPad-v0.8.10-ios-for-padmint.ipa",
-      "size": 9449549,
+      "version": "0.8.11",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] KartPad 0.8.11 (build 276) makes Android menus with movie thumbnails keep up, fixes Wii Remote extensions and the Wii Remote player slot on Mac, and brings the iPhone/iPad touch-control and screen fixes merged since 0.8.10.\n\n### Fixed\n\n- **Menus that stayed slow (Android):** the main menu, the singl",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.11/KartPad-v0.8.11-ios-for-padmint.ipa",
+      "size": 9451481,
       "versions": [
+        {
+          "version": "0.8.11",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.11/KartPad-v0.8.11-ios-for-padmint.ipa",
+          "size": 9451481,
+          "localizedDescription": "[Stable] KartPad 0.8.11 (build 276) makes Android menus with movie thumbnails keep up, fixes Wii Remote extensions and the Wii Remote player slot on Mac, and brings the iPhone/iPad touch-control and screen fixes merged since 0.8.10.\n\n### Fixed\n\n- **Menus that stayed slow (Android):** the main menu, the singl"
+        },
         {
           "version": "0.8.10",
           "date": "2026-11-09",
@@ -416,12 +437,19 @@
       "localizedDescription": "Stable releases for BananaPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.0",
-      "versionDate": "2026-11-01",
-      "versionDescription": "[Stable] BananaPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BananaPad contains code translated from Donkey Kong ",
-      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.0/BananaPad-v0.3.0-ios-shell.ipa",
-      "size": 5488160,
+      "version": "0.3.1",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] BananaPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from yo",
+      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.1/BananaPad-v0.3.1-ios-shell.ipa",
+      "size": 5489863,
       "versions": [
+        {
+          "version": "0.3.1",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.1/BananaPad-v0.3.1-ios-shell.ipa",
+          "size": 5489863,
+          "localizedDescription": "[Stable] BananaPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from yo"
+        },
         {
           "version": "0.3.0",
           "date": "2026-11-01",
@@ -439,12 +467,19 @@
       "localizedDescription": "Stable releases for BearBirdPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.0",
-      "versionDate": "2026-11-01",
-      "versionDescription": "[Stable] BearBirdPad 0.3.0 for iPhone and iPad adds an experimental way to build it on a **Windows PC**. As before, you build your own copy from your own US Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest), because BearBirdPad contains code translated from Banjo-Kaz",
-      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.0/BearBirdPad-v0.3.0-ios-shell.ipa",
-      "size": 8522349,
+      "version": "0.3.1",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] BearBirdPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from y",
+      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.1/BearBirdPad-v0.3.1-ios-shell.ipa",
+      "size": 8527220,
       "versions": [
+        {
+          "version": "0.3.1",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.1/BearBirdPad-v0.3.1-ios-shell.ipa",
+          "size": 8527220,
+          "localizedDescription": "[Stable] BearBirdPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from y"
+        },
         {
           "version": "0.3.0",
           "date": "2026-11-01",
@@ -576,12 +611,26 @@
       "localizedDescription": "Stable releases for Gen1Recomp.",
       "iconURL": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f0cf.png",
       "tintColor": "4A90E2",
-      "version": "0.4.5",
-      "versionDate": "2026-11-14",
-      "versionDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #3138 Battle Bag in Battle Pyramid doesn't work in Battle\n- #3139 when using a controller and navigating though menus and such, sometimes when navigating through them, one dpad click or joystick move move through two options inst",
-      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.5/gen1recomp%2B%2B-0.4.5-ios.ipa",
-      "size": 44742127,
+      "version": "0.4.7",
+      "versionDate": "2026-11-15",
+      "versionDescription": "[Stable] fixes gen 2 mods that reach into engine internals dying on boot since 0.4.6 (engine flags werent bound before game.ready)\n\nheads up mod authors, 0.4.6 moved a bunch of gen 2 stuff onto the cache so if ur mod pokes at engine internals u may need to update:\n- gen 2 engine flags are names now, read fro",
+      "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.7/gen1recomp%2B%2B-0.4.7-ios.ipa",
+      "size": 44801142,
       "versions": [
+        {
+          "version": "0.4.7",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.7/gen1recomp%2B%2B-0.4.7-ios.ipa",
+          "size": 44801142,
+          "localizedDescription": "[Stable] fixes gen 2 mods that reach into engine internals dying on boot since 0.4.6 (engine flags werent bound before game.ready)\n\nheads up mod authors, 0.4.6 moved a bunch of gen 2 stuff onto the cache so if ur mod pokes at engine internals u may need to update:\n- gen 2 engine flags are names now, read fro"
+        },
+        {
+          "version": "0.4.6",
+          "date": "2026-11-15",
+          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.4.6/gen1recomp%2B%2B-0.4.6-ios.ipa",
+          "size": 44804672,
+          "localizedDescription": "[Stable] ripped out hand typed rom text and fallbacks, fixed crystal engine flags, odd egg ids, frlg mail, quest log, link names and transitions\n\n## Contributors\n\n- @bryanthaboi\n"
+        },
         {
           "version": "0.4.5",
           "date": "2026-11-14",
@@ -777,20 +826,6 @@
           "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.78/gen1recomp%2B%2B-0.3.78-ios.ipa",
           "size": 56271392,
           "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2828 Cannot import FireRed, Sapphire and Emerald on sbc-portmaster version\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.77",
-          "date": "2026-10-11",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.77/gen1recomp%2B%2B-0.3.77-ios.ipa",
-          "size": 56269693,
-          "localizedDescription": "[Stable] Download the right version for your device below.\n\n## Issues closed\n\n- #2858 Shoal Cave tides don't seem to be working properly\n- #2859 Deoxys doesn't change form\n\n## Contributors\n\n- @bryanthaboi\n"
-        },
-        {
-          "version": "0.3.76",
-          "date": "2026-10-11",
-          "downloadURL": "https://github.com/bryanthaboi/gen1recomp/releases/download/v0.3.76/gen1recomp%2B%2B-0.3.76-ios.ipa",
-          "size": 56267765,
-          "localizedDescription": "[Stable] Everyone thinks they are the real they\n\n## Issues closed\n\n- #2788 [Save editor] Pok\u00e9blocks editor\n- #2811 [Save editor] A more direct way to set the Mirage Island values \u200b\u200bin the save editor\n- #2829 Can't scroll up or down in the save file editor on sbc-portmaster version\n- #2837 SBC PortMaster pack"
         }
       ]
     },
