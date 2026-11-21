@@ -211,12 +211,19 @@
       "localizedDescription": "Stable releases for KartPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.8.11",
-      "versionDate": "2026-11-15",
-      "versionDescription": "[Stable] KartPad 0.8.11 (build 276) makes Android menus with movie thumbnails keep up, fixes Wii Remote extensions and the Wii Remote player slot on Mac, and brings the iPhone/iPad touch-control and screen fixes merged since 0.8.10.\n\n### Fixed\n\n- **Menus that stayed slow (Android):** the main menu, the singl",
-      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.11/KartPad-v0.8.11-ios-for-padmint.ipa",
-      "size": 9451481,
+      "version": "0.8.12",
+      "versionDate": "2026-11-20",
+      "versionDescription": "[Stable] KartPad 0.8.12 (build 278) tells Android players which graphics driver suits their phone, adds an experimental 120 FPS mode for fast Android phones, keeps the iPhone and iPad controller mapping open while you change buttons, brings two runtime fixes to the Mac, and stops custom GPU drivers on Snapdr",
+      "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.12/KartPad-v0.8.12-ios-for-padmint.ipa",
+      "size": 9451630,
       "versions": [
+        {
+          "version": "0.8.12",
+          "date": "2026-11-20",
+          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.8.12/KartPad-v0.8.12-ios-for-padmint.ipa",
+          "size": 9451630,
+          "localizedDescription": "[Stable] KartPad 0.8.12 (build 278) tells Android players which graphics driver suits their phone, adds an experimental 120 FPS mode for fast Android phones, keeps the iPhone and iPad controller mapping open while you change buttons, brings two runtime fixes to the Mac, and stops custom GPU drivers on Snapdr"
+        },
         {
           "version": "0.8.11",
           "date": "2026-11-15",
@@ -419,13 +426,6 @@
           "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.1/KartPad-v0.6.1-ios-unsigned.ipa",
           "size": 8633028,
           "localizedDescription": "[Stable] **Superseded by [KartPad 0.7.0](https://github.com/chrissotraidis/kartpad/releases/tag/v0.7.0)**, which keeps your game pack working across future updates.\n\nKartPad 0.6.1 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadMint](https://github.c"
-        },
-        {
-          "version": "0.6.0",
-          "date": "2026-09-29",
-          "downloadURL": "https://github.com/chrissotraidis/kartpad/releases/download/v0.6.0/KartPad-v0.6.0-ios-unsigned.ipa",
-          "size": 8633023,
-          "localizedDescription": "[Stable] KartPad 0.6.0 for Android and iPhone/iPad. The apps below contain no game code: you make the game part yourself with [PadMint](https://github.com/chrissotraidis/padmint), on your own Windows, Mac or Linux computer, from your own Mario Kart Wii disc. Nothing from your disc is uploaded.\n\nFull steps: *"
         }
       ]
     },
