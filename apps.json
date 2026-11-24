@@ -860,12 +860,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261122",
-      "versionDate": "2026-11-22",
+      "version": "nightly-20261123",
+      "versionDate": "2026-11-23",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64.AppImage, for 4K, 16K and 64K p",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261122/ARMSX2-nightly-20261122-6370337611-iOS-arm64.ipa",
-      "size": 40930252,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261123/ARMSX2-nightly-20261123-d8d9a02783-iOS-arm64.ipa",
+      "size": 40949886,
       "versions": [
+        {
+          "version": "nightly-20261123",
+          "date": "2026-11-23",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261123/ARMSX2-nightly-20261123-d8d9a02783-iOS-arm64.ipa",
+          "size": 40949886,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64.AppImage, for 4K, 16K and 64K p"
+        },
         {
           "version": "nightly-20261122",
           "date": "2026-11-22",
@@ -906,13 +913,6 @@
           "date": "2026-11-12",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261112/ARMSX2-nightly-20261112-c25493a202-iOS-arm64.ipa",
           "size": 40658081,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261111",
-          "date": "2026-11-11",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261111/ARMSX2-nightly-20261111-22b1a7661f-iOS-arm64.ipa",
-          "size": 40652510,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
