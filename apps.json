@@ -837,12 +837,19 @@
       "localizedDescription": "Stable releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "4A90E2",
-      "version": "iOSv2.6.0",
-      "versionDate": "2026-10-02",
-      "versionDescription": "[Stable] This one is big. The whole app works with a controller now, and save states were rebuilt around auto-save and Undo. Shaders and texture packs are new on iOS. Everything below is compared with 2.5.2.\r\n\r\niOS 17.4 or newer is required now.\r\n\r\n## New\r\n\r\n**Controller support across the whole app** (@heny",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.0/ARMSX2-iOS-2.6.0.ipa",
-      "size": 39142823,
+      "version": "iOSv2.6.1",
+      "versionDate": "2026-11-25",
+      "versionDescription": "[Stable] Everything below is compared with 2.6.0.\n\n## New\n\n**Report a Problem.** (@J1coding: #1032) Settings has a new Diagnostics page and the pause menu has a Report a Problem row. They bundle recent logs, settings, crash files, a photo and the paused frame into one report, with sensitive details redacted.",
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.1/ARMSX2-iOS-2.6.1.ipa",
+      "size": 41420239,
       "versions": [
+        {
+          "version": "iOSv2.6.1",
+          "date": "2026-11-25",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/iOSv2.6.1/ARMSX2-iOS-2.6.1.ipa",
+          "size": 41420239,
+          "localizedDescription": "[Stable] Everything below is compared with 2.6.0.\n\n## New\n\n**Report a Problem.** (@J1coding: #1032) Settings has a new Diagnostics page and the pause menu has a Report a Problem row. They bundle recent logs, settings, crash files, a photo and the paused frame into one report, with sensitive details redacted."
+        },
         {
           "version": "iOSv2.6.0",
           "date": "2026-10-02",
@@ -860,12 +867,19 @@
       "localizedDescription": "Nightly releases for ARMSX2.",
       "iconURL": "https://raw.githubusercontent.com/ARMSX2/ARMSX2/main/assets/icon.png",
       "tintColor": "D0021B",
-      "version": "nightly-20261124",
+      "version": "nightly-20261125",
       "versionDate": "2026-11-25",
       "versionDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64.AppImage, for 4K, 16K and 64K p",
-      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261124/ARMSX2-nightly-20261124-61a4b2b2f6-iOS-arm64.ipa",
-      "size": 41101991,
+      "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261125/ARMSX2-nightly-20261125-d4fe08faeb-iOS-arm64.ipa",
+      "size": 41389234,
       "versions": [
+        {
+          "version": "nightly-20261125",
+          "date": "2026-11-25",
+          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261125/ARMSX2-nightly-20261125-d4fe08faeb-iOS-arm64.ipa",
+          "size": 41389234,
+          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64.AppImage, for 4K, 16K and 64K p"
+        },
         {
           "version": "nightly-20261124",
           "date": "2026-11-25",
@@ -906,13 +920,6 @@
           "date": "2026-11-14",
           "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261114/ARMSX2-nightly-20261114-6d9511e29e-iOS-arm64.ipa",
           "size": 40717380,
-          "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
-        },
-        {
-          "version": "nightly-20261113",
-          "date": "2026-11-13",
-          "downloadURL": "https://github.com/ARMSX2/ARMSX2/releases/download/nightly-20261113/ARMSX2-nightly-20261113-37ed35b88f-iOS-arm64.ipa",
-          "size": 40715589,
           "localizedDescription": "[Nightly] Automated nightly build for community testing (unsigned).\n\nEvery download is named `ARMSX2-nightly-DATE-COMMIT-PLATFORM`, so builds\nfrom different nights stay distinguishable after you have downloaded them.\n\n- macOS arm64: macOS-arm64.tar.xz\n- Linux arm64: Linux-arm64-4K-pages.AppImage on most distr"
         }
       ]
