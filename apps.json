@@ -437,12 +437,19 @@
       "localizedDescription": "Stable releases for BananaPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.1",
-      "versionDate": "2026-11-15",
-      "versionDescription": "[Stable] BananaPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from yo",
-      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.1/BananaPad-v0.3.1-ios-shell.ipa",
-      "size": 5489863,
+      "version": "0.3.2",
+      "versionDate": "2026-11-27",
+      "versionDescription": "[Stable] BananaPad 0.3.2 for iPhone and iPad fixes playing on a TV or monitor connected to an iPad. As before, you build your own copy from your own Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from your fi",
+      "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.2/BananaPad-v0.3.2-ios-shell.ipa",
+      "size": 5489997,
       "versions": [
+        {
+          "version": "0.3.2",
+          "date": "2026-11-27",
+          "downloadURL": "https://github.com/chrissotraidis/bananapad/releases/download/v0.3.2/BananaPad-v0.3.2-ios-shell.ipa",
+          "size": 5489997,
+          "localizedDescription": "[Stable] BananaPad 0.3.2 for iPhone and iPad fixes playing on a TV or monitor connected to an iPad. As before, you build your own copy from your own Donkey Kong 64 ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from your fi"
+        },
         {
           "version": "0.3.1",
           "date": "2026-11-15",
@@ -467,12 +474,19 @@
       "localizedDescription": "Stable releases for BearBirdPad.",
       "iconURL": "https://avatars.githubusercontent.com/u/56282582?v=4",
       "tintColor": "4A90E2",
-      "version": "0.3.1",
-      "versionDate": "2026-11-15",
-      "versionDescription": "[Stable] BearBirdPad 0.3.1 for iPhone and iPad brings two fixes for playing on a TV and with a controller. As before, you build your own copy from your own Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from y",
-      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.1/BearBirdPad-v0.3.1-ios-shell.ipa",
-      "size": 8527220,
+      "version": "0.3.2",
+      "versionDate": "2026-11-27",
+      "versionDescription": "[Stable] BearBirdPad 0.3.2 for iPhone and iPad fixes playing on a TV or monitor connected to an iPad. As before, you build your own copy from your own Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from your f",
+      "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.2/BearBirdPad-v0.3.2-ios-shell.ipa",
+      "size": 8526817,
       "versions": [
+        {
+          "version": "0.3.2",
+          "date": "2026-11-27",
+          "downloadURL": "https://github.com/chrissotraidis/bearbirdpad/releases/download/v0.3.2/BearBirdPad-v0.3.2-ios-shell.ipa",
+          "size": 8526817,
+          "localizedDescription": "[Stable] BearBirdPad 0.3.2 for iPhone and iPad fixes playing on a TV or monitor connected to an iPad. As before, you build your own copy from your own Banjo-Kazooie ROM with [PadMint](https://github.com/chrissotraidis/padmint/releases/latest). On a Windows PC, PadMint adds the game code it builds from your f"
+        },
         {
           "version": "0.3.1",
           "date": "2026-11-15",
